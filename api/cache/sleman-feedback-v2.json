@@ -1,0 +1,40 @@
+{
+    "ok":  true,
+    "mode":  "real-rss-scraping",
+    "scope":  "Kabupaten Sleman",
+    "scrapedAt":  "2026-05-14T20:48:40+07:00",
+    "totalMentions":  0,
+    "mediaCount":  0,
+    "sla":  82,
+    "sources":  {
+
+                },
+    "sentiment":  {
+                      "Positif":  0,
+                      "Netral":  0,
+                      "Negatif":  0
+                  },
+    "topics":  [
+                   {
+                       "name":  "Dugaan politik uang",
+                       "value":  14
+                   },
+                   {
+                       "name":  "Data dan hak pilih",
+                       "value":  14
+                   },
+                   {
+                       "name":  "Pelanggaran kampanye",
+                       "value":  14
+                   },
+                   {
+                       "name":  "TPS dan logistik",
+                       "value":  14
+                   },
+                   {
+                       "name":  "Netralitas penyelenggara",
+                       "value":  14
+                   }
+               ],
+    "feedback":  null
+}

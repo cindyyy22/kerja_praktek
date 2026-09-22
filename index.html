@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intelijen Artikel Publik Bawaslu Sleman</title>
+    <link rel="stylesheet" href="styles.css?v=11">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navigasi utama">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <img src="assets/logo-bawaslu.svg" alt="">
+          </div>
+          <div>
+            <strong>Bawaslu Sleman</strong>
+            <span>Sistem pendukung keputusan artikel</span>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <a class="active" href="#overview">Ringkasan</a>
+          <a href="#sources">Sumber Data</a>
+          <a href="#feedback">Aduan Publik</a>
+          <a href="#archive">Arsip Berita</a>
+          <a href="#decision">Dukungan Keputusan</a>
+        </nav>
+
+        <div class="scraper-status">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <div>
+            <strong>Artikel publik real-time</strong>
+            <span id="syncStatus">Memantau RSS berita Sleman</span>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Dashboard pemantauan Kabupaten Sleman</p>
+            <h1>Bawaslu Sleman Article Intelligence</h1>
+          </div>
+          <div class="topbar-actions">
+            <button class="icon-button" id="pauseButton" type="button" aria-label="Jeda pembaruan langsung" title="Jeda pembaruan langsung">
+              <span aria-hidden="true">Jeda</span>
+            </button>
+            <button class="primary-button" id="exportButton" type="button">
+              Ekspor Laporan
+            </button>
+          </div>
+        </header>
+
+        <section class="hero-band" id="overview" aria-label="Ringkasan dashboard">
+          <div class="hero-copy">
+            <span class="live-chip"><span class="pulse-dot" aria-hidden="true"></span>Data real dari artikel publik</span>
+            <h2>Memantau isu pemilu dan pengawasan Bawaslu dari artikel publik terkait Kabupaten Sleman.</h2>
+            <p>
+              Sistem mengambil RSS berita publik, memfilter artikel yang relevan dengan Kabupaten Sleman,
+              lalu mengolahnya menjadi sentimen, peta isu, tautan sumber, dan rekomendasi keputusan.
+            </p>
+            <div class="scope-grid" aria-label="Cakupan wilayah Sleman">
+              <strong>17 kapanewon Sleman</strong>
+              <span>Gamping</span>
+              <span>Godean</span>
+              <span>Moyudan</span>
+              <span>Minggir</span>
+              <span>Seyegan</span>
+              <span>Mlati</span>
+              <span>Depok</span>
+              <span>Berbah</span>
+              <span>Prambanan</span>
+              <span>Kalasan</span>
+              <span>Ngemplak</span>
+              <span>Ngaglik</span>
+              <span>Sleman</span>
+              <span>Tempel</span>
+              <span>Turi</span>
+              <span>Pakem</span>
+              <span>Cangkringan</span>
+            </div>
+          </div>
+          <div class="signal-map" aria-label="Diagram alur data">
+            <div class="node source">RSS Berita</div>
+            <div class="node source">Artikel Sleman</div>
+            <div class="node source">Media Publik</div>
+            <div class="node hub">Filter Sleman</div>
+            <div class="node output">Analitik</div>
+            <div class="node output">DSS Kebijakan</div>
+            <svg viewBox="0 0 520 260" role="img" aria-label="Alur data artikel publik menuju dukungan keputusan">
+              <path d="M92 74 C180 44 246 60 310 104" />
+              <path d="M96 132 C180 130 230 132 310 132" />
+              <path d="M92 190 C180 220 246 204 310 160" />
+              <path d="M388 118 C430 102 456 82 488 64" />
+              <path d="M388 146 C430 166 456 184 488 202" />
+            </svg>
+          </div>
+        </section>
+
+        <section class="metrics-grid" aria-label="Metrik utama">
+          <article class="metric-card">
+            <span>Total artikel Sleman</span>
+            <strong id="totalMentions">0</strong>
+            <small id="mentionDelta">+0 dalam menit terakhir</small>
+          </article>
+          <article class="metric-card">
+            <span>Risiko aduan</span>
+            <strong id="riskScore">0%</strong>
+            <small id="riskLabel">Tekanan eskalasi rendah</small>
+          </article>
+          <article class="metric-card">
+            <span>SLA respons</span>
+            <strong id="slaScore">0%</strong>
+            <small>Aduan yang ditugaskan sesuai target</small>
+          </article>
+          <article class="metric-card">
+            <span>Tautan sumber</span>
+            <strong id="mediaCount">0</strong>
+            <small>Artikel publik dengan URL sumber</small>
+          </article>
+        </section>
+
+        <section class="workspace-grid">
+          <article class="panel wide" id="sources">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Visualisasi database Sleman</p>
+                <h3>Volume Artikel Berdasarkan Penerbit</h3>
+              </div>
+              <div class="segmented" role="tablist" aria-label="Rentang waktu">
+                <button class="active" type="button" data-range="24h">24h</button>
+                <button type="button" data-range="7d">7d</button>
+                <button type="button" data-range="30d">30d</button>
+              </div>
+            </div>
+            <canvas id="sourceChart" width="900" height="320" aria-label="Grafik batang artikel berdasarkan penerbit"></canvas>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Sentimen</p>
+                <h3>Suasana Publik</h3>
+              </div>
+            </div>
+            <canvas id="sentimentChart" width="420" height="300" aria-label="Grafik donat sentimen publik"></canvas>
+            <div class="legend" id="sentimentLegend"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Peta isu</p>
+                <h3>Topik Prioritas Sleman</h3>
+              </div>
+            </div>
+            <div class="topic-list" id="topicList"></div>
+          </article>
+
+          <article class="panel wide" id="feedback">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Artikel publik real-time</p>
+                <h3>Arus Artikel Kabupaten Sleman</h3>
+              </div>
+              <div class="feedback-controls">
+                <label class="search-control">
+                  <span>Cari</span>
+                  <input id="articleSearch" type="search" placeholder="Judul, penerbit, isu..." autocomplete="off">
+                </label>
+                <label class="filter-control">
+                  <span>Jenis</span>
+                  <select id="sourceFilter">
+                    <option value="all">Semua artikel</option>
+                    <option value="Artikel Publik">Artikel Publik</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="feedback-table" role="table" aria-label="Artikel publik hasil scraping">
+              <div class="table-row table-head" role="row">
+                <span role="columnheader">Waktu</span>
+                <span role="columnheader">Penerbit</span>
+                <span role="columnheader">Judul Artikel</span>
+                <span role="columnheader">Signal</span>
+                <span role="columnheader">Bukti</span>
+              </div>
+              <div id="feedbackRows"></div>
+            </div>
+          </article>
+
+          <article class="panel wide archive-panel" id="archive">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Riwayat artikel tersimpan</p>
+                <h3>Arsip Berita Berlalu</h3>
+              </div>
+              <div class="feedback-controls">
+                <label class="search-control">
+                  <span>Cari</span>
+                  <input id="archiveSearch" type="search" placeholder="Judul, penerbit, bulan..." autocomplete="off">
+                </label>
+                <label class="filter-control">
+                  <span>Periode</span>
+                  <select id="archiveMonthFilter">
+                    <option value="all">Semua periode</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="archive-summary" aria-label="Ringkasan arsip berita">
+              <div>
+                <span>Total arsip</span>
+                <strong id="archiveCount">0</strong>
+              </div>
+              <div>
+                <span>Berita berlalu</span>
+                <strong id="staleCount">0</strong>
+              </div>
+              <div>
+                <span>Periode terakhir</span>
+                <strong id="archiveLatest">-</strong>
+              </div>
+            </div>
+            <div class="archive-list" id="archiveRows" aria-live="polite"></div>
+          </article>
+
+          <article class="panel decision-panel" id="decision" role="button" tabindex="0" aria-label="Buka detail intelijen kebijakan">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Intelijen kebijakan</p>
+                <h3>Dukungan Keputusan</h3>
+              </div>
+            </div>
+            <div class="decision-score">
+              <canvas id="riskGauge" width="220" height="140" aria-label="Pengukur risiko keputusan"></canvas>
+              <div>
+                <span>Rekomendasi sikap</span>
+                <strong id="policyPosture">Monitor</strong>
+              </div>
+            </div>
+            <ul class="recommendations" id="recommendations"></ul>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Antrian operasional</p>
+                <h3>Rute Penanganan Sleman</h3>
+              </div>
+            </div>
+            <div class="route-list" id="routeList"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <div class="route-modal" id="routeModal" aria-hidden="true">
+      <div class="route-modal-backdrop" data-close-route></div>
+      <section class="route-dialog" role="dialog" aria-modal="true" aria-labelledby="routeModalTitle">
+        <button class="icon-button route-close" type="button" aria-label="Tutup detail antrian" data-close-route>
+          <span aria-hidden="true">x</span>
+        </button>
+        <p class="eyebrow">Detail antrian operasional</p>
+        <h3 id="routeModalTitle">Rute Penanganan</h3>
+        <div class="route-detail-grid">
+          <div>
+            <span>Prioritas</span>
+            <strong id="routePriority">Sedang</strong>
+          </div>
+          <div>
+            <span>SLA</span>
+            <strong id="routeSla">24 jam</strong>
+          </div>
+          <div>
+            <span>Penanggung jawab</span>
+            <strong id="routeOwner">Tim Bawaslu Sleman</strong>
+          </div>
+        </div>
+        <p id="routeModalDetail"></p>
+        <ul class="route-steps" id="routeSteps"></ul>
+        <div class="followup-box">
+          <p class="eyebrow">Tindak lanjut</p>
+          <div class="followup-grid">
+            <div>
+              <span>Status</span>
+              <strong id="routeStatus">Menunggu verifikasi</strong>
+            </div>
+            <div>
+              <span>Keluaran</span>
+              <strong id="routeOutput">Catatan telaah awal</strong>
+            </div>
+          </div>
+          <div class="modal-actions">
+            <button class="primary-button" id="routeMarkButton" type="button">Tandai Diproses</button>
+            <button class="secondary-button" id="routeSummaryButton" type="button">Ekspor Ringkasan</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="route-modal" id="policyModal" aria-hidden="true">
+      <div class="route-modal-backdrop" data-close-policy></div>
+      <section class="route-dialog policy-dialog" role="dialog" aria-modal="true" aria-labelledby="policyModalTitle">
+        <button class="icon-button route-close" type="button" aria-label="Tutup detail intelijen kebijakan" data-close-policy>
+          <span aria-hidden="true">x</span>
+        </button>
+        <p class="eyebrow">Detail intelijen kebijakan</p>
+        <h3 id="policyModalTitle">Dukungan Keputusan</h3>
+        <div class="route-detail-grid policy-summary-grid">
+          <div>
+            <span>Risiko</span>
+            <strong id="policyRiskDetail">0%</strong>
+          </div>
+          <div>
+            <span>Sikap</span>
+            <strong id="policyPostureDetail">Pantau</strong>
+          </div>
+          <div>
+            <span>Fokus isu</span>
+            <strong id="policyTopicDetail">Isu Sleman</strong>
+          </div>
+        </div>
+        <p id="policyModalDetail"></p>
+        <div class="policy-playbook" aria-label="Skenario tindak lanjut kebijakan">
+          <div class="policy-stage">
+            <button class="active" type="button" data-policy-stage="validasi">
+              <span>01</span>
+              Validasi
+            </button>
+            <button type="button" data-policy-stage="koordinasi">
+              <span>02</span>
+              Koordinasi
+            </button>
+            <button type="button" data-policy-stage="publikasi">
+              <span>03</span>
+              Publikasi
+            </button>
+          </div>
+          <div class="policy-action-card">
+            <span id="policyStageLabel">Validasi bukti</span>
+            <strong id="policyStageTitle">Cek artikel dan pola isu</strong>
+            <p id="policyStageDetail">Bandingkan judul, penerbit, waktu publikasi, dan topik utama sebelum membuat rekomendasi.</p>
+            <div class="policy-progress" aria-label="Kesiapan tindak lanjut">
+              <span id="policyProgressText">0% siap ditindaklanjuti</span>
+              <i id="policyProgressBar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="policy-checklist-header">
+          <strong>Prioritas aksi</strong>
+          <span id="policySelectedCount">0 dipilih</span>
+        </div>
+        <ul class="route-steps policy-steps" id="policySteps"></ul>
+        <div class="modal-actions policy-actions">
+          <button class="primary-button" id="policyCommitButton" type="button">Tetapkan Rekomendasi</button>
+          <button class="secondary-button" id="policyResetButton" type="button">Reset Pilihan</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js?v=11"></script>
+  </body>
+</html>

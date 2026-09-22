@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 148" role="img" aria-labelledby="title">
+  <title id="title">Logo Bawaslu</title>
+  <path fill="#c2a35a" d="M51 14 22 28C9 34 2 46 2 60v43c0 10 5 19 14 24l50 27V85c0-15-8-29-21-37l-5-3 38-18 4-16-31 3Z"/>
+  <path fill="#d71928" d="M72 7h39L99 54H60L72 7Z"/>
+  <path fill="#d71928" d="M106 25 138 40c13 6 20 18 20 32v43c0 10-5 19-14 24l-50 27V92c0-15 8-29 21-37l10-6-24-12 5-12Z"/>
+  <path fill="#ffffff" d="M78 52h23l17-8-18 11c-14 9-23 24-23 41v58l-11-6V93c0-17-9-32-23-41l-11-7 14-7 15 10c5 3 11 4 17 4Z" opacity=".95"/>
+</svg>

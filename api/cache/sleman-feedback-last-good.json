@@ -1,0 +1,428 @@
+{
+    "ok":  true,
+    "mode":  "real-rss-scraping",
+    "scope":  "Kabupaten Sleman",
+    "scrapedAt":  "2026-05-14T21:12:20+07:00",
+    "totalMentions":  34,
+    "mediaCount":  34,
+    "sla":  82,
+    "sources":  {
+                    "Radar Jogja":  25,
+                    "Suarajogja.id":  2,
+                    "Suara Merdeka Kedu":  1,
+                    "detikcom":  1,
+                    "Tribunjogja.com":  1,
+                    "Patma Media":  1
+                },
+    "sentiment":  {
+                      "Positif":  2.9,
+                      "Netral":  82.4,
+                      "Negatif":  14.7
+                  },
+    "topics":  [
+                   {
+                       "name":  "Dugaan politik uang",
+                       "value":  17
+                   },
+                   {
+                       "name":  "Data dan hak pilih",
+                       "value":  23
+                   },
+                   {
+                       "name":  "Pelanggaran kampanye",
+                       "value":  29
+                   },
+                   {
+                       "name":  "TPS dan logistik",
+                       "value":  20
+                   },
+                   {
+                       "name":  "Netralitas penyelenggara",
+                       "value":  20
+                   }
+               ],
+    "feedback":  [
+                     {
+                         "time":  "21:38",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Bawaslu Sleman Temukan 1.752 Surat Suara Rusak, Pemusnahannya Akan Diawasi! - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM0pPZFA3ajNCNGdpYkVnSk5NczlLZmJzNTVXVlZzS3UwVEFmMkczQ0M5Y1U0aUJfTkxSZVQ0WUFCa2NMZXJTVlVMRU8xUU5hMjhOQnd3SkZKMjdKQ3MtS2JhaU1kd0QyYXhCR3A0enh3Z3pSZ3BGUHZJV29Za2tnRG5ZeDgyMlRrMTN6M0ljR1RSX0xlOXhOUkp5YzZMaXFwaWFGZHFmLU5lY1ppbXF5OHR6QlNYUzZOU2RvS1J30gHDAUFVX3lxTFBSeFRSVXY3X0ktLXl5VUw5Wk9iQVdsLW1ncU1PanZYeHRINkR5TEQ4TjhzcUVBQlhFMWc2VkRMUmxmNm5XY2pmWF9BaDlGdW84UzJCU0h3dHExZnNUYmp3U0RIZzU2b0lMUGNKY3dDWWd6M0VpZDJNVEs2X2lYR0pSRm1DOG5qNHdDaE9OZ3Vad2FfRXh4SHVXVE5uZzdFOVY1Y2x4Q3FHQm9pUkxZbTd3eUdIRGFYQktKZUZoRjlEQUtGVQ?oc=5",
+                         "publishedAt":  "2026-05-13T21:38:59+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "19:51",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Imbau KPU Sleman Ikuti Prosedur - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOEpWUVA3dDF5Q0tyYzlJLXhEeklNRmtoaUs1LVBRekVQUTdRQ0Jvemc5V2dmZm1kMFpqV01oWXVjM2FIc05ENzFoTURDNmE3WW5ueFhBV2pydTQxYlhaWnI2QmVNUllpVFBqLU1ya1pQN0x4eFlzdFdvclJfLVU2SV81XzdBek3SAYwBQVVfeXFMTTR1cjhGRXBNTWxHdmJuZmYtWXpHcE1xblRvZ2piVW80dmVibURfMEJNSzNnYlUxbnlhM0pWbE1aRm1uaTV1bmQxMnBZQmZKbm9oUmV5UjJtckFHWFZqSG1TZ1RzQWw4d24yV1pxNmN0NXhfa1ZtNmFOSWFNZjlWVkZHTVFqQm9UVkRpTEY?oc=5",
+                         "publishedAt":  "2026-05-11T19:51:54+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "03:51",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "BERNAS.id",
+                         "text":  "86 Nama Diumumkan, Panwaslu Desa Se-Kabupaten Sleman Siap Dilantik - BERNAS.id",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSnl4WmRfOVYybmlvR3VKNDNSZDJJUmt5V0ZiSlhiRFRmNm91LS01UHNJQ3lCcVRncEtub0Y3SmVPdngyZ211bHUxMUZwYUhhbEZlZHF0Q2dmUjA3eFJpSHF4cWdMdG5waWt3ZDZTZzF6a25JOUhBLTYwMUxQbW9BZ3MtYVg5ZG9NMzRBNjlHM240c2c3WjdYMGt1U0MzTlVPaXg0ajdn?oc=5",
+                         "publishedAt":  "2026-05-11T03:51:58+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "11:16",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Hindari Konflik saat Masa Tenang Pemilu 2024, Bawaslu Sleman: Masyarakat Jangan Copoti APK Sembarangan - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNWUxWGNJTnhHNzRfRGJFNjZZaThuaHdYbTljOTFXWnVQazR4ejN1WWh5ZEdNNXdLTkRuRk1PdGFGS1FXRVA4Y1h4cXRhY1l2RnF4aThfQjAxUkZlUTZnYVV1WERyU0NzRlhWazJfMGxabWxTMDlFRGQxMWJiZHJKTGRBLU1rcmlma29xOTItWUpMNHg1NEZoaHBHdTRTazlZa0plNFJoRU04cWM4RGc2WFRkWngtanBPcUJIYWtTWncxMnlySmFoMW1MVmRuMUIyRWNTNTl5QjM0M3JOS1NLaGhQUdIB6AFBVV95cUxPdmhQblo2Y0xIazFla2Q2VzcwQ1owUy1HcmNKY05rT2xSWV9hb2ZOWkw2LUMzdEtRZUVlQmdFZWI3ME5EREN3eC0wX2Z1b1Yxa01rNUpCRXZiMFg2c1paTXI2djFJVWdmTTJZaEFMVURoRHFVWDY2YUU0MkE2dnZPVVh5cXp1Qm02WjZ5N0toREZMYllWdnkyMmRYRmJBVTJRY1hIOWNDV0dXOGpnTWdPYXdkRWVwckluLUpWQ25xazNuRWcwSzhMa1lNVm1fMGNJSWlrRF95ZmRDaGJvV1BMNGZEWU00b3Va?oc=5",
+                         "publishedAt":  "2026-04-27T11:16:09+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "14:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Untung Basuki Rahmad-Ngadiman Kembali Pimpin DPC PPP Sleman, Terpilih secara Aklamasi, Optimistis Meraih Satu Fraksi DPRD - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOS0c0Q1lBcC0wQkt3NU5JcEZVQVZETEJ3SzJwUnhPcUVZQmhoT2l1c2t0aWZVNV9jREpsUFdWWWZrY1N2NEpJallzbmtYZlFFRlh4aWF1eWI3RF9KdjFrdzk2MXEtd0E2RV9RY2tSd0s3SEZFdlVBUzF2Ty02MGkwbUV3RGpaTEIwRElTT1U3elVhRnp3SWotVUNmaGVHYTlIanY0ME5GeW1ZOEF3X3hEeUM2ZGozWFIzdjRnR1ZHaWIweEZXVkFjZVNDN2tvZzVNY3Q4T0puZG5YdkVDTnhoVWoxbFp1VVNRT2VxUlhZWUc4Rm1mbkFMR216dV9qZ9IBgwJBVV95cUxNblRTNlpsR1U4cEFWUFJ2MUVOSUVWaDM3OEZELWhLZ1ByM3NQNll5bTBIQkdRYWxhRy0zX1lWOXUwYXJfWDFSNE05VjgydGNWLWNlRmZobGZJNWNEUExCVWpPV2dIX3VWaUlZNWUyWlBhTEwtLXZ6aUNjUVFKbWRNY0R6S3dNMXAxVDlZYUpBMlA0bF9zZzVvUmlJTHFKbFA5UndkYlM2SE1CTUthR3NaRFcxX2FpNExTNVdmTXFteG02S3Boc3lzcmRBWGZKNlNmWkt2c3JLSXhNWnE2UWgxbEdiSkd3RkVIRU1zN2ZCcEItMWNkaFdzWW5iX3hrNDBNeUp3?oc=5",
+                         "publishedAt":  "2026-04-26T14:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "05:16",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Tahapan Nomor Urut Pilkada Sleman, SP Tak Ambil Cuti - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMiogFBVV95cUxQamo5SV9pai1BWG0xQkd6Nk05LTJVZ0c4b1Y2czVEU1RmRUt6YkRfakhhdXhJaWVSdFdsd296WEhzTHhvS3dCbTAwck5QMHFJSnpWY3ZOWjBZR3BwdExoVXVrbV91R2NCd3VpbFNMejlJNkx5WWRXblZobjJiNnRqaTNVcDNoTVZVSC1yUnlqR3NQUG9GeGFna25JandpMWR6a2fSAacBQVVfeXFMT1c4WkdmQ0QxLWVrbTJ1REtsUlI1YXFZZHdwOTc4NEI2RVNJZEVkSU5rT1B1RG1YNmFqZU1CN2NLQnpYbFZPa0xkSjB3NjlFckx4aUVhYXFNUjJ6a3FuQVIzNW94SXphc3NIMzRYek1mRHdtQ25oUlhEbnBjaDdnVHRnc2tobXVXYkp6RTFZb0dtc3VxSFRBYzhxNkVqR05JZWY4TENEMkE?oc=5",
+                         "publishedAt":  "2026-04-26T05:16:26+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "13:03",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "KPU Sleman Buat Kajian untuk Tekan Biaya Pemilu di Bumi Sembada - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM1cxdkMtTjNKOUtSUUlqcW1UV3VleHdEOUp6QTROczh3LVhHQVRUa1I0b1JWQWt3SENxS0xTN0wyUzdSUExvbWc3QVQ2Sm9kQXMxckJXVUVvbmJqUHBKOENEcHhFSXBUYldYSkFhUkpFZlE0RDZnY1RYN1A4ZEQ0ZGxiX1ZsWHBJMlN3NDdxU2xvc21mdC1WUC1BekhiMUVRTUFZTnVKaWxiT0p4ckE3WWpB0gG3AUFVX3lxTE5BNFhrRFh0NW1NaWVaVW9JaXJDcnZ4ZmQ0b1VKMjVjeWk3Wk4wVmxoUGpHZ3F1SlA5VmlwdmlwMHZnWVY2M2FoUFNsZC01anNHbGJEbk13VkFZRjlPb1R2M1h0QkVlRmlIOG1VZ09uLUplRGMzcTE1M0NZMnctQkNjTV9xcmtBcmw1TkxabUlzeEs2OHhNbThiTmYwb0F4TmxhWUZzRFhoR2FHYVlobThoUzdod0NOaw?oc=5",
+                         "publishedAt":  "2026-04-23T13:03:41+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "11:23",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Bawaslu Sebut Mahasiswa di Sleman Rawan Tidak Bisa Gunakan Hak Suaranya di Pemilu 2024 - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPT3dxQmhMUDk1WDZMay1FZzRETmJlWjNyTTg4b0tvVEZfNFBIMUZxcmJSazJldEpBTDdmelk5UkhMRTJaUDNJc0MwdGNQMV9TU01kaDB3WWpjMXNzS1o2WjlRSXlwTXZSdG9RTFdjbnd1QjhSZUM2V2YyZmdpLTNoM21vaU1Nd2JZcnhFdmpKRl9uM2dwVENJRldMdDZjTUZLUWNxOEJfLWpOVzZEQm9WT29SeG9pWEtrT0psdWcxRDhSaWx3X1EtMm9uLUFrblM4R0HSAdcBQVVfeXFMT2lfMmRkTUNjdVRaUGRybGFNOEd3ekFWS1YtY2NrWnJjallyYkFtZVJjcUtuQUpTWC1ONDQ3VGRVZWh6YlU0elFLdG44NU85UzdlZ3lkc0tEanBWNmJocnpvbFZZajFYbE84cFBPQUQ1ZVAxM3FDVXBxZDNEN3EyS1docFBnenR1QW01QUJIRHVtNmRwN0lnT0VQOTNXT0stbnVlM0QyMHo2dHJ1ZElySEl5MDlVU3ZsYlJaUF90LVJtSFRXUGR1SFFUMGk5NVhiUVFxVFNBdnc?oc=5",
+                         "publishedAt":  "2026-04-20T11:23:21+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "06:49",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Banyak Kampus di Sleman, Bawaslu Ingatkan Pelanggaran Kampanye di Lembaga Pendidikan - Radar Jogja",
+                         "signal":  "Negatif",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMizAFBVV95cUxQenh2TGVwbENueUctcERDYzV2NWhHZWNyLS14WFVNbjQySGZ6djFhcFl2dTg2VjdoM3o1bG41QlNSVFAwdE1obXhJdERMUWtUMkJ4ZnhLSXJDUDhnVUpIUktzVHFsTm9hemhueVZtanZhcy0tTXl1ZXkyeWJCQkhqc2VCdksxMkhuOEZnS1B5VUhxQkFubmVOdXJxaUp5c3lRQ1NqUlJ6TERKZkMwRVUtdDJ5S192MXFnNmNYcWZDZVBLZ1F3ckdRdEhtMWrSAdIBQVVfeXFMUDJRelFRdWFlblZNdktwRkxwdFRjOEtDS3BSaF90aWk5bGF0UndKWlYzREYzVnVLeDlRZDRNVHRBMGtvd0s5MGhqSHI4YzFLMTZlV1Y5WTdZNk1ZSFEzZkNrZlBTOFFOR01ZQU80RDhELXg0MW5INlgtOGp3TVRna002MjY0Q1RCeVhxc2FCWkIzMjFoMFQ3Y3pZaGd0RHlCaS1TVU45bjlHbzQ1MWttWTlfa0JlWUk1SVhQZ3VJWWJBMXBQSnE0c2IzNXhlSTkxSkxR?oc=5",
+                         "publishedAt":  "2026-04-17T06:49:20+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "21:49",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Sambut Pemilu 2024, DPC PKB Sleman Gelar Uji Kelayakan Bacaleg - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR2Q0SnFaWVVialdabVFXTDRUYmFWUnpaWjU5cGstYUpJeTJPX2J5ZzZlczI5eEJFYTlUS010QlFKdS0wNDNYMTBBX2NiZ3BwS1JqRklVd0RUaHVuczFUWmYtZGV6NU1NbzI1c3ZGSzZXRjFZaFM1VHNtX3d6LWVya1ZJV2UyMzRneHl2RUhlLXhTb3NoTFFoSVZjZGhPUXd4OWRkODJtTUpBcVhveDZN0gG0AUFVX3lxTE5rZXJ0OFI0SnplX0x0WHlqd0RQWDBSSWVsQkJjYnBRc0Z4SmtHdWJlVmVPRm5ybHBKTnBzRHJZeTNMaTVrdERJemdsZEpzaEVwUzBLWTd4NDF6NlMxdDZObzBkaGJmYUpJY3lWMmV1Q0MzUy1uaGRkNWhXSUFCZGJaOHRiWFlnYkZuQ002Z3E3bWludG9Ec3dtSHNPMmx4WkQweHhfOEtaVklneGJGNDlMaXhRaw?oc=5",
+                         "publishedAt":  "2026-04-16T21:49:10+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "20:29",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Sama-Sama Klaim Bakal Menang di Pilkada Sleman 2024 Harda-Danang Didukung 12 Parpol dengan 638.461 Suara, Kustini-Sukamto 5 Parpol dengan 77.584 Suara - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMiogJBVV95cUxOQkhWOWxsS1RGMXdfUGpjLWtIV19HQXZEcnhLelQ1cTU5OGpwRWRLZ3JFeFJTSktRVEU2eTdabHJjeFZtRUU4X3Ywc2dpZUZmYU5pT0Zka3I1UFJ2eEtZeTdWRmNZMlp2UXV1V1Buekd2aEdCSE9RM0dhcmdPa2x3MUlORE5BUVJwWm1Ta0FfVnBab2lDTmVjWU80WUdGT0xZMUhtYnVCNnBPSVdGRDJhNlNUNWVOeUhHc3B1VmVseGdOdUg3cjdYQm95STN2dDVNSGk3OGZfeXV1R182U2ZrQkRsRVdHdFFGc2lScXRlNjNSQ21LNTZIQjIzSVhPMFJqRmpiYUQ3dVh1bHZMaDhiOGNTZ3ZJbWdfY1B2aUJCSzJXd9IBpwJBVV95cUxQNzhZQzJ4TnBTT3JyaVpwYVRYRzl0aHBfQjJFQllJTTdPVHdLcENVenRwRDdsTnphZWRKclFRbW1ZU1g1YVA1djBxYjRIVk1hX0ZmeVY4VU4yZnlSVU5WdnVMZXFFM1lVeERaZEVuQ0FkUXAyQkdiWExyZHBQMWdGeEJlUE0xcVprc3IwbTJhbTl6cUQ5STRUNEN5X1hmbmoxaHQ5UDJDLUYwc3pFekJqQ0p3UlBTUmlNMFktVG9hbDRONzcwRk9TTjIyb2hOQk1EcUlaT0ZLUUJMYVlPdnV6NVlscDhYd3NJY3F6Y1FXYzNqd3g3OHp3UjJTMHRyeXFlS185eEhaanR4OFJXbWI1V1pwdVlteGg4Y1RINGNEcWdVWWdkNTA4?oc=5",
+                         "publishedAt":  "2026-04-16T20:29:54+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "14:42",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Bawaslu Sleman Minta Caleg Tidak Susupi Kegiatan Sosialisasi Pemerintah untuk Kampanye - Radar Jogja",
+                         "signal":  "Positif",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPemt4X3g1U19FZ0VrNExROU1WYkw0Nno0eTNBQXFOQWh0UVBlMmphWmlKNjhmQktsTUMtU3J1dFQ5ZHN5bk1IQWxkUmxnM3pjMUxYWXZoM29WOGkwQW9xbEtvSHRyNUhrMXAzak54V0hiRjJhNTdnWUthRWxKeGFwZHhyR2RfeTVtWGEtTXZyd3RaR3dZNDBGR1lCajU1MVMzaGZUS1VuZF9TVkNodHZCSWZtOFlCZmRDUVRueGRxRXUyN0luRW96MFBVUWY4SjUz0gHWAUFVX3lxTFB2Vll6RTJlT0lTNG9IU1p2Ym5hbm5qNk5Ic3ZjbEdzLVUxaTdCRzc3LWZEbEtPb01PLWdseWhkejlmYmNfWlVsU3dNb1Y5NHdXYjRzNV9xNFFyV0U3WEprejZUQ3VUdGhkNTZTMmtvb3c1Q2R0Yjg1WkRnWUtxU3ZFZWZtNHpoSWNSY0lWdnNCYVlIYTBMNThNN1p4dV9wdTc4NVV4VGhNNnc5TlZWRVZIM3VIVHdMdFhOZm1DdVowdFJZR1ZQR2xSNGNYeFA0UUZlYk9oS2c?oc=5",
+                         "publishedAt":  "2026-04-16T14:42:02+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "11:49",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Kabupaten Sleman dan Bantul Berpotensi Paling Tinggi Kerawanan Pelanggaran pada Pilkada 2024 di DIY - Radar Jogja",
+                         "signal":  "Negatif",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeUVrb0hjaTNFc3JuQXVEczJhejE3bXFOY1IyeWRubndOMU9PQkZobDhUWGxSRkV1TV9qelotUVI3YW1yakZnem1Vc0Eydm9BSFlOZ19YYWg0LWkxbnZselBXSlJxZHlyR19qc1c1WWdxWEVqV3VubU5rS3UtSmdSWnNRQzI2ejk2UXJMdlBpNkhVMWdqZEk1cERDdEx3QmFQczJIWGpSTTdGdnZjRDhZeXRtQnJlUkRscWJ6ZHRGcW5jNzBSaFZka190eXlGZXFuZUVLWVh4Q3lWR2RlSUtTZtIB5gFBVV95cUxPVzZLTmV1aV8wdlRybzlzdHlCVVhxOHJRbUdqUlZEcVhMT0w3aG1UXzAtWVpGZ1Bfb0ZCdDBYWjByQlVvcDlGMlFGcEc0LTdlTFBVeEtocUc1RWNEX0Z0NUxBU3BVYndVVWJfQXR4RUYxS1Fsd2FiODZORDhfMTl3VTVNSUViQ2pBdHJoY2hjMVZSekY4UXgxcV9qN3k5VjJXbWFKU0tsRUlvMEZDWmc2TkVLcDZSRkdyY2lCbnZJeHpFcEFVYkRUbC1CcXZGSy1aUTBYSE9kWGdXVjYyeWh4NXNjeXhxZw?oc=5",
+                         "publishedAt":  "2026-04-16T11:49:18+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "10:52",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Sambut Pilkada 2024, Partai Gerindra Sleman Usung Sukaptana Maju Bupati - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLXNveTVkdkhQYVVpN1ZkeW9yVl9jZjRJLU9zWUE4bjNTby1oc3BBRnVXUHJuRndIdmlleUo5NFpFVXRXVjlvNDFXRm9pV1cxYmdFeHlHZkNkOUpWTXlPeTRNTWZ0d0g3LVlxczRCZGtVXy1YeDd2SndEN1dLU2NRMWJzNjhJT1haN3JzMlJjbHNHWFplQjZOcXlsdERnbGFKLWljX0ZBMVpaZXJTMmNhaU1LZXROb1dQbWZj0gHAAUFVX3lxTE1XaWxweTlzTEp6WGZUUnMtMV90bUFDQjhtaUFEWU5Qc2hOXzl1dmFpOFRrc0pKa3BlYjZCbkhjUTB3RzBOUTcwMUxkbm83bVhpVUNCdmNpZ2QzNVUyc0F4QWk4cTBTc3JMUWl0Z3J6UlRILUNDcmwzc0NKR1hDM3dOaThaMkFGenZJZkt1V2ZxUzh2bzdka3k1Q3Q4MnZTZ0VQMld5bmJfVlYwbW5TLXRSQ0daTkpDTUxGajhiNGctTA?oc=5",
+                         "publishedAt":  "2026-04-16T10:52:10+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "10:35",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Pilkada Sleman 2024 Potensi Melawan Kotak Kosong, PKS Beri Sinyal Tinggalkan Kustini, Susul PKB Balik Gabung Koalisi Dukung Harda-Danang - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMikAJBVV95cUxOV2dPR2xlNVRKTHBnZkpScF9fSGMzc1V2Y2xUX2JIODczSnZqWnhld09yQkQzUnNFaXZpQW5pWGEyekNFOEtsUXdCMkZvWTNXN25nLTRwanZlRWVWbzc1MjFtU09nUjBjUEtHTEpXem5VZ1d5TmxGWDZZNlZnZ3YxZUtZdldieXFwYUdETm9aejVHYzNuc3oxNXJqQnp0OGphSVNQMkg4b0p4enpyMTVRSUJoWGhmRGlxNFM2SFNLNDRnNlZvOVhZeUxnVjhpc1prQ3BlM0x1NjRXcHozNnZUVDlJWUppanlWbHFNM2g2U3B5REgxejBlX3YwdHczZGt4Wi1KNGdVZWsxM0R6MHdLZNIBlgJBVV95cUxPRGxPMThvd2R2X0pfN005Sl9yT1NBTFM0N0lqa1BYT2liSS1RME9aZmZsM1l0WThLNF8xTFUzOEVYNzd0dzhZYU82ODZadUt1YnJ6N1MyYmYtTy1OMFc0Q3hKUHY2Z21HNDlHUGZ1eTNNdmhSU3U3LVRySWxQM08xdG9mN21zRUtFN0V5Y3BuU3JwN1pYb1hjSGIza0dTaTRKeWwzazBMbzNIMUdUb1hZdmozclh4bC1LVkhUNzJSOWFNcE81NGJjT1JnVGF0dkdmbk5uZENFRnE5NUZuSVFQYXRLcEFkanVzcWFMbzBLVW5kUnpVMEg0RWwxLVVfTEtfNGFMbUs0akhvUzhyY0NwYngyQ1Y2dw?oc=5",
+                         "publishedAt":  "2026-04-16T10:35:07+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "20:11",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Waduhâ€¦. Tujuh Anggota Panwascam di Sleman Mengundurkan Diri, Ada Satu Yang Tersandung Kasus Hukum - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMU1RY0FrMXBCd25oYU5SQmxXSnpGaC1ERkE2d0xhSVhTS0diOEY5Y1ozUi0xaF9MWVFoVG9pNDJUZi1OZzhHaDhQWlFFTTFxRmxlY0pfTkszS3hCR2pqTkxpVmxxaGxIV2MyUG1LN0pHNHpNM0poZ0w3cTlzRjgwZzBaN2N0SE5WSUI4YnkxVzVGYzdhWWRhVnFGQ3AtTEJBQkZYUENrY1pScWVnanB2RzA1MFo4dnAyVkpQQ3NfWmNCRmg2WERaaTlOSFBReE9jcVUwQXhXWG1EOTjSAeABQVVfeXFMT2RZRWNlbUVYZVFxTE9ObXNSMXcyLUhTYXc4STNvQmRob3RSZTA2T252WkpHT05mSTl5RW0wejdtNXE4dEgtLVdzdUdzT0hPd1hERGJrRmYtMVJRcjJtNGRjQUFsQU5GMXc0R2ZWQ1B6MjBONzJSbXZCWGYtX1ItMXlSQmRKUER3Q21ZX2ZZUndDWDZzdXpIUmtHNVYxeDRXS3ZnWkdBd3ZpRzBqMk9ucUgtZVBYVWF2NFN6dlVTRTcxWHoyN3N2Qjl3WWtiMGJnbkNWN3c3UzM4c21ucmN2ZmY?oc=5",
+                         "publishedAt":  "2026-04-14T20:11:54+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "08:10",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Klaim Perolehan Suara di Pilkada Sleman Capai 62,14 Persen, Harda Kiswaya Potong Gundul - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUzFVcGRGWlVDRVpOZHdsN3ZXWkJ6OEpFWVdjb1RWclNOODlhWFVtbkQzcUNod0RZR2k3SkJmM194a1BGdkhDZ2NrQ29BYjViVEdwR21ESVhDWFYwS0lfM21HMFFYRnNHNlJEVGxVbjNUR0tuSWdBUGRVZkRaTi1QYTFWX1IzVzFxa3NzWmwyc1h5ajNYWkFXa2FmZExrdEVId3RBLUt6ZFF6T21EV3RKcjVYM0ZQVjl1cTNOY2NJOXlfUmtQeUpBdzJRb1VTWnNu0gHWAUFVX3lxTE1MVzBFaUd6aEw5cGhCWWlaNVRYODBNTmJ0LUNFNXVRMzBpM25Gd015UG1ldWdYaHpVMGRqbWVheUxSQVBkYlZHT1BkaUxWUWZzaUk5VE1PVVNsX29LRzVlN0FkX1dFS2RXOEVQTVJ4MExfRFcxcDhhU003ZnBmdWE2OExQVkY1bm4tYkszQUp4SndMQXVsdFlqUWQ0cl9fczVrcDA2cFc1N3p5anlPbEo1UHZfVDhEdFB5RFlPSTRLd0VsellpN3Z2ZzNMNlgyZGNqNTZNTGc?oc=5",
+                         "publishedAt":  "2026-04-14T08:10:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "04:09",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "16 TPS di DIY Potensi Coblosan Ulang, Terbanyak di Sleman, Faktornya karena KPPS Melakukan Ini - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ0RrY0FnN1dPbWVrai16WHZRbTZ6STdBak5RMXQtUmJkSHRRcHo3MGdCVTM1TEhydU1UeGVwaElzUjRKU29na3BFT0UzUW5UYXBzeVJCeWlVZ2tsSk9NaUFuMU1ZZnM2WWxNQl95NjFISmdsNUF5Vk5vUkNEMng0T0RkdkhEVDR1ZXNvOEpaTzJqakNhZlFVbkdKQm5HLVI2cnB1TE5tamxSTjd5Z241ZllUN3dlMHdvYWdKcy14RktVYjBoSVl1WDVXa1BNMDFMdWZkQmVkTjRFN19hUkZwMtIB5gFBVV95cUxOOENCVmZFbWd2bkhhdnpjYmM4eDkwRFFkSmFSZmo4R2lRV2l1UUhEZW1BT3hPd1pxd2FQc1hYWmFOb0NEcW9Bb05tN2NuTUVlODhyQU1QaXF5LVMzX1RzamlVblVWbU83Y3RRa1F2Mzh5alJYdHZrd2ZteC1pU0luNV9QRGlxOTBLQUFPZlpSR21BTHphbDNVa2RMbjJGaERRYkJxVzZSNTUyU29MUHFXandJcnp6em45VE1JT1dzbXJxbkR6ZlJTNU5GRlE4QmlZWVB0RmVWUldHbVlsb2hRbkhjMUFqQQ?oc=5",
+                         "publishedAt":  "2026-04-14T04:09:09+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "21:27",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Mahasiswa Rawan Golput, Bawaslu Sleman Desak KPU Dirikan Posko di Kampus - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMjJ4V2lTMFBrUUpkRno3YVlyNldqVWFUSGdEMXdFWVdnQkstZ2JOT2tENlZsMUhvMk9EUW9VdDVqeU4walRfbkgxRDM3dC1rTlRtVUcyZ1YyS2lCaEVQQm1CRlFydjYxOURGcjFSc05yTE5pNFp5Tnh4ci1hMWdJM0EwbWpCdDJ2UGpndGNZeThPcnluaHdxcnFURE10YjRyNGFGZkkzRnlMa3BxZGJIb0U1WXYtNzVZekJiZdIBwgFBVV95cUxOMmIzQnFYeU92MUM5NnBWZG9iS0VJUGJuT1VTOEVOWm5oWmQ0RVZwY3plOUloUXNNaGpVd2dYVmJRZmtXY0JVZ2phZ3hQa3VHQ0EtbHlKRnB3eGliRk51ZkdZWXJFeTN4TERVQktTeUFsbzRfVVdaVWNmX192dEdfNk1sclVtQUZqaFotX29ZOEZwQWgtQzd4OUF2ODBZV013ME1zbVBXYTRpQURDLXNzT0NCaGhJUVFSRjJFeUx5R3hCQQ?oc=5",
+                         "publishedAt":  "2026-04-13T21:27:46+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "20:40",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Dana Hibah Pemilu 2024 di Sleman Capai Rp 58,5 Miliar - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHpSbmlnNWY4UXJQQV9LT0pvN0RDZkhTZUtQRml4RTgwa2xUcUpDV2NjUnE2Y2RtM05KcEg0WXF6dXkxcGdMNlgwSWhIWHpyQTFxYXZfYmlYV24wRUNsTEM2cmxwZDJjNW1rMC1ndkhHM2RwaWFRZXluNUctMDY3Y0N5d2owdmFnbF9TQkF3OU1tblpnVE5jdlhZenloTFpSeV9J0gGoAUFVX3lxTE5BdzV0bEphQ0RhQUh4MEJTY1hjbGdTbjcydGRjWFFEWTBpRHV5cWEzUm0yZ3NDTlVQX1JpWG53V1hZZjdzV1lhVUhTc2NybF9ydDh1c25CZHU1VUk5U1NnVF9pQWJ2Rk5vN0JxSEpfelIzOWJtTFBad1ZLMGhCY01EQldvOGRELVUwQTBHUTJDNjRqMWJTN1NENzNFSl9zQzB6NEtnVVB0VQ?oc=5",
+                         "publishedAt":  "2026-04-13T20:40:21+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "03:05",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Pedesaan di Kabupaten Sleman Rawan Disusupi Politik Uang, Bawaslu Catat dari 86 Kalurahan Baru Lima Deklarasi - Radar Jogja",
+                         "signal":  "Negatif",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPenFvbVVLSE9vZ3l3QzhtRHZsLVNGU1JmQnNWdk9Na09TSFNKU3NfYzFoS1o4NktnUlgteWlKc0xGQzZ0TG15dW1rc0EzNjUtRUptalU0U05oVk9uWVB0a1dfbTNnT0drbF83VldmbWhualBDaEdKTmVnMmZob0NEaUpBbU9rVDVXemZydzByYWlMWWc3WFFnQlJscm9LQWRxUFlsakJnNmYyVmVCbWpXX2t4R1JRWTJHYmZFc0FGNThucW9CYlhFQWIxWE82cnNBWUNXbVN4VVRXMUFqYkt2dWhKOFRVTGd2TmcyQlVR0gHzAUFVX3lxTE51RkkzYlE1UGJTTmpCOVZWS1BuR0hfSWZURmt3RXVfNEVONzc0RWJxeS1ELWxxUnpTQlNSRHpBbzJBVGp5WTNxOEViV015VzVPcnhJQzh5ejVIWWlNT0R6b1REQ2xWUDZCSzg1RDZvUmhQQ3ZzUXh0UGhuX0hSNFg3MDROazNwV0VGQ21EdTVGamZEaGh6VmNtR3JwU1hJaWhydGdxRnYxaGJubGNZallsZU5XQm8tZGt5MVo3R1BqMGRaa0hycU04RWpoZUJtNFZIUGM5aS1jWk1SN3VoU05KZ3dVcmFEdGVuRUVscFNFYldNaw?oc=5",
+                         "publishedAt":  "2026-04-13T03:05:36+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "13:19",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Paslon Nomor Urut Dua Pilkada Sleman 2024, Harda Kiswaya-Danang Mahara Akan Langsung Terjun ke Masyarakat untuk Selesaikan Berbagai Persoalan - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMimAJBVV95cUxNbl9wOTVhbXBndzJNd3NGQUJLVUJPR2w5MXFiNjlSU2hfc0VBT0k0clR3SUJSMnZiQzhQaFBqdzZXQV9RWVFxMGllOUVhWl9OV2MzUFdaSmdLRm41c2p5dVlubmFqQ0NKTERxNWlNWDZlc1ZlWFVDZi1SNjVrc0NWUXp6WGdjZDQ3NWt1aFVWMzQtSFkwSUJBYVg4aWd3UDBaMVZIU2I5MUlYWW1BSHJQbE80bUs5UnAxNmlleEhqZ2U0OE9lU2NKVzhJOThNcXVZUGlQb3I3alA3NHpOZmhzNS1PaG54dGdmdHhQNExVamplRFpIWWZYTmFoZ0pKc0IwUjA4QU9IOGQ5Q2ltdEFUWXVWQklRWXZH0gGeAkFVX3lxTE4waWdDRkNyYVRtdzY4XzU3U0FSajZlX0l0a3kwejRJQlpwN2VEdTdRd0tRQU9POEJkTlE3M2RORTlOdDFNUzRyT1dfREYtRkFHXzd3bXRUWHFMLWtWazVKaXlUQU5VMWlmY29fbVBoRTlCYXRocjcyaE01NjhjZk91aVk5a01yVlQzNW01M2MzR1Vnal9JNWdOVXlTcFRJOGl0Q0VIZmo1QXBNeE1WUDVlWjktalMyVzhWdnJoUEdvbGVjSWJDRE92WGVaS0ptSE8xOHlWdFZWUDdQZHRSQVVPUlFrRXhZenotNndfN3NORGc2blZXSG91VFRXUlZkbF8yejFMZ3V4S3FhY05Dd2VhSE1KaFpTTERSam9TUkE?oc=5",
+                         "publishedAt":  "2026-04-12T13:19:41+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "00:12",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Soal Penunjukan Nur Wachid untuk Maju Pilkada Sleman 2024, TKP PCNU: Itu Politik Kebangsaan - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS1ZqYzJGc0tNTkhVM2Q2TDFuWlRCdHRkT0V6dG9oWDgxODBzd3FxUm5QT0FHREIybHJfN1FCRTU5ekpSZkc1NGRlSS1sUUdQVnA3eHN1dlF5ZEt0SEJQWDBaUnBhcFlYUno5TFFtc0ZEY2pXU3huUEtzdFo1YkIxRFAzTUM3bVFoUUVXS2MwaHpmenMxT1U5cHBXaktMMUVEaUJXLTU1MVhlZTNkWXR2Sy0zbThyUW50ZHFBbEZEOVZibFhPQ21jc3FRbmhIbUh2eW1WU9IB2gFBVV95cUxNNjUxVGRmc2FwZXhnRm9fclMtX2kzOERsRUFUb096R3prc3NORnR1OFU1ZWhGV1dHX1RBTVdhZS1VanNhM0Q0VnhOWU5LSFBWQ3JpeG9jY1lqd1ZDOVh5TGNXdXRtMnl4SlV3dXdUMElSX3dqdXhXeF9NSEZ3eGxXR0h0ZlQxbEVpb0VzM25LbGkxQkRpcm5vMmpPN3dUbFE2QzV2WmhCLWF5QTFyX21yc0JmeWxsRDRETU4yXy1zcGEzaXU3YV9ZTUlER1RlMlh1bC1NM0IzR2x1UQ?oc=5",
+                         "publishedAt":  "2026-04-12T00:12:34+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "19:03",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Dana Hibah Pemilu 2024 di Sleman Capai Rp 58,5 M - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVWszMk5IUndrS3lrN1lzbkxxM3JvT2xXcTdLSE5qLS1hcjVOU2dKUS1KOFdmTVI4ZllrUlV6RzYtekRPZTFaV0I1ZC1fZUdJOEdISEM5SnE0eHFMSTlmX0tJdzZzRV9MVlE1TDBqcm1iMzljZWY1VVEtTmRlQ3ZnWGstNkxmUGJZU2ttcTZWM0hocDJyVTZOc3pnekPSAaIBQVVfeXFMUFdXQlAxbTR6cVNyQ0xjYU1nZUNxTWxlRE9ndUVHTGpNMmZlc1BsTmFvTFFIX05aSG9XSGVHazNMdDBZODJQTk8tWm9mQWt4SkVtQVFaVXBndi0yM3dTNmlUVVFBZ1hsb2JmV0FvY0ZaaUNKdktZZHFmSE8tN1FGaUJJSmNNX3lFRnFLRHl5enRwdkVwTzFRekRKVE5KWldYUU1n?oc=5",
+                         "publishedAt":  "2026-04-10T19:03:24+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "14:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Kemenag Sleman",
+                         "text":  "Kemenag-KPU Sleman Perkuat Sinergi, Bidik Pemilih Pemula - Kemenag Sleman",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQjNTT0FWR2Z3VWN0Y0pGRFBpejZSaW16NVhtM2lHWE1EZ3Y3dDU2NENDT0RONkotZ0NqZ1BfcWUwY0owYnNXblVnR3dKaGFhOHE1TkNjUlljMGZtMDY2MElRdzJ0ZnpKcXpJRVlJdFFSd053MWF4UWltSlhua1o2aDhjX19ZYmh4UEp0aENCdnBPWDZDemNKV0lrY1FReTZxMmJv?oc=5",
+                         "publishedAt":  "2026-04-09T14:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "08:55",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Perolehan Kursi PDI Perjuangan di DPRD Sleman Turun, PKB Tambah Satu, PAN Hingga Golkar Optimistis Pertahankan Kursi - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNejVvNE5uNV9BcDJtSWhGQnhHenlFdmZ5SEJyWk9YVHk2X1o2ZHJCblVFX0FEbURwYnVxdzViNVJWTHNpaHhYN3dSNE91bmlsU0tONndFX0JTTmRSNEFQcHpjREk0cHRHLV9XWXJSaFdKY29CTC10bldQazBXdS1BbVdUSDNiLVphN1pkemZrd2dNV3lnMlFBUnl2amd0OThzaFNya3NqMU01QkpNLWplSEdwRnExTTR2dC1HWlRBeGFDN1ZfNmR6cllpT2JCbm85VkNRamw5cTVNOGxrQWhCTXFuYVBubTY3dUg1b2ZvZ0FraFhSaWfSAfsBQVVfeXFMT2x4LWpXVTJpM2ZlSHY5WkZGWlhYcldlZFJCeGhFUkxiWWxscjBiQ251TnQxSjFId1h0QWVfdE5TbzBXMUhCT0hfeU1oaksyWGZGNVB6ZDFadHROd2xidEdKa2FvSURtRG9CN2FTWGJaV0MyNVZvXzdPQS1aenZhZF9oNVhzWVIxaUJWQmNrU1A5M1RyUm9SQ2tOQkNGYm1kakpiWld1U3A2WGhRZnNxSDM0NlJHcy1hb3RrZGdNWWwtcWs0UnFFTHFoc1Rjb1ZBQjlMUVcxX1hjbHhxdUU3SmhkdWdlZkNXQWFHRkJLQ3k2YWQ5TzRnTkhnWHc?oc=5",
+                         "publishedAt":  "2026-04-06T08:55:32+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "03:33",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Radar Jogja",
+                         "text":  "Pimpin PAN Sleman, Sadar Targetkan Menangi Pemilu 2019 - Radar Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcWdGUW1XRjkzVXYwa3dPVnQxbEowZEx5WW5uT1BiWE5hR2dtVTZjZkRWclhkTUtPdnZXWllubTRzTXA2MEtIM3drRlVmbGNPU1FpVDVuakNzbjRFMFJqbklrbFFPZEp1QTB2SERmbDg4Q2NySkR5SkFTSmtEZjFxdURKVWIxTTFyc2VaaGhaaFpTazJ1OXZCQW9TRFYwa1NucGh6NNIBqgFBVV95cUxObDFhQjNKMnNpY2dIbzhkNlhNd2lwYXZsQ0UycEdNQjZiMF9Pd2l6VzU0VUhNdHphbGYxZ2d4cGY0UGp0UEczWUU1NERGUXdDQlB6QXVHd25CVTgzRmIzXzU5c3J0bXZhOXJITjgxSURFMDQybjEybnFjMDRETFk1TXkxZ0ZCci1jaGZheUppWUtyV1M0Q1VOMldSLVFoUFAyNml2LWtKQXg2dw?oc=5",
+                         "publishedAt":  "2026-04-04T03:33:53+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "15:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Suarajogja.id",
+                         "text":  "Ahli Hukum Pemilu di Sidang Hibah Sleman: Dugaan Pelanggaran Pilkada Harus Lewat Bawaslu - Suarajogja.id",
+                         "signal":  "Negatif",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMTBkaXBOaXJKY0hBYVFWMzdUMFBGNGw3dl9XTUNYN3VFT2FaSVBkWldQd2NzQTBjOTh2VWthb00zX1lIWjdjdU9UWWF1VlJwcGVtZS14UjdISGZRWm5JLWtoaFZPNk1QdzEyOGIyb1I0YV9NSFRxODdiYk5ycW93Zk9hOVE2X2JYbTBfNGxIUVpXSzJwMTJwTHMwTEF2SE1xc3U5dk5PWXVkVkxiOW5NUEYyX0NtRm5Qdkh1T1ctZzZIcld2QTZ5emtNM3NWNE3SAdQBQVVfeXFMUFRGdTJQR3IzSUxyS1JzeVJZRE9xQVFZRnRrZ0lTNGNJRl9qaFYyUzdWY3lyS1pzSExKY0x2WndVMGlfM3dwcnJ6ZUJiZ2xsZzRsQlR5aENtSnVKellFSDBFU1FhQUlQWmR1MFNBSkMtVkh0aV9RUUFUTFVmMW8tYzJ2Q0FBVXFDaGNLeGRJTTFhQllUV0hqQ1hrN3lLZHc4bE5KRHBlQS1aMThCd3pjU2VxRkE5ZUJRYVVoeWRQRjVkckJiVnotMExIcUdKZ0QxOFZ3MzU?oc=5",
+                         "publishedAt":  "2026-03-08T15:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "15:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Kr Jogja",
+                         "text":  "Saksi Ahli Konsultan Politik di Sidang Hibah Sleman Sebut Figur Sri Purnomo Kuat, Singgung IPM Tinggi Sleman - Krjogja - Kr Jogja",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMUNMTkZObE9QdDI3MUw5NFlEalBmWExaYnEyaEFMV1Q5RlUwUlBfeWtuXzFOV1ExczdZeWtSZzh3b3RfQ1pIM3JXaFRnY2lkTjhKUlBvVVM3WF8xWDVFdmp1V2wxODNGM2N0WE5udWZpcDlvY2wxM2NfWDhSSVd1djRfQmZvM3hqbzQ3c21NWmpUR1FMRk5Ud3NPT241am5wTWdudGhhbjJzUzNrN3NoUkZaQm91d0h3bFROcEZZZXJoRUZRakozM2ZINTZ0NC05d0tnWThRcGJ5QkJNQ0Fub1B2a9IB6AFBVV95cUxOQTRRX3lXZmhjRXc5VUNtay1RM01lZmRuWDJDVGhPa1Z6Z29tZThqYmxKdlNXRVRXYnJKT01PNGFPVUk3UE95bmpGRkhZdUZYV2ppbDlGWmw4Qmd2UlhrVEpuRmt1QjRQUENxaGRiTk93aXJtN1FfSVFyR0lrcHNDRXh1MWhKLTVHTlNkbkVpdEJYaHVBX05Nc0JjX2NIQU9Ra3kyRjAzNXJVdWVZTVVDSE9hcmsxTkJ2bTVDWHBvVm43dm9vRW1uTjQxT3pTeUM2cTAxWFg1dmFDU0JEZkwwWGVFSVNLdmI1?oc=5",
+                         "publishedAt":  "2026-03-08T15:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "15:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Patma Media",
+                         "text":  "5 Kalurahan di Sleman Siap Gelar Pemilihan Lurah Antar Waktu 2026 - Patma Media",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNXlMdXM5RkVEWVZOcW9BdzZPRHQwaWdDeTVwY3d5c2Q4Q0d1bGFZLVpnY0g4Q0l3TlJlREQ1Z2NrN05vN3FDX3JreFVPTnN4cURVZ1Bua3ZCUk4zeW9CT1FZMlYwaG90VnNiSzYzQTJweXlPVXVFQmRSQ3BQU0F3Tkd4aDAxRGx4RGJUcEFLTXNMTVJpQmxSOW9zaw?oc=5",
+                         "publishedAt":  "2026-03-05T15:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "15:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Suara Merdeka Kedu",
+                         "text":  "Jadi Saksi Meringankan, Eks Bawaslu Sleman Mengaku Baru Tahu Hibah Pariwisata untuk Kampanye - Suara Merdeka Kedu - Suara Merdeka Kedu",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObERwLTd2Y0xkWGsyVk9odmtUWnN4dkdvWjZ6VU5kRTJ1UkRqVnVpV2RSNHpvNWtSZmpxdmUtamhTTHYzbWR2SFRVeGgtNDJlVzF5NkZzWmlobHdCU2xYOHhSV3pkMkJuOGRKWEdDTXpQQkNTU1F6STFNLUsxYmE3ZVQxdDNwdUZwUXR2UFhVbGJqTW1QWXhSN2xINFhobDNTQ3JrTXhwcGVCMHRKbk9nMXNlWEY3SzdtWHhQSF9HbWl4bFA5d2FONUJPN1VxQmV6QXd0cVZZcFk5TmfSAeABQVVfeXFMUHA2Q2JCcmQ4cnJYWE42Q01aR1VIY2xEa0dUTDhUSURJLVF1M3JaZW4tdThaWk9BbnhhZ0NlUk5IVWJsQzhEVGNwWGVNTGhSRlpLRHRhUG1aak93ckVQV3VqSUFuT2MzUGktRGhNZjVEM2JBcVFhTWN0YTJ5MWtrWS1PcjZkd2hoVlY1c1oxTWoyWEVpT0g4cTNWUEY5NTlpeUl2Sy1ZaXNjVnNnT2w4cmxfbnZiVEVoTGg1YjJvMUFUXzVSVHBhU0lhYUM1LXpkUEJVR0hFbHNFSzI1cGZ3Zi0?oc=5",
+                         "publishedAt":  "2026-02-28T15:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "15:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Tribunjogja.com",
+                         "text":  "Eks Bawaslu Sleman Baru Tahu Dana Hibah Pariwisata untuk Kampanye Setelah Bertemu Sosok Ini - Tribunjogja.com",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ3FYUldfZG50S0pmcVY0Q0xKc01iN05NR3hzN1M0U0s2azRWVzBZa1pLSHE3dEVTWGtseU9lWGt4QU1ELUhoYkstNjcxckNyaHdqNXdGMUNNYmJaZ0RMWXhDY19ZaXRFWkpLQnlZZXZiTk5nN2JMc1FtVFBnRHJ0NG51U2d1akJ5M1pKU1d3cTR4VlIzOFkzSmJtbFA4NE9NbVBiSFFVQi1jMmx1MjFnYUlzbVlzNDdaenpZcUJCZnRwb0x3VDcwaXFPV1A?oc=5",
+                         "publishedAt":  "2026-02-28T15:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "15:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "Suarajogja.id",
+                         "text":  "Skandal Dana Hibah Pariwisata Sleman: Bawaslu Tegaskan \u0027Nihil Pelanggaran\u0027 di Pilkada 2020 - Suarajogja.id",
+                         "signal":  "Negatif",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3FhMWhramVUd3ZBY3Y0cG9iTEljSmRRMFNsV1JVbGduWHJCaERVcWJvZjFIVC1xOVdyQ3FrOWpBM0FZNFg1dlBadzVWN0NiVUtUZmlNc21Hd2o3YWZNWDdRUEN2Q1d5THZMMG8taktKQXZqYVROeFhMQzhoVUppOTlXY1ZHN0pRYkdXRlo5SmtxZkxGckg4VlVHS2MwSDhlMFdFYnRnYzk1dXFtUXYwdXdBZ3Y1ZUpXTFM4WGRtc29wMFg5NWNYVWN0N1REVDjSAdQBQVVfeXFMTlVQcEVDa0NvaVpiZWxRY0VzWDZYXzZrRkw0OFVBUmlWM1RDT00tSlVzTFJIeERoV2VSTWhuSlhBaGdIb3hTeDZEbHN5Q0ZfaDhOdThxbnFVdjFnMmFpRDF2emIzRHhqbWM2ZkJycmM3V0NSMllnbnNPeE5qam5QS0hPQ1VsbXJYNkEwSmNRczJEMEVoemY1dU9SbGtnaWZ5Vml6c1V6QUVtTEVZRTI2RTh3em04cE05aVhoellBVU1CSEIwSUJfTnh4TGxMZjZoN0lIamc?oc=5",
+                         "publishedAt":  "2026-02-27T15:00:00+07:00",
+                         "district":  "Sleman"
+                     },
+                     {
+                         "time":  "15:00",
+                         "source":  "Berita Lokal",
+                         "sourceName":  "detikcom",
+                         "text":  "Sri Purnomo Bantah Hibah Pariwisata Sleman buat Timses Istrinya di Pilkada - detikcom",
+                         "signal":  "Netral",
+                         "evidence":  "Link",
+                         "url":  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObXRaYS1nc2l1MGxvd0JialdjNnlBUTNJMklRNUR0dUFldy1DSlU5MXpEcEloRE5QdE5OODRKcmtPNHBjZTlXQUlpYnZvUkFuem8wR3hKWUk3cHk4MUZBSDZXY0RlOVp0VU9xTjFaM2w2dDc2dXEzc05rcllGdGFDWkdVenZTZkRfV19OcVBrVTlhNU1XQ2dUcXlqUGV4d0ZKcDg1WTZzRDRQUnN2dVBZUHdrV2kxYThyS3lv0gHAAUFVX3lxTE5WbW9jRmczS3RrVld1UTdybEw2NE5xM0JySDdJaDNFTXNISHFNZ0FsYnRlQW5GYjFPVjNJR1QzU3lVcUQyM2ViOTBKYk9US2xMU0FjcUNGX1lGS0RtazZ5S3dJb2Rxc0RlSGdmZXZIUnRFZVlveEdWcTMxbS1JWGs1U01fOU9DVFFzVU5QTWJCdTFCYloxTWllREQzXzAxbDR3QVRVVE9UdEVHT3MwSjQ1RXhnclExRHBqZXdSUGpZTg?oc=5",
+                         "publishedAt":  "2026-02-25T15:00:00+07:00",
+                         "district":  "Sleman"
+                     }
+                 ],
+    "googleMaps":  {
+                       "configured":  false,
+                       "placeId":  "",
+                       "placeName":  null,
+                       "rating":  null,
+                       "userRatingCount":  null,
+                       "error":  null
+                   }
+}
