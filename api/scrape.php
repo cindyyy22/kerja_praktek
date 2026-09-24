@@ -6,6 +6,10 @@ date_default_timezone_set('Asia/Jakarta');
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store, max-age=0');
 
+require_once __DIR__ . '/db.php';
+
+$requestStartedAt = microtime(true);
+
 $cacheFile = __DIR__ . '/cache/sleman-articles-v1.json';
 $lastGoodCache = __DIR__ . '/cache/sleman-articles-last-good.json';
 $archiveFile = __DIR__ . '/cache/sleman-articles-archive.json';
@@ -17,7 +21,12 @@ if (is_file($cacheFile) && time() - filemtime($cacheFile) < $cacheTtl) {
     if (is_array($cachedPayload)) {
         $cachedPayload = sanitizeArticlePayload($cachedPayload);
         $cachedPayload['archive'] = mergeArchive($cachedPayload['feedback'], $archiveFile);
-        echo json_encode($cachedPayload, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        $cachedPayload['fromCache'] = true;
+        $cachedPayload['cacheAgeSeconds'] = max(0, time() - filemtime($cacheFile));
+        $cachedPayload['database'] = describe_database(false);
+        $cachedJsonOut = json_encode($cachedPayload, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        db_log_request('api/scrape.php', 200, (int) round((microtime(true) - $requestStartedAt) * 1000), strlen((string) $cachedJsonOut));
+        echo $cachedJsonOut;
         exit;
     }
 
@@ -25,7 +34,7 @@ if (is_file($cacheFile) && time() - filemtime($cacheFile) < $cacheTtl) {
     exit;
 }
 
-$queries = [ //kata kunci
+$queries = [
     'Bawaslu Sleman',
     'pemilu Sleman',
     'pilkada Sleman',
@@ -41,13 +50,7 @@ $relevanceKeywords = getArticleRelevanceKeywords();
 
 $positiveWords = ['apresiasi', 'baik', 'cepat', 'transparan', 'klarifikasi', 'edukasi', 'sosialisasi', 'tertib', 'sinergi', 'perkuat'];
 $negativeWords = ['dugaan', 'pelanggaran', 'politik uang', 'money politic', 'netralitas', 'masalah', 'aduan', 'protes', 'hoaks', 'intimidasi', 'kecurangan', 'rawan', 'rusak', 'konflik', 'lapor'];
-$topicRules = [
-    'Dugaan politik uang' => ['politik uang', 'money politic', 'sembako', 'serangan fajar'],
-    'Data dan hak pilih' => ['daftar pemilih', 'dpt', 'pemilih', 'coklit', 'hak suara'],
-    'Pelanggaran kampanye' => ['kampanye', 'apk', 'alat peraga', 'sosialisasi'],
-    'TPS dan logistik' => ['tps', 'logistik', 'surat suara', 'coblosan', 'pemungutan'],
-    'Netralitas penyelenggara' => ['netralitas', 'asn', 'penyelenggara', 'aparatur', 'panwas'],
-];
+$topicRules = getTopicRules();
 
 $items = [];
 
@@ -111,7 +114,12 @@ if (count($feedback) === 0) {
             $fallbackPayload['archive'] = loadArchive($archiveFile);
             $fallbackPayload['mode'] = 'last-good-article-cache';
             $fallbackPayload['scrapedAt'] = date(DATE_ATOM);
-            echo json_encode($fallbackPayload, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+            $fallbackPayload['fromCache'] = true;
+            $fallbackPayload['cacheAgeSeconds'] = max(0, time() - filemtime($fallbackFile));
+            $fallbackPayload['database'] = describe_database(false);
+            $fallbackJsonOut = json_encode($fallbackPayload, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+            db_log_request('api/scrape.php', 200, (int) round((microtime(true) - $requestStartedAt) * 1000), strlen((string) $fallbackJsonOut));
+            echo $fallbackJsonOut;
             exit;
         }
     }
@@ -120,12 +128,62 @@ if (count($feedback) === 0) {
 $archive = mergeArchive($feedback, $archiveFile);
 $payload = buildPayload($feedback, $topicRules);
 $payload['archive'] = $archive;
+
+$responseStartedAt = $requestStartedAt ?? microtime(true);
+$dbStats = [];
+$dbError = '';
+
+$database = db();
+if ($database instanceof PDO) {
+    try {
+        $dbStats = db_persist_articles($database, $feedback, $topicRules);
+        db_insert_sentiment_snapshot($database, $payload['sentiment'], (int) $payload['totalMentions']);
+        $payload['database'] = describe_database(true, [
+            'new_articles' => $dbStats['new'] ?? 0,
+            'updated_articles' => $dbStats['updated'] ?? 0,
+            'topic_links' => $dbStats['topic_links'] ?? 0,
+            'sources_touched' => $dbStats['sources'] ?? 0,
+        ]);
+    } catch (Throwable $error) {
+        $dbError = $error->getMessage();
+        $payload['database'] = describe_database(false, [], $dbError);
+    }
+} else {
+    $dbError = db_last_error();
+    $payload['database'] = describe_database(false, [], $dbError);
+}
+
 $json = json_encode($payload, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
 
 if ($json === false) {
     http_response_code(500);
     echo json_encode(['ok' => false, 'error' => 'Gagal membentuk JSON']);
     exit;
+}
+
+$durationMs = (int) round((microtime(true) - $responseStartedAt) * 1000);
+
+if ($database instanceof PDO) {
+    try {
+        db_insert_sync_log($database, [
+            'started_at' => date('Y-m-d H:i:s', (int) ($requestStartedAt ?? time())),
+            'finished_at' => date('Y-m-d H:i:s'),
+            'duration_ms' => $durationMs,
+            'mode' => (string) ($payload['mode'] ?? 'live'),
+            'status' => $dbError === '' ? 'success' : 'partial',
+            'http_status' => 200,
+            'fetched_count' => (int) ($payload['totalMentions'] ?? 0),
+            'accepted_count' => count($feedback),
+            'new_count' => (int) ($dbStats['new'] ?? 0),
+            'updated_count' => (int) ($dbStats['updated'] ?? 0),
+            'source_count' => (int) ($dbStats['sources'] ?? 0),
+            'payload_bytes' => strlen($json),
+            'message' => $dbError === '' ? 'Sinkronisasi tersimpan ke MySQL' : mb_substr($dbError, 0, 250),
+        ]);
+        db_log_request('api/scrape.php', 200, $durationMs, strlen($json));
+    } catch (Throwable $error) {
+        db_set_error($error->getMessage());
+    }
 }
 
 $cacheDir = dirname($cacheFile);
@@ -189,7 +247,18 @@ function getArticleRelevanceKeywords(): array
     ];
 }
 
-function isSlemanRelated(string $text, array $districts): bool //filter
+function getTopicRules(): array
+{
+    return [
+        'Dugaan politik uang' => ['politik uang', 'money politic', 'sembako', 'serangan fajar'],
+        'Data dan hak pilih' => ['daftar pemilih', 'dpt', 'pemilih', 'coklit', 'hak suara'],
+        'Pelanggaran kampanye' => ['kampanye', 'apk', 'alat peraga', 'sosialisasi'],
+        'TPS dan logistik' => ['tps', 'logistik', 'surat suara', 'coblosan', 'pemungutan'],
+        'Netralitas penyelenggara' => ['netralitas', 'asn', 'penyelenggara', 'aparatur', 'panwas'],
+    ];
+}
+
+function isSlemanRelated(string $text, array $districts): bool
 {
     $lower = mb_strtolower($text, 'UTF-8');
     foreach ($districts as $district) {
@@ -227,7 +296,7 @@ function detectDistrict(string $text, array $districts): string
     return 'Kabupaten Sleman';
 }
 
-function analyzeSentiment(string $text, array $positiveWords, array $negativeWords): array //analisis sentimen
+function analyzeSentiment(string $text, array $positiveWords, array $negativeWords): array
 {
     $lower = mb_strtolower($text, 'UTF-8');
     $positiveMatches = [];
@@ -299,8 +368,9 @@ function sanitizeArticlePayload(array $payload): array
     $payload['feedback'] = array_values($feedback);
     $payload['archive'] = $archive;
     $payload['sources'] = buildSourceCounts($feedback);
-    $payload['totalMentions'] = count($feedback);
-    $payload['mediaCount'] = count($feedback);
+    $payload['sentiment'] = buildSentimentPercent($feedback);
+    $payload['topics'] = buildTopicShares($feedback, getTopicRules());
+    $payload = array_merge($payload, buildDerivedMetrics($feedback));
     $legacyMapsKey = 'google' . 'Maps';
     unset($payload[$legacyMapsKey]);
     return $payload;
@@ -413,13 +483,41 @@ function getArticleArchiveKey(array $item): string
 
 function buildPayload(array $feedback, array $topicRules): array
 {
+    return array_merge([
+        'ok' => true,
+        'mode' => 'real-article-rss',
+        'scope' => 'Kabupaten Sleman',
+        'scrapedAt' => date(DATE_ATOM),
+        'sources' => buildSourceCounts($feedback),
+        'sentiment' => buildSentimentPercent($feedback),
+        'topics' => buildTopicShares($feedback, $topicRules),
+        'feedback' => $feedback,
+    ], buildDerivedMetrics($feedback));
+}
+
+function buildSentimentPercent(array $feedback): array
+{
     $sentiment = ['Positif' => 0, 'Netral' => 0, 'Negatif' => 0];
+    foreach ($feedback as $item) {
+        $label = (string) ($item['signal'] ?? 'Netral');
+        $sentiment[$label] = ($sentiment[$label] ?? 0) + 1;
+    }
+
+    $total = max(count($feedback), 1);
+    $percent = [];
+    foreach ($sentiment as $key => $value) {
+        $percent[$key] = round(($value / $total) * 100, 1);
+    }
+
+    return $percent;
+}
+
+function buildTopicShares(array $feedback, array $topicRules): array
+{
     $topicCounts = array_fill_keys(array_keys($topicRules), 0);
 
     foreach ($feedback as $item) {
-        $sentiment[$item['signal']] = ($sentiment[$item['signal']] ?? 0) + 1;
-        $lower = mb_strtolower($item['text'], 'UTF-8');
-
+        $lower = mb_strtolower((string) ($item['text'] ?? ''), 'UTF-8');
         foreach ($topicRules as $topic => $keywords) {
             foreach ($keywords as $keyword) {
                 if (str_contains($lower, $keyword)) {
@@ -431,31 +529,52 @@ function buildPayload(array $feedback, array $topicRules): array
     }
 
     $total = max(count($feedback), 1);
-    $sentimentPercent = [];
-    foreach ($sentiment as $key => $value) {
-        $sentimentPercent[$key] = round(($value / $total) * 100, 1);
-    }
-
     $topics = [];
     foreach ($topicCounts as $name => $count) {
         $topics[] = [
             'name' => $name,
-            'value' => min(100, max(12, (int) round(($count / $total) * 100) + 14)),
+            'value' => (int) round(($count / $total) * 100),
+            'count' => $count,
         ];
     }
 
+    return $topics;
+}
+
+function buildDerivedMetrics(array $feedback): array
+{
+    $total = count($feedback);
+    $publishers = [];
+    $freshCount = 0;
+    $completeCount = 0;
+    $cutoff = time() - 86400;
+
+    foreach ($feedback as $item) {
+        if (!is_array($item)) {
+            continue;
+        }
+
+        $sourceName = trim((string) ($item['sourceName'] ?? ''));
+        if ($sourceName !== '') {
+            $publishers[$sourceName] = true;
+        }
+
+        $publishedAt = trim((string) ($item['publishedAt'] ?? ''));
+        $publishedTs = $publishedAt !== '' ? strtotime($publishedAt) : false;
+        if ($publishedTs !== false && $publishedTs >= $cutoff) {
+            $freshCount++;
+        }
+
+        if ($sourceName !== '' && trim((string) ($item['url'] ?? '')) !== '' && $publishedTs !== false) {
+            $completeCount++;
+        }
+    }
+
     return [
-        'ok' => true,
-        'mode' => 'real-article-rss',
-        'scope' => 'Kabupaten Sleman',
-        'scrapedAt' => date(DATE_ATOM),
-        'totalMentions' => count($feedback),
-        'mediaCount' => count($feedback),
-        'sla' => 82,
-        'sources' => buildSourceCounts($feedback),
-        'sentiment' => $sentimentPercent,
-        'topics' => $topics,
-        'feedback' => $feedback,
+        'totalMentions' => $total,
+        'mediaCount' => count($publishers),
+        'freshCount' => $freshCount,
+        'sla' => $total > 0 ? (int) round(($completeCount / $total) * 100) : 0,
     ];
 }
 

@@ -1,8 +1,120 @@
 {
     "ok": true,
-    "updatedAt": "2026-09-13T22:25:01+07:00",
-    "total": 104,
+    "updatedAt": "2026-09-24T17:00:52+07:00",
+    "total": 174,
     "items": [
+        {
+            "time": "13:18",
+            "source": "Artikel Publik",
+            "sourceName": "yogyapos.com",
+            "text": "KPU-Bawaslu Sleman Perkuat Sinergi untuk Akurasi Data Pemilih Triwulan III 2026 - yogyapos.com",
+            "signal": "Positif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata positif: sinergi, perkuat",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUlBOeHJJMDE0LWk2bUNCcW5GT1VibTg3RmJ3emd6MzRWYXg4N2J1T1Z5U2RYb0RiMEFFYjhvdnNGWW43RFJaZHVweGNmTk9fcW9reXFiWkdzRE1UVVY0Z29IdDV3SUhKcS1WdjlDV1djbGdCcDJFSXlxMFltMlVrMm5ZWnpWeUx2bE1EQ05CTnE1RFZkQ0N4OGVESnF3RmM3LWNlSXpRMDNDN2Z5eGtFTGFCYUY?oc=5",
+            "publishedAt": "2026-09-24T13:18:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "21:53",
+            "source": "Artikel Publik",
+            "sourceName": "RRI.co.id",
+            "text": "Bawaslu Sleman Uji Petik Pemutakhiran Data Pemilih Berkelanjutan - RRI.co.id",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNXdyQkhFZ05qbnprbFZwT2RSdUlFUFlFdHhjbVFvcmVpTkhHeWtwVzRFTVgzTXZia3VCel9RWUJfNHJqbjljcHJTVzB1bml2ZS1JUFlULWJWZzhtQUJVUUNUdTJvcUFRd3FsZklUWkVuaU1XTWlOa2FnWDh3OTNFX0hNQmZPTVY1cFNWRVVJaGU1TlJHU0JJV3hIMTBMS0x6NUU2a0JMOEF1cnNvS1FR?oc=5",
+            "publishedAt": "2026-09-22T21:53:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "14:25",
+            "source": "Artikel Publik",
+            "sourceName": "RRI.co.id",
+            "text": "Bawaslu Sleman Serap Masukan Kelompok Disabilitas - RRI.co.id",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQlZ4S2ZRZ3VRZUpFMTZuN0pyUWxLeXA5amRGSmdPRFdyNHBVMUFhU2l5ZS1yWGNWSUZCaEs3akgwSFVqT3M1Q05GM1NQeDd0d0RsQWJ2UWY2U1N3OWgtMmozY2pNNDc5UjYwbHdQZ285cFEyemZ1V054ODJwcXJaeU5QdHptd1hTSkF5RGVvb3Y0VlVJNVh2Mzgyaw?oc=5",
+            "publishedAt": "2026-09-21T14:25:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "20:39",
+            "source": "Artikel Publik",
+            "sourceName": "serikatnews.com",
+            "text": "Bawaslu Sleman Uji Data Pemilih di KRB Merapi, Kesiapan Pemilu Jadi Sorotan - serikatnews.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMnFaeS1qTFc3NHNoSVVEV2xCZzRJNThHNW9tTEhFYkNiUmpwVmN2NkZMbTRJSHdWa3RQTkhGY3dDQUszZ2J5cnpLMnd2Y0M0QnctUDRxeS1hYWN2eWlLRkFHQlJibVIzdVg4dHZiUXFNcmdoVmxnSW1GSi05SWRjLTZILUJ5djRjdjgtY2FkNkNrajM0dDMwTnE1ZG5pOVB1?oc=5",
+            "publishedAt": "2026-09-20T20:39:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "20:09",
+            "source": "Artikel Publik",
+            "sourceName": "jogjakartanews.com",
+            "text": "Bawaslu Sleman Gali Masukan Penyandang Disabilitas untuk Wujudkan Pemilu Inklusif - jogjakartanews.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeF9UVDVsM2w2Si1qQjhsaENJaWVZZTVzcnJHbDVaN1JPUDFaZHVlMk9tdHRZWTFnT21LWjUwTjhscngyMHpmaWgxLW9VV2FhWHZEdm10Y21KWVdweTRpc1NjUHRkX3BNZFB1NzREMktjVXFMYU5wa0tTQ0YtVGFfVVJlXy0wSWoyQWtMMVBmeldySlAzRHc5enFwYlRNWG4xVFpPdkxkbFJ6ZHZhX0NlUWRvd1Z4b0tNNWEwMUhJS29FSU5BSXllLXp3?oc=5",
+            "publishedAt": "2026-09-20T20:09:50+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "19:54",
+            "source": "Artikel Publik",
+            "sourceName": "jogjakartanews.com",
+            "text": "Bawaslu Sleman Uji Petik Data Pemilih di Kawasan Rawan Bencana Merapi - jogjakartanews.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: rawan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM3lsQkw4b0pRTWFCUklETnp4SEtUTjF4TVdtV3BsWF91aDJva1ctLW5FbjBoRDFlNWlEbE4xcjEyTGtvRzR3UjJjMUd3YXB1bWNSaHFpakNHS2VwVkl6bDJOR0lETGZNZmtEVExNUWRUd04yZ3dhbU4xNUN5QkU4X1lraUNKa3pMcjNKZWI1dnlPZE14d0E5OWpWSFVrLVJ0OGt6ZEtIUGR0d3NZRXNzOW4zTTBZVEhoZXc?oc=5",
+            "publishedAt": "2026-09-20T19:54:33+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "18:05",
+            "source": "Artikel Publik",
+            "sourceName": "yogyapos.com",
+            "text": "Uji Petik PDPB, Bawaslu Sleman Bahas Kesiapsiagaan Pemilu di Kawasan Rawan Bencana - yogyapos.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: rawan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaldHamZBQzhDWGFJYS1URE16UzNNZVFXWWhMN1d2TWZXVFpNQ0ctUURJQTlvRU85SmVZbnZWNGhYNWFQNnlBUHZYVldQNzFJdDVYdlhsWVR2YmZSWElLLXFSS2ppY290SElGVGcwblF2Njhud1p3WGNLdmdXY3lkWDhDQS00ZHk1ZW0xY001Wkw5bVlwdE9mLTZrSW9wcHFDdlVkMmhUeFE3bVFSMi1remVHeFlfaDg?oc=5",
+            "publishedAt": "2026-09-20T18:05:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "17:03",
+            "source": "Artikel Publik",
+            "sourceName": "LLDIKTI Wilayah V",
+            "text": "UAJY dan KPU Sleman Dorong Pendidikan Demokrasi dan Partisipasi Pemilih - LLDIKTI Wilayah V",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMFR5blNnQXlGYU4wdUlvNHRqQTVFTEtjN1F2SFdCU3VVZ01LYzJpZ0dENUJfVEZkaTFhVjVlUlMyUGRJM01CdGVSSXBLQklrc1hXUGRqbnEyS01sQ2swSDJ5T2I4R0xlUS1wTDVJNjVaamJVblBrVDdOZGc2YkZHU2lsWHp2OUx0Y29aeXA2Nkt3QjdWUGhsdldUdFAxQms1XzRmWGRqdHR4aXRRWXhORVV0Q3RHUS1SQkh0WkpDdnZ3MnVa?oc=5",
+            "publishedAt": "2026-09-16T17:03:33+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
         {
             "time": "14:00",
             "source": "Artikel Publik",
@@ -15,13 +127,13 @@
             "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONHVGOGhxQ2ZWN29XSC1HYko3dXhLUmZqVGhwQXAwUDVmUEY3d00ycERPclUxT0pEcUNWWHRIWTBEa2dUMS1fUmpmdGZiZENrQzhDRkFfUF9WV2lKV3ZQbnVkVjhkSjZyYnhuYjJ4bjFQcVZKRTlJMGMtZEM1SFo3QlRydmF5SmtPYWc0MGhJU3Z0Y09DbEhPX2psOGU1S1BNRTJmeFpXUXpfSVozUmVQX3lYRzloR1hXQ2ZOUDNkTjdrdkxfc0lzc3JOM2dmMHM?oc=5",
             "publishedAt": "2026-08-27T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
             "source": "Artikel Publik",
-            "sourceName": "InfoPublik",
-            "text": "Evaluasi Sistem Pemilu, Penulis Ridho Al-Hamdi Tawarkan Konsep MLPR di KPU Sleman - InfoPublik",
+            "sourceName": "InfoPublik.id",
+            "text": "Evaluasi Sistem Pemilu, Penulis Ridho Al-Hamdi Tawarkan Konsep MLPR di KPU Sleman - InfoPublik.id",
             "signal": "Netral",
             "sentimentConfidence": 50,
             "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
@@ -29,7 +141,21 @@
             "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUmh1T2NINHlVSG5HT1B6OXdhZWVNRzdfMHNpUHZiWTJwNldVV1JSVnVpZ0FkbVJsTFdXdUJyZmlPNzY1cncxZUNhcWNrNnVXcFVIMWpkX2piUVJRX25TZ3FuWDZPR0NJdkI5Ulg2SldvV0pxeUc0eFpxQTM4SmpWd192Z2JoYjczQjFFa3lGV0dpRERzblpZLWFBWjhrM3J1U0wwMmZmMVV0eVd2cWl1TW1rNVVkTmNTU19xQmd1YmtKa2l1cDZGRXVqUlViTC1HaXVLLUd5anQ?oc=5",
             "publishedAt": "2026-08-27T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:41:00+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Media Center Sembada",
+            "text": "Bedah Buku di KPU Sleman Bahas Tawaran Baru Desain Sistem Pemilu Indonesia - Media Center Sembada",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRkJMVmNZZW9uVVQxaWRBbVd5OC1LLTdtbW02YjQtdjRGZXZGOXM4VHlidlFMTUR1cEJReDJtVm5Vc1lFYTRvcEdfQ1lQck90VS1VSm03WU8zdmYzVk80ZDNDS05wUXNLZExRZnhiaDFJVk10dFdtR1JwR0gzWjAzdjZmV01TWWNZSkJYVnU5TE9YTlppYnpTcVhxNVVwY1FETXh6NHQ5c0lKeDBrc3JIZ3JzMkVsOHdYSVQzMVRsVQ?oc=5",
+            "publishedAt": "2026-08-27T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-22T22:36:29+07:00"
         },
         {
             "time": "14:00",
@@ -43,7 +169,7 @@
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ29rYVl2V0JMeUk2NUFLa0VIVDBNRl9YSUw1dHZ0a05XNE85NDE3a050ME1vWU4xNGZwQjRzaTc3VmQwM0M4NFZycE85UmlCYUdqSHN3N3F2MVFMd0RtTFlqQlltWC1WeXpHaTBKMXBQQm5TSXphdkFnMHRXSFk4NElQcG1IcWJYczFOWjBDTTF1SENaUGVlbmo2OHhTaHZ1SmRsTnFSQUJrUS1NR2lFNEFiQ1l5Rkd1UWNiXzNBY2wwdXZOdHdkX9IBqAFBVV95cUxNcHdVdktmemlwRUFxbnhPSzVXLVNGU3l4LVRoVWdGdXo1VWJfSlprSTllMzRZalVJZnlIdHVJMm5iaHZUbXpGVGVQR2phZG1RTGpQNWkzejZTRXZoVThia2l5MGFKdmhCMXprUzVBd1ZQUHFEMmJBMzFXYTJ4bnRwOEZibUM2YjI0cVhPTWN1NXVicV94MTJGLXM4clg2S1NQY3p5dHVxZU0?oc=5",
             "publishedAt": "2026-08-24T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "18:24",
@@ -76,8 +202,8 @@
         {
             "time": "14:00",
             "source": "Artikel Publik",
-            "sourceName": "jogjapolitan.harianjogja.com",
-            "text": "Pengurus PKB Sleman Dikukuhkan, Bidik Kemenangan Pemilu 2029 - jogjapolitan.harianjogja.com",
+            "sourceName": "Harianjogja.com",
+            "text": "Pengurus PKB Sleman Dikukuhkan, Bidik Kemenangan Pemilu 2029 - Harianjogja.com",
             "signal": "Netral",
             "sentimentConfidence": 50,
             "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
@@ -85,7 +211,7 @@
             "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOFluS2Q2cUJycEs0MVBrMEhISEhJQjUyRUxYTVp4c1NHNS05N1UtU2xGLWRHaEtGZktGMEJiUjNpOWpkZGdDbmJnSG50NzlZbFE2M0h6Z1dOenBPNWE0QlVOdEpTQUhfMUJsc05MTnVwbWdNbHFhZC0xN3dFQnJKN3Yzc25YMmhCeFd4Q05wRUhkNTFEOHpyOHNzd0NlU0d3TkVoMmc2ejJtUQ?oc=5",
             "publishedAt": "2026-08-02T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
@@ -99,13 +225,13 @@
             "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMEttaGN1ZFdTMmQ4ZHBCNHFuNDlJeDdvZjEtcE1hNnA5SVNVRWZ5anE0QjdWVTFTT3dkOHN4RmdUQnlTM3QtWnFnci1OdldFdWs5ZktkUnJrZGRhQjhTb3hnd3RuZThvS3hjV2VPRVVTYnJNb2QyWllueTQ4U0p5ZHZPQ0NvX19ZcHd2WlFHREtGbGt2RHBYZmJZaEttYTFZQWZOclNTSHI2N1liSmdtWEpVNmJNNnh4a0t1WkFUNHVYYTlyVmNxUTMyM0VHR1hlOHc?oc=5",
             "publishedAt": "2026-07-21T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "06:01",
             "source": "Artikel Publik",
-            "sourceName": "infopublik.id",
-            "text": "Bawaslu Sleman Edukasi Pemilu Siswa MAN 4 Sleman - infopublik.id",
+            "sourceName": "InfoPublik.id",
+            "text": "Bawaslu Sleman Edukasi Pemilu Siswa MAN 4 Sleman - InfoPublik.id",
             "signal": "Positif",
             "sentimentConfidence": 95,
             "sentimentReason": "Kata positif: edukasi",
@@ -113,7 +239,7 @@
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUDBBTE9mM3NNWElycUhSNTVaOTcwdXU5WGNZbDRQeWFKcnpsd1lpY3ZzZXJKSGZtTklUd0hRM0x5WVdMSkg0dU82UTEzN3BQMUVLLXFpSjVvUUdQamctM0pqcFNVZk5EaUdsMWY5VEtQTE8xREdzUFlvSXFsUkJnY1BrY3BIeDM1cVBTa0ZfVTRLczZmY3k5TFFDaTk?oc=5",
             "publishedAt": "2026-07-16T06:01:49+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
@@ -127,7 +253,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSFhkd2JaaHBWSmR2ZW04bFNLWXJBVGpnTlpwV1hmbFIxZVlCZnk2RHo2NUwyMHlCYV9sdkdhdFVzYVlHVXByMEhfTUgxempUNDJTODNVSE5lZzQ3Y2pGc0NkZTNrcUl4ekp5ZTFoc0MwV2ZaUS1fLWdodi1nTW01X2NoZWdyLVJTenk3U2I3dkZHeUFYN0gxZ1h6bXVFN3NlbW1iMDlET0Z5cUE2WFJOV2hGY1BCcEZmcE9OVzhyc1Q?oc=5",
             "publishedAt": "2026-07-14T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
@@ -141,7 +267,35 @@
             "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaGZneVllX0xWNnRkajc2cXRLcVBBNTNHSm9WU0RLbDBlNEp5d1NVRWJ0U2p0eXRKcW9zNlNCSllFUUxIM2JNdWZyX3BfOFpGSTFOM0h5NVFuOXZ2VkgwZE0tRVFSc1hYWG1WaENaYTFtRU9PWDhEYWhUdEVDZlJiOG1DdTd1VUtFVUdMRkNQRUVObkU1NkhjVGNvMzA0aUlPb0ZIbExsVHlZUVhLVDNFalNyZlZIVGFQcHZ30gHAAUFVX3lxTE10RzlLU05PS3QzQkZ6TVFlMzV0TnNTdjgtcXVkX3hOWldBR1RYeml6V1BfdHkxbGE0bjNnR3N6SGliRlFtLTF5a2k5RDhQM3pmTl92VEMyUk1Nck5oeDRIcXJvLVU4UXAxeGo3QWU2b2NsWnRuUkd6WFVzcTIwZUlZNFU5c2UtNEFRc01EcWN0ZnVNSUpCWjZYLUNVdHlZVEZtVG5tc2x0WmdWV3F5N3dtNHlJa3Bmc1JOWkNYZElkUA?oc=5",
             "publishedAt": "2026-06-27T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ketik.com",
+            "text": "Jerat Dinasti di Bumi Sembada: Mengapa Raudi Akmal Anak Eks Bupati Sleman Menyusul ke Penjara? - ketik.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaGhpdmRoSEY4a0dHVTVRWS1hZ2tUZWFadVhVN0VDUWYyNDE2YThkZlBlaUs3bTVLMENFaWlmb0htbmEtRFhYd19mMzBPNG1jTmxzNzV3Vkx6RTFWQ1dGWWJ0UXB3WGFFckFKeGl4WnlBdTZ6MW5LYW5Fb3NoLWMwMTFLUmFOY0t2UzBuZXVOd2M2bWVVbE0wSmxhZURvLTZ0M1ctSkY3bE43VGl5ZDRUNnF1ZUF1aEVmV0lKVWdkWXpGZW91bWNJUGlMUWfSAbQBQVVfeXFMTzFnUnNEN3hnaUljX1l5VE05MEpHZkxzVHRtazRDeXdMcE55NFdkT2lJQ3NkOTNqTHpzZVN4eDl4SjgyWTh3NDNJU29EdVVaMXNoZTdnbmlGMFhXNnA0ek5qR1g1WUhpWS1tOWtZNUZpOTMzcnJZM25taEgycGV4b1ZuY0h0VjZpMU8xOUlybGUxS2NhNDZ0SUFFRGRJQUxnbDVDWGZiQzNSaFBaM2E3NkJMNzE3?oc=5",
+            "publishedAt": "2026-06-26T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "06:08",
+            "source": "Artikel Publik",
+            "sourceName": "Radar Malioboro",
+            "text": "Pesta Tahun Baru Rawan Ditunggangi Kampanye, Ini Upaya Bawaslu Sleman - Radar Malioboro",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: rawan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcXk4ZjFyX3hFNE9DajJHUzAwLVhhZW5QSzdtSWRzMjc3YV91Tm9OcS1hcEZMd2Nhdy1RTl9lMXN4UnNyX1plWmdpbFJZam5PRjhTcnloRFBYVG1rSFhUMGxfSjZFT2puT1JiQmVhRnZBa25GVW5fY09Bb3VnVFZfYUpjS3k0NG96TzVxMFF1NXdrNTd3Y1lLWlVDcWlHVThNa1hSTUlveTlWZGtxNG82X1lpZGRSM1RIMmNXaE5nMF9EWUpuOTU3WU5YN2jSAdIBQVVfeXFMT0ZGOWk5ODBVM3NUaUROZXJ5RWd1NzhRc2R3Q2RwM2Q0dmhLN1hGOFRqN2RtaFFYTFZBTVoycy1MODM5cUg1NkxJenpFeGR3WTR5eGZMN1hKajdacW5KQUlmWEZMMkdXYlMwcDQxLV9qY1d3X1FhT3h2ejlZLWhtTzNaUlFlal9MZ2hubHcwQkNqdWIwTjJOT1F6VTQyNm1vVTVrYXRPbmR2SGNfZy1IV2t4U3hScWhvUmVRSnhQQnJvZ1k5bzRaSlUtUW9aekVnTExn?oc=5",
+            "publishedAt": "2026-06-26T06:08:44+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:03:44+07:00"
         },
         {
             "time": "14:00",
@@ -155,7 +309,7 @@
             "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGlhMUhnSDBSaV9HNFdmTlk3bW5BVG00Tjk1S2lpaHB6eUlCbWY4SHcya0wyeXp5N0xucTh1a19CME5fUjItVWNaMzVZdTliSWFUa1c4ZnVzM21vMmtUSWhuYmZETTctV1Z3Y0o4MG1ZTncxUElzSnFTeEdnYjVCTjJOMW9qaEQtaUJHSFZFa1VaenVSQnAwVlc2MDl6M0IwOW5BUFlqUkJiQQ?oc=5",
             "publishedAt": "2026-06-23T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "16:23",
@@ -174,8 +328,8 @@
         {
             "time": "10:07",
             "source": "Artikel Publik",
-            "sourceName": "InfoPublik",
-            "text": "HUT ke-110 Sleman, Bawaslu-KPU Gelar Laga Persahabatan - InfoPublik",
+            "sourceName": "InfoPublik.id",
+            "text": "HUT ke-110 Sleman, Bawaslu-KPU Gelar Laga Persahabatan - InfoPublik.id",
             "signal": "Netral",
             "sentimentConfidence": 50,
             "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
@@ -183,7 +337,7 @@
             "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSTFlMkEtU0JfRVNvSXp4TmpJTTRSWGQ5RmpZU3h2LW9Qcm1XaVduRk5NYU1wRV9WVmRQX0ptMXVFWGdyN05WemtPY2lvRG5tWnpxVV9memk5bV8wTVk4MzB5ZTIxRUh4TWhudWFsSVF1bUFuNmF2czVlWXkyYXYyYWFvd2xtMTV0TjlUa2tkWmIxSzlXT3ZkMW96b3lYMHMwN2VV?oc=5",
             "publishedAt": "2026-05-21T10:07:39+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:41:00+07:00"
+            "archivedAt": "2026-09-23T23:23:53+07:00"
         },
         {
             "time": "05:18",
@@ -197,7 +351,7 @@
             "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWUNaT1lnYUlubHJ4N1M4Q293VlJUUEpDTzd4VXFjRVpsdTJ4a05RN1Q3Zk9yOEFyMWM5OW5YT0pEaHktQWxDZ1NGUW1adEU4NGxQM0I5WXF1bU5Gb0YxRnZGODdndl9lazNYQUFTZTkza2RHSlpxaHU2UEVEZnA1N1doYzdZT1pSemNCVC1peW9CRnVIeW1Mb3hNOHB0ZElHRGRTQ3owOTV6bGVaSkkzZi1CRi1sTUpMdHdB0gHAAUFVX3lxTFBGTURUVm5nNjNZYmM2Q1l3bXNkNy1JRlFrZWNhQlkwbmV2QlpscUIzMm9INktXZURyYjZIZGhPMXJSZTY5YXBZVjRfaS05SUF5OVN5TzRKVkdCVGdMdkdEa1lUdDA0eWN2Rk9rb0RfTDFVNElPMVNNRU9nMkUtZXFxVjByQUo5aEd6N0VqcjdBZFEyd3BJX09Lelk3Y3lfdWM5dldaVTVXcW9Na2EtUC1QRWxEQmM5Ry1nTHNqVzV2VQ?oc=5",
             "publishedAt": "2026-04-13T05:18:22+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "14:00",
@@ -211,7 +365,21 @@
             "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbXBMajVrek9WRTZkdGZ1SkZiemRpSHRQUFNucTBFWU1wdlBkaXJsV1E0ajlQbGhIZTYtR2JLenBYSzE3dkk4NGwxZXZZTndqbktuUlIxSkg5dnlRSWJNQ1lHS3VfaklDYWRleEJzTGkwaFZBNEx2eXR1OWRIM1lMLW1fLU1Gei1UYWdfRzZEd0JVTnp0cVFFRmV3dUVWSFkxZFd0LW1XNWo0Ql96WWNKTFN3SWx2X0hFT29FemRjVldNQXZYMFQ3WmdodWnSAdIBQVVfeXFMTlo3TXJxZ212dDhUdWR6cmY3LTZwOVB4V2hmekFNWm5FYzdYMl8zU2lZUHgzOFVhSl9ZZnFPOGZZZHIwZE9NMHFCaDV5OExtTTVaazZKYlZFdEpsX1ptSHhqUERqR0pvV0NFaS0yYXBUeTJmZU5DMERjdmRQWUhjQU9vRmxQVVV0b0tqN2lhS3ZCVVpLQVRqeF9HNGl4ZTFqOG1sMVNGU0pkQUhkV1c3Yl9YcVVvWUk2clVyMXJZVnVJZWxjd1NFQ19QTDk5VmdxWDln?oc=5",
             "publishedAt": "2026-04-03T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "radarmalioboro.jawapos.com",
+            "text": "PKB Sleman Panaskan Mesin Politik, Siap Dongkrak Perolehan Suara di Pemilu 2029 - radarmalioboro.jawapos.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbXBMajVrek9WRTZkdGZ1SkZiemRpSHRQUFNucTBFWU1wdlBkaXJsV1E0ajlQbGhIZTYtR2JLenBYSzE3dkk4NGwxZXZZTndqbktuUlIxSkg5dnlRSWJNQ1lHS3VfaklDYWRleEJzTGkwaFZBNEx2eXR1OWRIM1lMLW1fLU1Gei1UYWdfRzZEd0JVTnp0cVFFRmV3dUVWSFkxZFd0LW1XNWo0Ql96WWNKTFN3SWx2X0hFT29FemRjVldNQXZYMFQ3WmdodWk?oc=5",
+            "publishedAt": "2026-04-03T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
@@ -230,8 +398,22 @@
         {
             "time": "15:00",
             "source": "Artikel Publik",
+            "sourceName": "Suarajogja.id",
+            "text": "Ahli Hukum Pemilu di Sidang Hibah Sleman: Dugaan Pelanggaran Pilkada Harus Lewat Bawaslu - Suarajogja.id",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, pelanggaran",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMTBkaXBOaXJKY0hBYVFWMzdUMFBGNGw3dl9XTUNYN3VFT2FaSVBkWldQd2NzQTBjOTh2VWthb00zX1lIWjdjdU9UWWF1VlJwcGVtZS14UjdISGZRWm5JLWtoaFZPNk1QdzEyOGIyb1I0YV9NSFRxODdiYk5ycW93Zk9hOVE2X2JYbTBfNGxIUVpXSzJwMTJwTHMwTEF2SE1xc3U5dk5PWXVkVkxiOW5NUEYyX0NtRm5Qdkh1T1ctZzZIcld2QTZ5emtNM3NWNE3SAdQBQVVfeXFMUFRGdTJQR3IzSUxyS1JzeVJZRE9xQVFZRnRrZ0lTNGNJRl9qaFYyUzdWY3lyS1pzSExKY0x2WndVMGlfM3dwcnJ6ZUJiZ2xsZzRsQlR5aENtSnVKellFSDBFU1FhQUlQWmR1MFNBSkMtVkh0aV9RUUFUTFVmMW8tYzJ2Q0FBVXFDaGNLeGRJTTFhQllUV0hqQ1hrN3lLZHc4bE5KRHBlQS1aMThCd3pjU2VxRkE5ZUJRYVVoeWRQRjVkckJiVnotMExIcUdKZ0QxOFZ3MzU?oc=5",
+            "publishedAt": "2026-03-08T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
             "sourceName": "Koran Bernas",
-            "text": "Lima Kalurahan di Sleman Menyiapkan Pemilihan Lurah Antar Waktu - | Jujur - Konstruktif - Beretika - Koran Bernas",
+            "text": "Lima Kalurahan di Sleman Menyiapkan Pemilihan Lurah Antar Waktu - Koran Bernas",
             "signal": "Netral",
             "sentimentConfidence": 50,
             "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
@@ -239,7 +421,7 @@
             "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeUJjZE5YUmxTOGd3M0RrYjlfRWVtSE9LU3F3VUNCM2JteUNXcWQ0WlpRSWdGd3kxeHFmc01RZG1lRU5MNE41U2NJaExZYkVnNHpRNUwwWDUybXBzUFlOMjUwYjdfaFliRVZVRDUxcHZtMkVkRlJDQ2s3ejI3eXZSSHNtNkJJbHRvai1pWGxJdw?oc=5",
             "publishedAt": "2026-03-05T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -253,7 +435,7 @@
             "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNXlMdXM5RkVEWVZOcW9BdzZPRHQwaWdDeTVwY3d5c2Q4Q0d1bGFZLVpnY0g4Q0l3TlJlREQ1Z2NrN05vN3FDX3JreFVPTnN4cURVZ1Bua3ZCUk4zeW9CT1FZMlYwaG90VnNiSzYzQTJweXlPVXVFQmRSQ3BQU0F3Tkd4aDAxRGx4RGJUcEFLTXNMTVJpQmxSOW9zaw?oc=5",
             "publishedAt": "2026-03-05T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -295,7 +477,7 @@
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdVA0SEJkS21YTkw0V0M5YlNHSEdUaVM5a0RFbU5TRnAyYlUzbGE3ZGdqbHZ1cVpkNjNSdWhkelRacTlaSlBkQXJHbWdxRTNYd3ZLRGVtMU84OWQxS2N3REtRNjJzQWF6dFdIUFdZcWl0S2toX3hOcklqRkZDNmZUd25hcHRzM2xsMTAycDVJU1lUeE1kVEtwbXRHVFpsc1FYaEJaZ3hsWjMzemJ5eW1DdWE4c2l0Z9IBuwFBVV95cUxPUE5LT1BDdHlTUkthLVNkdklsNXRzMEJFc3VWMG5ydVdmNnFMWW5rQXVxTC1yTlF1dGF1dGdFSW5iMkdlMlJ0a2plZnV3WkMtVDhqMTJmVmtGZko1X3ZVRmkwc3p5Z2ZTcDVvSFpFWmplN2FKRFRiMFd4UEFoR0lncXFqY0RBQWpOTHJyUF9vWXloTUxod3JhUGV5bjRGUVpkRWs3QjZoWW55ZndLdG9GQnNJX2xYb05EeURN?oc=5",
             "publishedAt": "2026-02-27T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -309,7 +491,7 @@
             "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTkpkVEZLcmZHcThzNnhPSVFrUVpZLUdjNjFyQ1hfMWZ4Mll2WlJ6akZhMXRQSDltdzNFSVVOcFZ1N241RVFRN0hsWElBS2s5WVd4RmxpQjVkNXZPc1h5V0NTZDU3NUNKbEhobXNWR04wUmtlVWlVN3gxUFRBc2N0T1V6LTNOaXg3dDlyRVR2Z2paOWduaDMxZDhFMnY?oc=5",
             "publishedAt": "2026-02-27T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -323,7 +505,21 @@
             "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOd0h3ZUFFbUsxUXBBNFlQRmsxUTFLb0kzZFpsT1c5aUtfcEVMdHhxU2ZTc2hQQmptTWxPcW84a214dm9TLXRxZFBzZThHczE5a3U1bVZNX29ZajctS3h4a09nUXg0SjVBZWtUOHBMS25DOTFxNE5kMjhHN2NGc3RoR1JJLUVIUHBvbld3QU1WdlJ3a0ZxX1dQMGtFZVozVTljZi12anVnbjVrSFIxWV9tSlFFUlFQUThYOTdKTXlMaHdmeXh6eXJ2SGVodXBReldPSENBdFh3OUtsUVkwQmxmbzJScWhzX2lnSUcwMXBTdVo1ajQ1U2J6OHduN2FhdE1PY1UxTHRPYm50S3Rw0gGSAkFVX3lxTE1JM3lEb2tOWElCYzhhNmFWczZkX2xVQVU3dVYtcWxBLVYxUGxsZDNrSmJHd1RJeXFmeFhidHM1LUZhX1BIOVAtbndvREhtVTVwX1dqMlU2QzJGMDdKZGR4bEF6bGhHXzM5Qy1rOFl0M1B5X1R3YTNGdTE0TDRNWE05ek9CRHdvd3FKUDhIcVRZdVpKNHc0SjdwUTZIcDNkQktGemlSa0VRS2Jsb0pmT0RfMlVOX2dSbTdyQ1dpaTUybUdHRmhaWEtMRDdXeFFfMkYtN2h0VEMtS1N4R3hjR2FZWF91TGZKQUZBQjFaWk55MDZhV1NFVmc2TUxINGxVdG1zcDlKTThHZWhYWElNT2xMY3c?oc=5",
             "publishedAt": "2026-02-27T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Suarajogja.id",
+            "text": "Skandal Dana Hibah Pariwisata Sleman: Bawaslu Tegaskan 'Nihil Pelanggaran' di Pilkada 2020 - Suarajogja.id",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: pelanggaran",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3FhMWhramVUd3ZBY3Y0cG9iTEljSmRRMFNsV1JVbGduWHJCaERVcWJvZjFIVC1xOVdyQ3FrOWpBM0FZNFg1dlBadzVWN0NiVUtUZmlNc21Hd2o3YWZNWDdRUEN2Q1d5THZMMG8taktKQXZqYVROeFhMQzhoVUppOTlXY1ZHN0pRYkdXRlo5SmtxZkxGckg4VlVHS2MwSDhlMFdFYnRnYzk1dXFtUXYwdXdBZ3Y1ZUpXTFM4WGRtc29wMFg5NWNYVWN0N1REVDjSAdQBQVVfeXFMTlVQcEVDa0NvaVpiZWxRY0VzWDZYXzZrRkw0OFVBUmlWM1RDT00tSlVzTFJIeERoV2VSTWhuSlhBaGdIb3hTeDZEbHN5Q0ZfaDhOdThxbnFVdjFnMmFpRDF2emIzRHhqbWM2ZkJycmM3V0NSMllnbnNPeE5qam5QS0hPQ1VsbXJYNkEwSmNRczJEMEVoemY1dU9SbGtnaWZ5Vml6c1V6QUVtTEVZRTI2RTh3em04cE05aVhoellBVU1CSEIwSUJfTnh4TGxMZjZoN0lIamc?oc=5",
+            "publishedAt": "2026-02-27T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -337,7 +533,7 @@
             "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObXRaYS1nc2l1MGxvd0JialdjNnlBUTNJMklRNUR0dUFldy1DSlU5MXpEcEloRE5QdE5OODRKcmtPNHBjZTlXQUlpYnZvUkFuem8wR3hKWUk3cHk4MUZBSDZXY0RlOVp0VU9xTjFaM2w2dDc2dXEzc05rcllGdGFDWkdVenZTZkRfV19OcVBrVTlhNU1XQ2dUcXlqUGV4d0ZKcDg1WTZzRDRQUnN2dVBZUHdrV2kxYThyS3lv0gHAAUFVX3lxTE5WbW9jRmczS3RrVld1UTdybEw2NE5xM0JySDdJaDNFTXNISHFNZ0FsYnRlQW5GYjFPVjNJR1QzU3lVcUQyM2ViOTBKYk9US2xMU0FjcUNGX1lGS0RtazZ5S3dJb2Rxc0RlSGdmZXZIUnRFZVlveEdWcTMxbS1JWGs1U01fOU9DVFFzVU5QTWJCdTFCYloxTWllREQzXzAxbDR3QVRVVE9UdEVHT3MwSjQ1RXhnclExRHBqZXdSUGpZTg?oc=5",
             "publishedAt": "2026-02-25T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -351,7 +547,7 @@
             "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSG9qWFZiWDNRaG50aVF5TzVqei1WdGtmUTBvQmV0Q0ktOFNaNnREZndPQ0NqTC1WSjhaSFhfQ3JtRHBOX1BTSmlTaDZZRnE4ZFlia2xkdUQ4WEZqZmJmOUFLYk1XTmlKbjVVa1VZRG5zYzlvSkhZOE55RUJxSl9OUUk1bDJXMktNWkFTd1FsZ0N5a3ZXUzlCNTlSQWFWRkk?oc=5",
             "publishedAt": "2026-02-07T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -370,6 +566,20 @@
         {
             "time": "15:00",
             "source": "Artikel Publik",
+            "sourceName": "Suarajogja.id",
+            "text": "Gustan Ganda di Sidang Tipikor: Dana Hibah Pariwisata Bukan Strategi Pemenangan Pilkada Sleman 2020 - Suarajogja.id",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY3A4Y3dKQ1pLa0hIUTlIZUtHRVMydnZ6RnNwZmc5aF9DQW9fNjQ3UG5oWnVYVFp1cTI1TnQ5dUpqNl9ZLWp3VjhZSGNjZ3FWYVg1YTVlazhKVlZuYi1ScXlmOTVDSkFDRENMTzFiampKTlRZTElySjRGZXNnUEhabVNaQ3otdWxsbFkxVFQ4ajR2OENfeE5GZi11VERrZk0tUG9FZ1V4X3hqaVZQT3FKRFFWSHVnU2pSaHlYdnRIMGxQbC16Y0tQR21XdXNmem4yVEZGS1dESHFPVl95cGfSAeMBQVVfeXFMT2IwelVOM3FzSVZka3QtcFp5M3BKMWxiQjdJMFVvTndubFFUVXI2cmdQMjFCQWduU21MSFFGODJ1ay16X0ExNVRHT19FYkMyZUZGellnRUdwd1lmVDlvb3dlTmlpZWtiMG5PdGsxNE9KeUZLNUhYM0JCSE9MNnI1QWN5aGdSMVplX0M1U3I2eHotd280eFh1SnlVWkNUSXU5Wmp1bGlPcm9fUlBPRUNOVjJkODhkWWF3Yl9feFAxdkpHZFFGTDJoTU9zSVVyTEg0MVdfNk1zcmhqMlZmUXBXTlUtekE?oc=5",
+            "publishedAt": "2026-01-30T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
             "sourceName": "ketik.com",
             "text": "Saksi Ungkap Arahan Sri Purnomo Soal Dana Hibah Pariwisata untuk Pemenangan Pilkada Sleman - ketik.com",
             "signal": "Netral",
@@ -379,7 +589,7 @@
             "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMjUtazRmUEMzRXdTTkVab0hZVlk0R3VnWDRVQjV3TE1GeTdXUUlUYWNFYTZxZElhcTRjN0JUdVZhTUZ1R2NER3BMZ1diNVRXNnllal9KX0Mzd3FpZ1N2SGo4REl2bTlSdjExT0c1cHBIc0ZDdlZNcEpqYkliLVM2VEpmdG80LVE3cE12eW5BLTdPSU1kMzlncG8tX05Mc0ZhSmtBRHBycEMtNVpCT3VybnpMRHV1cUNwdWVBbWlxdGxUZGdFWVBBRWZ5LWZqSE3SAbIBQVVfeXFMT1RsbU53NkN1NWxDall2dWs3ZU02SEpfNURwLTgwbEtYcWEyUk04emlMTkNVUUdQMnBWZjFQZi1wQ21tOEVWUThjaGt5MmxGdnAyeVJ3TlBIN2JCcjFfOGdkbW5fV3RJMmhaa1lCZERwNTVUbDVoRWFudWluY1R4SUVjbHpaXzhSeHhDSlVqODRnZEwtRElSRzJhTHZsdTB3U3hWOFhtYnN2QW5uR0d4b2RBZw?oc=5",
             "publishedAt": "2026-01-21T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -393,7 +603,7 @@
             "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxON3lLZlNuMHFGdlpXcHRvNC1BbS1ZeWxQc0FsSXkxVnpKZWU0U1ZOWFdGbkNleS1lUGd0aC1vZ3VkYThUa19PQ19rcHRsRDB2YW9EZXozSm9YaFpzOUZ2REhXMENhM1dJTDRubVlHNkJTSHQwRnRjaXVHV05haFNlbF9YVzk2dUNsUUpOYkRDTkF5STlXUnQyRG5ROW4yaFdUUUZNRmNaeUkwaENQZWpucWUxT2xZY1FOMy1HaWRTdHp0bWZxQWdhdm1rdDZYZzQyT183aGFhSWk?oc=5",
             "publishedAt": "2026-01-19T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -407,7 +617,7 @@
             "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPckZvUkpFdWRFOFZPa1ZZYjhvM1Y0dTNIbE44ZEwwNGNJa3RickNOQm4temhBdVc0YUtjUHhUNVhUV3YwTUtzVld0ZG9nekFWc003QV9IVWZ0VTJLdG80dXZnM081Y3JVb0dhZ2g3X3YyLUFLQlJtRjhTQWRvNHZMSEtteUhGVFFqUm5OeEc1a0hoNHZaNFk4aEdjUHJ5aUNRQWhXWW9GWElZMnVtaDlMem55NWQwT1l2a2NIVTRnODNVNGtSWlBtNnpuMUlOWFpJRVhOWXh1UUxXNkZtVnY2ajZFSQ?oc=5",
             "publishedAt": "2026-01-12T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -421,7 +631,7 @@
             "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWTNobGpOT0dodkJwLWM5S3NFeXRHdW12Q243WE1sdjl1S3ZWY25NWW9CYUdtLTAyMGl6YnpYQm45X21IZEIwTnNGbC1PZjZ3aFNXZ3RJOE1JUlB5ZjFYaHEyNUNSczk3VUZ4RE5wc3VEMWFFWHJYaHNSWjNIVkpzNUt0QlNKR3h3R092b2YtaDlQanZpbjBTWE1DcDRwejJpbERISkJpcjVPNnZuOU15aDAyU255NEQ3blJhRmp5VFBYdW8zelJkal9wZ1B2QdIBsAFBVV95cUxOUldrMkhQM3RzN0JmbVBCT3lQeVBQTEo2aXF0dEFSM19fWGdNOUlpUU51X0QtdGwzVlgySzN5MERwMkpSM3pHOHBjdllQUkk4QUJWV1RWSVp1VDlJSnRpbDRfVFhrcHpTZDNHNS1yQ3hGQXU2V0dmbkV1VVBIekx5bVFGS2RKT1h1YTRLTTFjWlJ5Q3RIWWEyNHNvRk02M0llM2lIaGdUMXhidHVITUtGag?oc=5",
             "publishedAt": "2026-01-08T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -435,7 +645,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeUVTcm13Y2o3UUZmX2RNRVFhZzFWTzFlaWFsb2tyVU93bmdiTjF6VDFJN3JhNkl1Z1JrSUc0ZFZjUTVWMnQ5ckZIS0ZId3A4cGNTRldycVpuaDlWTU9pT2kwQ1FqQjlSaTBVOG1TaVJLU0t3aXZXVnJrdlF1dW9KU0RNMnhvVjd0ZTVURXhFNUFCQ0kyMzYwaE45bExUUE5WSS1XYkZsVzhBZ3MxSlo2QUhtVVNHeW03LUhxaG5ydHfSAcYBQVVfeXFMT0xKbjBJYzdvOWZUMUZrRGQzSEx3TF9hX3AtWnBydTJDMVNOZkppTFRFZXo1Yi1uUmFZZV8zV1p2cXNJalZ2bEh1WHZIcmFoUGdZOGhFZjNjZXZ1cjZCamoyUUJHenRYRWljYXZVODlacHNwM3NGODgxWFMwOU5RbkVxSHJQMlp0bG1jWGlueGgxSXJwYjZYNlRTc3BId1cxdHlMdklwVWpMUm9IRkoyOGZEOTlSdGxET1h4UTNfd1BuVVhMZnJB?oc=5",
             "publishedAt": "2025-12-19T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -449,7 +659,7 @@
             "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMnFFbXE3eFFSM3p1SFR0em4tMmxGb2J4VGVfa21aM1I3d3pHcjFvVndoNXNnNXY1TFR3RmQxOFVkenZqRHdCcTdHYzhrNEVmdE5tdUxLMFdfUFhCaDAwWDVVdWQtaTYwakhNMUswTlJKV0paTTVUaDhnZS1EQXFrRS1tX1RHZlV6ZkxacDlxSXAxVFB3WlE4RGEyYTdOTmdsc05pQWIzUXU3eXp3UlNOcGtIc1hNd3c1NENuMGc2MW5kM3M4SXdz0gHMAUFVX3lxTE1aaWUyM25zTWtOMUEtUFNrN0NpM3Zyb0tpWEE1elZrNlFBQlg4WW1jVm12U3g2TDhBSkdod2pEYzZabFlHWUh6SDRPSGcySTJoQzA0ajVldXY0V0xPZkZScHoyQnRvblBsaTRCSHNsdE9peFg5SFp4U0dEcnlHbFE2THVwMF91YklCR09RTXVKZUVwRGxKcDFHQjF5TVlhUUNrOWw5bGg4a2Q1T3huNnViTmZvYjlKTHI2RWFldzFEaEdxM1lkSFRBZkVSUw?oc=5",
             "publishedAt": "2025-12-18T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -463,13 +673,13 @@
             "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2RMUkR4RkgzUzViMEw2eEtwZXBhWk5wa1RXVXBwOEpNTHQzMC1nMF9ETFg1MGkyRG9NTnB3MVUtVXVaQzk0eWt5R3JfRVd2ajNhemdvOWQweThWVi1TV3pjcGpqcXNnMnYwOHRGam5TRFhMRnAwaEphbUdrZ0R4czcyN2llXzhFeWtFa2h3d0FvZUVKakswYWRVOUdYM3lUNXRFRHBlNi1hT0tnUVVONWJ5enJYRC1WWHlrRV9UVXQ4QdIBxwFBVV95cUxOUWt3eEFTZjdDOXJRMXlISUhqSWZCMXhGTFpZVUdNcDVXaF9XdTQ2Rjh6bU9WYkk4SXJtSnVlTkY2SXVTSlB1T095am5CSGFqcFRVQTZqUVBuemZJRHBvUDlvbW5JTTF0ZFR1SHA3ajlIY2J5WW45cXMzTWJMdFBHcE9LcmlSazJiZmNXUEFyU1JibEZJQkZSeV9EWHpnUVhocjNKckowM2tQZXY4YXV1eVhHbmFSX3paa3FPMmdpUjdaSXdldUFF?oc=5",
             "publishedAt": "2025-12-18T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
             "source": "Artikel Publik",
-            "sourceName": "timesindonesia.co.id",
-            "text": "Jaksa Bongkar Dugaan Korupsi Dana Hibah Pariwisata Eks Bupati Sleman Sri Purnomo untuk Pilkada 2020 - timesindonesia.co.id",
+            "sourceName": "TIMES Indonesia",
+            "text": "Jaksa Bongkar Dugaan Korupsi Dana Hibah Pariwisata Eks Bupati Sleman Sri Purnomo untuk Pilkada 2020 - TIMES Indonesia",
             "signal": "Negatif",
             "sentimentConfidence": 95,
             "sentimentReason": "Kata risiko: dugaan",
@@ -477,13 +687,13 @@
             "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWURyd19mNnh3QVczcHF4UTRyQTZ0anVqZXdMbjFSc2h6RTVXYkdNWGNseXdWVmVjY2Z0N0NCUTYyNnFBLXdzcVZpS2hPQVdsTU1Cb3ZJRGpGZkRNMXpiN0pKbkpEeFRHRmt4cWJZeHBJemdUNkNVXzE1b2VheENubTM0azlHaEl1YW0zNzhMRVlJc2ROZ3JzQmhlUzdMR0ZCQ21HUGN6MnJ6dFhQN1ZZZzFKQ1FoaWZGUDBaUVRwaTFFRVNLQ3l6ZDZCR2RiOGhBeVoxajlXWkwyZHNlM0JoOWNIdTQ?oc=5",
             "publishedAt": "2025-12-18T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
             "source": "Artikel Publik",
-            "sourceName": "Kumparan.com",
-            "text": "Eks Bupati Sleman Didakwa Korupsi Dana Hibah Rp 10 M Demi Istri Menang Pilkada - kumparan.com - Kumparan.com",
+            "sourceName": "kumparan.com",
+            "text": "Eks Bupati Sleman Didakwa Korupsi Dana Hibah Rp 10 M Demi Istri Menang Pilkada - kumparan.com - kumparan.com",
             "signal": "Netral",
             "sentimentConfidence": 50,
             "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
@@ -491,7 +701,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOXzE4SHVlUkhuc2hqZjNDcGwySVBrVzM2c3lrMEwzeTVxWmdtR0RYRWdlalU2MHc4X3JhT3NrcU5sdTRHNjF1ekFrOHN1YzhJY0pHX004Yk51SjEtcUlla3BpenJCTWswclM5SDJORmlJb09tQXdBNnAyT3BHdTRMaERlM0hkcU9DVGFuU0pDaXFWUkdjVHpNV1FBemVWdUJXWDZHaVphSTFvMUUyR0Zma0NCTXhKNk00cjJoVko4aW56UdIBygFBVV95cUxNMlpnckgwVmdpaV9iOHQ3U3JSSlNmTldjaTA1UmFac2laU2l0cEkxam9GeEY2czJnNFBGSG90VkYyd1ZGQmtvMXFDeGhLb3lfSzhVbTc2NC15UzdPTTZwWnlpMEhhTFJEZHdDcmJXb05NTE5DMTV3TVF1Z0pjN2Iwa3N4OEFrOGJ6RjdnQWNTZ0ZrTEptWEJwVS1mNzB5OU82TnljaURXcXlHR2c1SUtzdmpTNzRlcVJReUJ5UGxFN3d0eTY1dndtbXR3?oc=5",
             "publishedAt": "2025-12-18T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -505,7 +715,7 @@
             "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWHgwMUFOUk5oYm9kRUJ6MlNvWm8zLW15WlhTTnM1Q3dXdm54aHdydTRUTzNEVk9YdWJPN3BkS0Q2TmxIbUtXeHVWZUY5X1dXRE54Tko3TDljX1RnYTBHaWNyeGM0TWItM3JVWlFtLUFPZllsNXV2ejhfVUhCYjJSNXNORW04RkpNbFRyRjdudEJmd1ltbTY2SVJoTFdIcHM?oc=5",
             "publishedAt": "2025-11-27T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "14:00",
@@ -524,8 +734,8 @@
         {
             "time": "14:00",
             "source": "Artikel Publik",
-            "sourceName": "timesindonesia.co.id",
-            "text": "DPC Gerindra Sleman Siapkan 30 Ribu Kader Aktif untuk Target Menang Pemilu 2029 - timesindonesia.co.id",
+            "sourceName": "TIMES Indonesia",
+            "text": "DPC Gerindra Sleman Siapkan 30 Ribu Kader Aktif untuk Target Menang Pemilu 2029 - TIMES Indonesia",
             "signal": "Netral",
             "sentimentConfidence": 50,
             "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
@@ -533,7 +743,21 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMF9JclVoT0pjMm13ZTBkaUtydUZ6cnlMVV9KbUJzaDRxUjc5TjZ5b1BjZVZBR3NJVUNWUnY4cm00UXhaVndYcWM4WktuTi1sSHB1N1RuTDdZYURtWnZ4em13SktZWDlwY1FkUWVUNzE2YjJoa0hqUXpMMmJPVnVOU1Fqdm1iYmhyejBZTVlKQkZoUmM2ZTVXdWROc3p1eFBHYUJBRU1JNm41b2FqZlJVWmVRQzBiOEhHZWFnSDJZQVU?oc=5",
             "publishedAt": "2025-10-12T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T22:36:29+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "TIMES Probolinggo",
+            "text": "DPC Gerindra Sleman Siapkan 30 Ribu Kader Aktif untuk Target Menang Pemilu 2029 - TIMES Probolinggo",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMVp6VEJaX3EwbFpIWHowNmFWZjZpQm5QSVFwMjBkTlBhY3RGRUdNcXZMdmlNWUNuRWNRaDUtVTNoQ3NzNVo4TnkyQzRWbFFvcG1ZTU1KT096OUJ0NFFVeGk0YWlUbW1fWWVnbnFVSzZwWkVxUTIzbUFVbU04bEczNVBkS0ZhM1Foa0NULWNQc09wQWVXQ0ZQeVVpVlNoazF1cVR5UmQ4cURZODI3TThkYklRQ0xEa0RVLWUxcl9PbE52X0w5WFJtNE5POXc4MVVPd0E?oc=5",
+            "publishedAt": "2025-10-12T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
@@ -547,7 +771,7 @@
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeVFKVU95RDJINXdBN0UtWk1jS1hRZl96a3l1OE1NMkFRNGp0WGNnaW1NVEM3X0MzU1FCbElsS2JoblpUVExrVmhfTGxsbFZPNDZiS3FJNGRMaFpVTDlzOVgwUUJ4YThSUlptOENIUnVLeGtjRDZiT2psUXhtSTd6OWZhUV9sMUxGMEE?oc=5",
             "publishedAt": "2025-09-30T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
@@ -561,7 +785,7 @@
             "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZnVpSE1tMjlpbW5PMC1pZDliSldYTE1IVzJpSDJTZExZWG1jTHBiRVU2aEt6WFJqTXhBN0x2YXJWb3pyM2dnaEVpUEd5ZnZrYTAtd1htZFhFZGdQbU9GNkNxdFVkYXIxN0R4OTdqaVk3aDJiSG10OEhsQ2FaWFFONzlZTUpZUi1waUtlZ19kMlZPNnZhVWM5SEpqUy1mX2c5a1hGWk9tNWtwSGZoQm9nd1lEUEtieFl0elhyM3ZB?oc=5",
             "publishedAt": "2025-09-24T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "14:00",
@@ -589,7 +813,7 @@
             "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSEp4NmJhc2xwSnBkQUp5ZThHbzl4LUtHcWQxazlydE5uejB2cWJleDI1QkR3cllkaDVabnBZekZ0ejVwNExqY1pFd3Y1ZktSLS1aZkFTbWI0aTdzbFBXcFJGMTNqaHVBeTI0SzdLOFJWa0FRN1NxbDVVMW1GRHlDQ1lWVXkzX1hrNW4xeDlfcG5nR04xNGtwTm5MWERkejBqc1JBd2Z1XzA1SllaTlM1clVESEhfWmZlaGxKTGZYUERBUFhDQ3BJbWkxTkVKRHhKZnJPRFZR0gHIAUFVX3lxTFBKUmt6eDA2SmZZZ19sRnhjUnRCMlVHSFFtVW5Scmh4aG5aQ3gxSXBrMGZUTWozWlF4OFFHdy11TnFkWUlGcFNRV1ZrdGNhWGU2aF95eDFFbWN0bklXakdEWnVLcVMyMWVSaTZiOGtod2E1U2lpaHZRTlctOGdiWE1PUlhaMVR2cnhZLUw1YzJhbFFhc25ndlBJSlNVN3hhMXdrZUVtNERvVnpNbkRGUDY5YnM2ZTJacnpjRjNLc2tFbFE2dTRmb3NI?oc=5",
             "publishedAt": "2025-01-30T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -603,7 +827,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOTF5bVdEREQwMmFLaDAtdXpKWC0yWXp6cDZ4d1hvNnd4YWtBbTYyX2w2QUxQUWl6Z1JmWERCSDFuTHlQVGFRamRTcy1iSk1BMVh6VTJWNzVBaWpmV18xMTRjc1ZLN3FHMlZFQU5La21Cam11YWVoM3NGeXZaX2hkVkxoU3AyOEp2VkxobGZpcXhoU1NoeTd4R0NLY1BiWmJLSVR4WWo2c1FiNnZpc1F2TDB2dGpncXEtaWtHVTZ0Y09KUQ?oc=5",
             "publishedAt": "2025-01-14T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-08-24T08:06:53+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -617,7 +841,7 @@
             "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZlkwcjhoclVUSmlta3ZQSUE2enJ1YkNwWlRrYnp6RmNXSHA4dmJTMm05RnNtMzBOOVppOWRtWDg1UkFLU3ZpamtLQ2FDb3NyOHZHS3YwclA5bTBKNjltTHFtWDNJSWZabHRKSUExSUI0V0U0WFpObGZpMDBsVTBTRHBrc2JXZDJGQ0RmUDFzOXBRUG5tN2J4alNXV0JpTUhPandhX2FvbDJKeTlRWjZob21UZ2JqazRLdTVfV0RITVNBSUtZRTY3TmNmME4tZFRPaGFUNjNBTlFLaGlzdy1RSU5mcjNVa21DV1ZEenhtYnZGc1daTXJ2MU93OWdib3BSemNtbzFzTFLSAY4CQVVfeXFMUEozNHlMY2h2cmJxOGhNeldXdG50S3FsX201alpoRGxCUnpnM2NtdFJFbF9tU1YwUmIxMUJJb3d3cHIyU0pXYnJxT2hGNTlkOV9iaEhvQXVVaVN4cTVyUTV6VHFxR21xNlh2X19VZ3RHSXJNTnVaRGM4aDE4OFYtZGdkaHF5MTNLZmEwT3ZNemx5V1NueE1JUWJfVkNmN2RCblRhSnJuMDhlNkZiWXc5bkhCb0NiRFFDTmNna1NCeUppd0FGbXdhd2dPeVZxa3ZHWHd4UWhtbjZVX18yRXZHOXk2aGFKZnhndmtoMVNsX2JORTctazY1WVBkY3p0SC1mSUh5Tk5Na2QxXzFRVFR3?oc=5",
             "publishedAt": "2025-01-14T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -631,7 +855,7 @@
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnBkUmw4cWdDRDZWOGd5czNGZEhMQU42b2ZUMWljQVMyWUhCQUx0ZDkyYktPT3JxdElhU3pseXFVT044UmtMMzV3WnBfRWo5NjEzNXhWa1lDa0xPUU9JVmNZRnVOVUIxRVlUM081RDc1cFMxMy1FbHUtTW5oc3JRVnk0cjZFVTBBYy1TbDd0MHp6bjVHT2FjVGN3d0pxRENodEpha1dNNS1fNFp1bTMwbtIBtgFBVV95cUxQODdsWlowMnE1WkRtMDl2LUI3N3RuQklBbWdpMzhwZ3ZLU2hvWWx4QkZfOTc2UkgyM0dhb0p5akJMbVlaY1huU3RIOEhGNWF5MUdVdlhpOERrUlNtcTJrRWRQbWJSTU9JY2NnRmtTMV90bHRWZG1Bd0xZbFV0djJ0NHBvaXg2dUk1RVROekhkV2QxVHV5aW9LSlI0ck5FYnZLOWFsd2pBZ3BpQ2RmdWRwNUtLU0FGdw?oc=5",
             "publishedAt": "2025-01-09T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -659,7 +883,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUTZoVGVXLXhydkxZWDRvbUJzakxBdkR0dENvMnNLRkNnQWY2cTNONTA4dWIyVVJwVjEtMlJMU25NZmZZeEVVUF9pU0t6Z29LVEZTaHdYTHpmTU4zSDEwanVESXhpcTFIVVlhRE1vVWtUWGtib1lub1NqRXNJOGZ1eUVpc09tdUcyUTNwVEtXZkdTWWM4YjBnaHhOYl83MDFqOHNwNXdaclItTHVlRlVtY1ZacEZEVU1adEc4ek5fT2U0QdIBxwFBVV95cUxQVFJqLXIyOGdPbXBhVi1JYnJNSjl4TzlHWWpULWJyalVIS1RnZ3IxdkFJbDBqbEhRbVUxak1KZlZXbVNyazBYSGhzMU5yTW1MTnZ1OXIwZ1JwZnlHMEdHbTdKZkptUjE2d05QSng4MzhtMnBOOGprcHBVLU56YmFiMFRoeDhfdUNrcTRfMzUyc2dURHZuX0lNX0xWckt3WkpuOS1wel85UENhdWZsZUVhSEJNdExzd2VWaTBlUUZtQnNYQmtNZnFn?oc=5",
             "publishedAt": "2025-01-09T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T00:39:53+07:00"
         },
         {
             "time": "15:00",
@@ -673,7 +897,7 @@
             "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaWJWTVQwdW1Bd0Rpb3pxdElPREVZWXFST1Q1TVF4cVdmMEJCS3hqNXpCVi1pVzhsLVl5SS10amFIcGZKamdsOVlmNllycHpVSDlzcGtab0NuamZadmEwbE9NTUkxMXY5cUxzekhXNm81WVB0REhEYWV1bnBqemIxTGsxc2FacW8xSGfSAZIBQVVfeXFMUDRTUzlNSEFhenZZOEFEOG5RYndhcGtLRXNERzRNVEZ1SVJ1VnVTME9oajNUQU9jRTRUSWpKUmFjQzVzUlVnN2NNcVpjcmkwTTVYcmFlRUJyU1E0LUdsWjBfdnBnSGtDTDdBMHltMUtJQ1F4TTVRbzBoc29BTndJSmQyYVhyVVpSTWdabmNyZUVLZWc?oc=5",
             "publishedAt": "2025-01-09T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -687,7 +911,7 @@
             "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOU1MwWmx3cWw3SE1WMXRmUUY3emt6dndfUVJZdkVScGoxZ1lHcXhJMmk1NzFHamhxSTZmX3J0UTZEX21kQXF4YW1jR00wYmxKLW9faVhzd0R0SmQ1cElUNVgzcm9DdXlHcV96QjdqYmVsdGh6bnNKQi10ZEQwZXlta1ltazVpcklRM0w0bEhuR2Jucm81NWNwcjdjRF9HcEhKcE45VTA4cWszN3dBQmpGRTA5Q2pSeDVXQnhTdzZ1bS11U3pRZ3UyY1BhTkpFREdKUWNwenFpNVVXdTNCRUlrTHVoUE1Rb056OEVpZDFMUU9LSmkyVnpPbDFEckNuQVF3dnhOUjdsSV9BMU9nVTM3TVJIQk03SzJT0gGeAkFVX3lxTE5vOTN6ZkI5a3dkUDA1dWJneWd2RENkbENuMjVoenVkMmU2c1dDVXhEOWpValNkYlR1NXViWEpJTFlncjNMUVpyajJ0SFRhY2kzMW4wajBjMzJLYkJQbE1iQ1R4VTV1dnMyU1J2OXNuN2R5MS1DY05uOHFBc3lydTk0Ul9mZGkwSDFUWGoyaGlIVExBekgzTzExQ19PVnNRajdyWkdPMy1xbnNuTDRfUzdpREFwVHdaQXVIQ2NZeEk1WWxVU1VqYmdNaXk5TkxpcXV6SmZzeEgtSlU4RkZpeG9BZ2xIdXF2YXI5ZEg0SkRrbjhoanRsNVhEUkFudlM3Q3B6UTFsbEVWSmt2c1l1Slp3RHJmckRiOVZNajBVdGc?oc=5",
             "publishedAt": "2025-01-08T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-08-24T08:06:53+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -701,7 +925,7 @@
             "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPejlqWl9OMkZjS1cybTAwTGNYcUxPNFhTdHVtR1BPUG0wcE50XzNSOTNBWlMwNDRKWTBtdDNuWEdzTzFwTDhVaEN5SzJNWlBmc1dtaXJIdTBuTHdfN2I2cFBlbEMzTEE0cVVIVHdod2ZKbUFzczhaVHNUVmsxRHByM2ExaFdRMDd0VU9WMmgtMUJjX0FaRUFYUmo1ak5FNnQxcmxKaUxheGNrZ2RKc0JUZW01RjQwR092Q21mQm930gHDAUFVX3lxTE5WZjVsaG5POTNMbXNlU3QzRTdlQXM3c0hWM1ZjUTRPSnlfR0NNTFJVZlNkTGJsUTk2VGpERFBpQTQ1MDRkamNNUnA5SGR4ZVB4akw0OTlfYk1RZ3BtRENvNnNVaE5yRHd5Z2M3cEplMTN3eVNGMUdaRHVDRm54MlZic3VkWDBZZnJpejZBQnZIRDZYNmpJU1V6Y3BkMHdFcldkSEtUQkJibm4xV2xzbFFQSEdzUFBWNEpZQTE1dzVpODBMbw?oc=5",
             "publishedAt": "2025-01-07T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:52+07:00"
         },
         {
             "time": "15:00",
@@ -715,7 +939,7 @@
             "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdWhJVGJGQlM0RW9hak9FUkFncWxpZjZUa1pzaXZjcktEZ3VDbGlJeHdfb3dOZHJqT1JIM040dmZPTy16MjhzQUFpb3lqa1h6dW1NSHpEMEpZYjZ5czNDcVU2Wlgwa0pIUUx5M20yYUJiOElxQnZzUVdlU1NKMUd3MjdSNlN3ZTdsNUl4czJITlRTYUxIc3ZjY2JSLWRwRjBsem9vMV8yalIwZlBtWUNZZmYtc1lERE9DekpJ0gHAAUFVX3lxTE8xZ2UwbFE4am82M2xMLUpkNDgtajZiRmo3V2liZ1RCVmEzb3AwMzJBRktGUHFFTE5tU1BDMkdsZjZiNVE1dm4yRE4xTmJaNnhfdU5PZ2xXYi1iN2o4Zi1kazVMVUFoZG5hZ0pQb0daUHZSY1BPQkhOa3cxMVVIQTlVVmJwR0U2RHVmQU9SSV9URWZaUTNpTmF6cnlJMkFQa3YwWTFKWlJWLTJGUjJvSWZQa2E5ZGVEMEx6dXgtOWhmdQ?oc=5",
             "publishedAt": "2024-12-24T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -729,7 +953,7 @@
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY19ON3hHbU9FdVU2eEtVYzd6ZVhkTjVYemh4c3pRRHRIU1AwemJaZHd4UHpjNHJfbFhITDMyTnZ4MS1SM1BqaEZLTzdPWGlBSVVlSm9oVGxCcS1MVXY0Qk1leGkzUTVvdm5qUTZMV1hXTEIzcWhnNTcyUDlLTmhwT05JWmh3N2tYY1NmRVJOT0RLWW40ZkloWGNxN3dUWVdhVjFpOFpURnhhY3lmUlhBdmZ2OXVmX1pEcnh0djU3b0ZMMEZydzI1VQ?oc=5",
             "publishedAt": "2024-12-20T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -743,7 +967,7 @@
             "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUJTZHoyYW01V1YxMVgwQUIzSHlHcFN1V2k0eGpwaXY3Y3l3Z3UxTUFrMzl5NmIzYThpcFZBTzU3eVJ2bTFNd28ySUtEZG90c2ZWMk5uZVlZa0VPNWJPbzBEQldydUJwRXNSMnEyWG5PQ3RnVlBnVGhQUWFZUnNFWnZ1RUp0RnNTdDliZ0hyenlrY0paRGhFcTFoemo5ajV4NmgwellpX2pUSWxPbExsMVQ0cDnSAboBQVVfeXFMT3hsU0E3NndWZXo1TW11eXROZzdiM2l2TTJZZGJyZ2ZQdUc4LU1XeDVVVWsweks5am9VTWRQa2NIMEtsMmZ3WHlUblROc01mVjZROFZQMGtnVVdRaWhMck96OVlKamhDeFJBSkhuc3JmSURXV2RKNTloYzVQYmRBOERtSGhxcU9UUDNHRGdOdWhPNU5tOGJ2VTgwR2c0eVRvdkR1NHE4RjBObTFrZ1NYRFlKTFRIYmpDYnVR?oc=5",
             "publishedAt": "2024-12-20T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:27:14+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -757,7 +981,7 @@
             "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcGdKSjBLblhyaDJYQVlCLVRNbjAzeDNGbkFrQTdDMFBZWUxmMFg1OTkwTmI0VC10RWh1UkVvb3YxeXRrcTZoSmo0dE1yVGl0S2t0NWZTVXVrZ1V2Wm1ZMHlBbURsWk5oYmJydTFDYi1COWJPLUNNSTFRWUdSYzFoS19oYUhLSk0yMmYzZHFMTVBKLTJqTjQ2c25TT3E3QkwwWTNqcnladW9rUGhvS1hTTjJPRUlOaUJpemhBTmlsM3pLMkpIa2lIQUNIR3dSX3lGX2YxOHMxdl85bU9tcG1B0gHkAUFVX3lxTE9ubE1qS1p6UUhvYzZUbDhQUXoxeFp3ZzVLdWZXM0pTZHM4MXVMU0F0dWRHODJrUGN0eTA0OGh5STJYVnZOVUJmdm1JbVRMYjhnRDdzRzJPM0d0eEFMdmtnMHJDUDFVN1loU2hCMHdFYnMzc2ctZ0N2Q0pqdVJHbnpab1RQWFN5RDBvTDJMTDlFcjY3OHlzLUt0WjA4ZjFPbVFUcXVmMVJSMENLUUd5V2ZxYUt3M0NMcWxtSUFqNjlJX212eTFLOUlKSDlEWGZhZ3ExMG1RZEJQeWI4NXFaZ2lMeFBYcw?oc=5",
             "publishedAt": "2024-12-20T15:00:00+07:00",
             "district": "Minggir",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -771,7 +995,7 @@
             "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTW01a0dUTHZ5bDUxUjdzOXl1MkMyZ2FiZTUxZFlIMjJLOG01S3llQ3Z1ZDllbjk5U1VCYXNabHZ2a04wWUZ5cncwbDZ0OWJjaFB6eWVHMmR5Rmh6QWJHOFIwTHU0TjlaVGFXNEJUU1c5ZW1xalcyZlg1Slc2LUwwUGdvSzV2Yml2TENrWkduWEJPN0s4bS1hMTdoOXNBVUJCeWI5bEY4cTk3SzU4VWx2WVhYZU9BMjdxNEZwUWYwYVJfcG1N0gHKAUFVX3lxTFAwSnBGOGgtMmZMNUZGQ1V5ZU5CbkE3ZzAwYlpZR2tpN0k0bkRBcmJMTms2RmsydUphVndma19vZUZFRWphOEVZTkdNbmZjYmN4ZUhWRW1tQ0xvWFVsdHJLdUVsbk1FOGtvQUJRYXNsdlZ0WEtvM3NTem5GR2g1Vm9KME1Ld3Z4WHpEY2V6eGhDZnVWUnRMOEZfYk81M3hRWVZJZG00UmJTTkdEQmZUMjItZWZ6RW1BR0YxNkFLNGMzSTFQZkpkU2R2Q0E?oc=5",
             "publishedAt": "2024-12-18T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:25:01+07:00"
+            "archivedAt": "2026-09-22T17:19:21+07:00"
         },
         {
             "time": "15:00",
@@ -785,7 +1009,21 @@
             "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPX3BJd0JuTEYwcnB3TURpQTduZEpKd25uUWFXczc2N0Q5RDkwWUhEQzQ1VXlQMlU2bnJWWmxMbmhOcC11MWJycXRCM2lyOGxoSW5uR3VSSnpnaTYwQVhQc1VYWDcwTTVkckhaMTFSQ3ZEU3ByeXFocHVCRHBNbUY1VFF5dXU5X3V6UERFdGNBMHFkb0xPOXhuNUNJQ3l5M3QtUUoxTktJeC0yZmZndEw2SXBvazJvX29qSWlFWTlqODJmaDJyb0RQSFhqRGV6MXBqQXBybERPOE5ISFZqQnpJ0gHkAUFVX3lxTFBFTnJvTmNMMnNIUjNIbHJxRi1tS3VhT0p3dzkxRFJJcFFXVEd6TjFhclBma05ITElzaWVtUnBpODdqZ3lVT1dBUUJTT2M1TnNPd3BHSVdKZW9IUEZkaEJVSFFvU2g4Z1lFN1RfNFNCQUd3ak5Cd0xqVzBoT29ObHVKVkhfR25YemNVcEFKOTRsTzl6UTRtMjFHcXhhS1M1c0xyS3RYOXU5UjdxeFdSbUU1YlZYVUR5XzgwalJPakJFUXZrNm5iV3J0bUJHOTlqUW9WRmg5anFPeUxlUHYwOVdSRlRnYQ?oc=5",
             "publishedAt": "2024-12-14T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "kumparan.com",
+            "text": "Polresta Sleman Terbitkan DPO Tersangka Politik Uang di Pilbup, Ini Fotonya - kumparan.com - kumparan.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: politik uang",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS3NwRGpYLWoyd2pZUGl5SUl2cVlkVUs5N1IyTktmYW1ScHU3VUFUbmRxdzF6TUphQ2pqUzNTdjlRYUhBaTYzTUxSNnhoZGRZWUlnVUtSQkJ3bDlycXJaTnZaRVYyTGFpWDRab3dmY1g5WmF1a3FCOVNZUWdmYThzT1ljS25LWndKMy10U0dwM25fQXJPakt4VHk4cEw2a3dDYTV2NFltVEtMRHM3bERjYW83ZmUtN0Y1dHRmadIBxAFBVV95cUxOTjMtRmlTZDQ3YzFMcWl4Z3l3aXZJX3hnVnRzRFk1UXZuNXRMZ2x5Ty0tRkFuS1dBWWJRUnA2dTdnMGhxWTlUWW1RNFhEclp2UjdWdjZJWk83RjBhQjFWUGhjOWp3Rlh3VVY1TWlJck5WSGhDSk9LX1lJQzhPeXl0LWNPZXBDbFhVZU5paU4zS0R1cC1pOGVDNUJfZ3NCb0l0SlJEMXBVNjU3RzdzTnJMUU1MSnMxc0RXdTBCSUtQSVJFNHhQ?oc=5",
+            "publishedAt": "2024-12-12T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -799,7 +1037,7 @@
             "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ0NFZUVQMzZkVTZfZU1iUjNRdm5xZ1o2elV6VTFXQnBqVGhKUTd4SlRTaVF3ZUxXdEd0ekp3VXhMaEJodWtOYi01ZG4yWENtQmI3N1dBYkh6RkdlZFZPMExvbGNURXI4bVJHZzRwTTkzZWlORjRENUM4T1lPTlFxdXNZZ29MX3RpRVFIUTRoMmIxVmJBQW9jOXZldzdWem1wVVow0gGoAUFVX3lxTE9iRDB0S290ZnZacHU2X2RIUlh1VElmWDNYVzVBWDItY0ljYjZiRlcwODc0a1FoeEtGT1B0a3ZrbzhoSHJudWNqUng2N0VVV3JnVTByUlVLVXZCcFA5WVNteVVxMUdsMUhINGk5NS1XZ29OTVBNdzN5YlpfNFZrQVp0Q25PSS1NdGlqUXhQa3ZTMG5oZGhmWUFXVkp2U1ZMaU1QSXM2Mm9vLQ?oc=5",
             "publishedAt": "2024-12-11T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -813,7 +1051,7 @@
             "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQURDSjFraFFKMlowWHdyaHlDMGVyZ1YyeXctOE5VSXUwbWdkM0JTcUJmODRVUTltUDk4MVpsTkh4Wmh1MmJDU2dFRkZKSVZKY0Q5S0NZUWlTbDZmWmx4ZVJKWTJ5QmZrZjhaeGxoYWxXem1nUWhNbk5ZbG1RYnlPUHJqa0JncFZzZk9jaGRwdkthS04yb0d6VzJyZ0VkZnJ0UUFkTlZfVTJhdmVJXzhlNDZveWZGWHlYd0HSAb8BQVVfeXFMUE1GcUJoTE9OLURJTkwwbnp5dVpBSndLU25SSUVFeF93ZXlBd3hQZEh1d01wOHZpT3VQOHlxSzVGYnNCZWRsUzcwZ2JnT0N1dlRjMzhiQUF2ZERBLUhQZGo4NGE3NkRUTEViblc1T0U2ekI5cXdjNkliTXVWSjRBMHVHSTdvNnVPTm1IcmlId3g2VW9Fam80N0N6SXlZZ0o0SXNQazM1N2F5NEh0N0t6Q0Q4UkRLcnZmTXBfdXpkdTA?oc=5",
             "publishedAt": "2024-12-11T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -827,7 +1065,7 @@
             "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWHFoQm9hWGJWUDE3WUxRYjRRWHhObjFacXl4SXIzR0xGRGFNODBzR2RDTWY4RklvTUFFZHBOT1NoRVhNdnZVSk42NE5MTGZ1Qlk5eHlfa0R0ODhPbjdIVWlxcEtUNDFkbVpyQzl3WHpPYWJPY0x1Mmd0SjAweWF3R25lMlBsOVRiMkhVcDUxVjdlZW5pbU9Pd09rYl91UHBtNUZwRXRjb0VLZDJoZFZobG5ZN2VMOFJEX1l30gHAAUFVX3lxTE1hSHJWX19FWVBSeURvRVFUeWVWYlpKZ2dTcUFXUHJ4Nk9ZUi1sZy1oUkNqQnAteFZQeDdNVGY4S3pQZVRxTlk2dEZiUDVEUmlDOHFNcnF1NTA4TlBnOHNKSy1lWkZ4ZUxKNzVWQlktempuYjRkRU9oeVhSanBmZjJuQS1tbGJuWEpuRkpsTWFrblljNjQ5eFBoZjZkVGdzd09XWFpNWF9YVWw1Y1hWZzVjVURnY0I2aGNqSkJzenM5eQ?oc=5",
             "publishedAt": "2024-12-10T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-08-24T07:52:08+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -841,7 +1079,7 @@
             "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQenVvcl83TGxTa1lNaUU4MVdZVW85WW92Nzd2VUZtZHBxTXhNTENLOFV6S0ZJQWM3Rk95OUJBMnF4cTNXSzcyLWthLVRqSmpzbF9rOHVreVpfR01EclVjYU1iNEZwOTdWRHJjTkRIeGhENFdTbTVITG1naXBVWm1LV0R0Q3dEWHUxTEtnMFlpRng5SGpUVi1hbFctZFBQc3RzQS05dVBFeFpFdUFqTi10RtIBtgFBVV95cUxQR0Rjbkx3b1l0b25LVUV5VEtxdlZTd2hiZDhxdFoyUXFZeDBxazVnTHc3RjI3UEpMb1o2RUU3NlBWWGhsYXcyREtyUGFrWTdfQVpVZ0RwdkJYV2VOS0E3MzFDb08yN0E4LXVtRldQdTV0YmE4a1lNenBHY2Q5eEU1aENBWUl4TkJhN2o3c2x4UFRFZ0pvMlpLbTZtRk9pSnBTUXhzbmhHR1lyNHBaV0dZQ1NZTVlOdw?oc=5",
             "publishedAt": "2024-12-10T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -855,7 +1093,7 @@
             "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLUdvcDNBdV9sek51U1hsZjZPYndQWUtGdjl1aUg2b0tEc0gwQjhpejU2TnFDWnB6M19lQlBqNncwbGhhYUNveFlXZVVqYU5lR0JEaWE3eThkS0hXcnA3OXBhOTc3WTdfcFZJckRyajUybFFDR04tY2UzeXB0RzZsYXdkUTlpc193WGRWZGVyODRXY24zUnNCOGdoZDJlLVprbkRVdnZoS0w1TXlXM2840gG0AUFVX3lxTE5IbkhtbVhZMjVQTVlidGtzN044c3BfekJsRXBvb1RSMXoxQk1iTDdkckR1ZG1BQUpfRmlTZFpVT1FEZUdndnFiX0gtRnZkTGdYeVk4Q01IbXNqaFVCeTRmWXM1R2ZDWlVraDlOM0t5TWZkTDJ6WGNXQUdyaHpGWjdDNW5EVnFTQk9oWVQ5VFVLV2RqZWFjSm1mZkZ0bGMzRVBCZEswSnpzbU9NTmdBMHVESDM0dw?oc=5",
             "publishedAt": "2024-12-02T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:29:58+07:00"
+            "archivedAt": "2026-09-23T19:08:53+07:00"
         },
         {
             "time": "15:00",
@@ -869,7 +1107,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbjU4NnVpT3RyejFlU2RkOEt5a0dGa0V4VmN0dFRXY3BKemx2OGxHWDFOY1RySHc3UnloSmtWTXk2M2NYRWFWMGpFVXFWdkw4R2otc3JCb0pzTW9wRmJkN3I3a3JybUhhT1E3cFdLOXoyZjJBOUtCVFFMdDZieWI1dGp1WW4xR3JJWk1tcGFxWVIyOUtNVGdmRmpNUmFYLTJWcTE0aExfeGRnMVdxWHAwYnltY1RfMDl6bU5ONlZ6Um4?oc=5",
             "publishedAt": "2024-12-02T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:29:58+07:00"
+            "archivedAt": "2026-09-23T19:08:53+07:00"
         },
         {
             "time": "15:00",
@@ -883,7 +1121,7 @@
             "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdHdMcW9iUXkzbkVnb0tkbWMwQW5BbEVMRHUtQ21WZUlubkdIMHI4WUsxdDFqSjg1R1J1ZEFHZTY3NG1yTmJrR2JDNExGU1dBWUgyOTFYSnBLLUo0TnJpOE4xaWdxWU9SZ096NUpfTERYRW1xOFRWa0dMcnlmZmRCRXJhTXhKd3ZOT1JILTA5UkZKUXVlOWFxOVJ2N0ZHVEpMZ1Z6b1k1QlJWUC1GYVHSAbMBQVVfeXFMTk9jTHR6QS0yb0Z3Qzc5SHdEdXByLXVHVXNFeGVSY2xSX29pM1ZIRndGT2d3Rm4yX0hOZ05YOHJ2eUxXWHo3aHhkT1RxcjFnajgxZWtDcjhqQ3BqeHlYT0NjUjVDaE9feFFMYVFUSnJFcmZ4TlpGMlNLT3dJNzg2NmNoeEl2VmVycUhUS1hkd1Rpc2wzSkNldTdQQ3RKQW9GR1M5QjVYUU5MZEktaE1JdnFzdDA?oc=5",
             "publishedAt": "2024-12-01T15:00:00+07:00",
             "district": "Minggir",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -897,7 +1135,7 @@
             "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQV3Z1cnk5bTdLU2ZYeVpQb18wb01vd0UzbkoydFJQLWRITzZFcUhKdHhXRl94WGxYdzVPbGlUalhwdFpEVGJYZ09uSjBNSmZHTGlUM1JoVkYxMjJ1MUY3eEs5M2hCdFE5b01RMEJNa2tlQ25qWjFGZjQwX0RYLXJTVTc1a0tWUzdFd3Z1eWM1d09ybmJhZ2N2YkZsNVZHNEVtb1dCd010NzdBeWxlVUQ0NUhENF9Ra2E3WlJ0UXFVZUdJUVMyOHJlMFQ5TnFKeUwtdmFndXEyLWhGRmp6ZVVkdEprNTU3ZWwyVmdmUjNrcmVSbkpvbUJydm5fRUFTNFB5MmM5edIBigJBVV95cUxONzdTel9tTHhKb1NUbzU2ZFp4cmVfOWp4VGNCMlJiVFVZaFJCaUNndzFaejRIS3dKdVZucmRWSzdyZ3B2MTVxT0Qyb011UEpoZHFlaG9iZUpkaVRJSnNkT0FNOTBnRzZscjBzUWRWNVUtV1h6bmZpZ0hyQzBmY0taTmZBSEhWaUc3a21zbG5ZTXNDa1FHWlBwQnBnblZWbXJ5bTdrREQ3NERfRG5aSkUybDZBRWRrX3kzY1JwUzA0RVphUlNpSnRvdHoxMzlKRmRfcWwyS2hzMWM4dkhuQVhMajVpUElDTVkxdExMaHRiU1hSemtuSi16aWU4cTN3alR3VDlqR00zT0lXUQ?oc=5",
             "publishedAt": "2024-12-01T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T16:18:28+07:00"
         },
         {
             "time": "15:00",
@@ -925,7 +1163,7 @@
             "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbU8xUHpkbUxILWdIQ090WkxQR1Z5Tlh6UXd2dHpRbl8wemRnVUM3a01tZHEwT2FPSndOeVktV0xnLVJET1QyS2hjcGtvNlNqLWJ5eHhHOW5nd2ZmV09oSENocDR4YkQ0Rkh4SzdVWmpHN2NsaHcxa0I5WWpUTURGVkZfYXBUR1g3ZngtVHZkanZ0NG83Y1R0VEdCUmlZRHIzTTQzMVB2aTdLWVlmT3fSAbMBQVVfeXFMTWNVY0ZOWDZkRG1rd2g1TWRIM2k0a0FmYnlEdzhxMHc1SlZod0IxNWcyUEhvUmJTaF9oVFVYcjZhdllBVXRhVkRnNkRhMXJHdVA3czUybWJ0bXpZV2pfV3M4c0ExSXhyUGJRVENJcHUtSTdfaUVxM1lKTUNwSWY3WkEyRXBMR3d0MEpfRnZ4V3ZNemR4dGhvOHA1dmRjY3J2RWVfTWRYbVR5a29lYlNhRFVrYTQ?oc=5",
             "publishedAt": "2024-11-30T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -939,7 +1177,7 @@
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQUY1WF9nZ3lyYXk3UlpKaXRVV1p4WDQxRGM4TFBIRUMya2VjOEZHQW90b2duOEhVemlscGMzem1RV3dvTF9McXUydmZOTDFqdnd3V1pOTWxPSG03d0pmZjlzeFN4X3FnX3lYWXk0WlRNOXZmb2xFcl84Yml4aUNFNXh0VVRVRDdsV0tORHhfT3p5R011NEY3VzE4dDd6QWJhbFMwbEpQcjRmNlI4SzlSMmRXQ19TYzBOMXNIbFR6Y3poZ1NPVVFCc2JMSQ?oc=5",
             "publishedAt": "2024-11-30T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -967,7 +1205,7 @@
             "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUHlUcy0yeHFwUVZWaUUxQW9CWkc2T0RGdFZ2YXBMMjdkTm9VbnVWMUdSTjNaVVhEQXJkUTRsNTRUdnBueHNlYWRHQkZ2V2V4cTIzdW94Q2poMy1CY0xaaHFxb0hKTEp2Ni14Wl94d3FYeElFdU5TNXYzYW14ejZZMHJZYjc3ajBLaHdFa19VeGJZcjJDZWIyY1RvdG5kVDN0a2l1cm5BcVo0dEJPX1E4RnloODhwTV80SXN6SnNoY2U4anNZQ0JFNURJbHo?oc=5",
             "publishedAt": "2024-11-29T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:25:54+07:00"
+            "archivedAt": "2026-09-23T19:08:53+07:00"
         },
         {
             "time": "15:00",
@@ -995,7 +1233,7 @@
             "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVXVFWEg1U2o5ZXdYQXhlZnJ6eFY5a3ZEQlpJanNxRDhWMWxjV0FEaTFaTUlyU3BKTlQyMlZFblI1VzlwOEU4U0lwX0FRM0NTUUlaSzdncks1N1VZeWFMRVZLVU5tcWkxSTJwbS1VS0VJSDdaWklkd1hKaURwenR3QXRJLWJBemxXS1NuMlJIVmlEMVdHci04MTk2a2wxcXlkcTV3?oc=5",
             "publishedAt": "2024-11-28T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1015,6 +1253,20 @@
             "time": "15:00",
             "source": "Artikel Publik",
             "sourceName": "detikcom",
+            "text": "Harda-Danang Klaim Menang Pilkada Sleman, Kustini Beri Selamat - detikcom",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdUpPNmtfeXMtZU02STNlUVVXbXpyMVF2S0szZ0tpWW53bTlZdnpXUXlJV0hQclhGQVZidGJZdk5jaTNWeFE5SHllQnlLS285d1BOY2VBOENqNzVfZ3lpbmZUbUIyZlpWdE5WZ2cwQzRHMDJRMGhKcVlwbndmdVVKeE5zSXRHNWo2V01XaVN0N3BUSWFMMlpXTWNndktkTEIyRGFQbVN6cFlWbGvSAbABQVVfeXFMTXR3aWM0MXdzX1JadEVTMGhKZ1NESGhkMkJLQTkzelFhYTEwZUdyMWNCYTEzUFJiMEpvNG1Zci0yY3ZJbzJYbjM5NVNUN3oxd0F3V05Sem9QaEgtUnRnRjMtNTUwNXktQzdnczhzSlp6Wmo3TzNPWHZISFhDQmZ0YmJTbnFHT21yaW5CNmhMbi1SZ1doWHJHQTVOZDE5TXRvUHY5eVNobEpDQ3FQUmd2Y2I?oc=5",
+            "publishedAt": "2024-11-28T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:08:53+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
             "text": "Bawaslu DIY: Ada 7 Kasus Dugaan Politik Uang Pilkada Sleman - detikcom",
             "signal": "Negatif",
             "sentimentConfidence": 95,
@@ -1023,7 +1275,7 @@
             "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYXZHWFNfOWs1WTN6d3RPNzRldjVxV0todkpONEtYbDBONklwdXpWX3BQUENBUlVXYmZQbkNwRmYtUVhIZXEtU1hJVk4xUnF0QXl1UzllU18ta0lLRFRkQllaaE1hV09ocVRITHR3Ukg5V3BUVGphcTdud3ZscEtNR0JIWnhtWHBwY1U2dGYzZVlJUmNjUDhNQmhqY09pZ2s2dGJoOGlzY9IBrAFBVV95cUxQMFhfVjBVLVUyc0FZcmJrM2VuN0NDb3FqR0VZSVBNbGlRV0NYY0dudEc3V0g2dUJMSmJNbzNfWkhTeDF1V3FBMGd6ZGVWckEtSGJPRWdtc0FTMTI3cmFkWlk4bEpFbHIxT2xJa2c1Yzc0UE55SE1EOGJRYl9Uc0hNYlVRbEtDdV9JS2J1aHd5b2FIWjhNeWxMOERVWXVjWklzSjhFUnEwZDk1QVZk?oc=5",
             "publishedAt": "2024-11-27T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T22:22:59+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1037,7 +1289,7 @@
             "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUTZCRXZqVlVEVURwQmtzSjNmWUF4X2hqUmJHYlFXUVlhSENhS3pqZFFfaFlTWVJDdGlnalRJTWZrMWRYRmVWZGpCc1hyUTlZUWE2Xy16V0ttU3AzTmtEQ21ZSWptaGNsd2pMemJVWWlzMmFaUmJQWmNnYzZEc21aRVA3YkdPSExfUUxhSnhOV0dlOXYwNDZ1SDNKSTRuWVlOZkk1NkdmZmJ1MXV2MGxFa1JZbmVzWm5vZmVpODlVdFRHbV81WGc?oc=5",
             "publishedAt": "2024-11-27T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1051,7 +1303,7 @@
             "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOekR4Wk9BVnpJRlRlaU5ERGJBX1dLR0ZhR2VFQkV4a1R2aGNadC1uR1NhZFZXMjRTN2RpX2JJVERaSGpwMlJDM2ZlNW85Q0ZZelRfNld4eU5GOGN2U0NMcC14TGdxWTUzb0NERlZyNzBwTGh6ZENqYXY2bE8xTlNFQ2owYkc5RS1qbV9rcW4zSnhVRW8yRk9mNDlzcGZIX1dxaU15cGZHM2Z2Mkh0RXZMU002b9IBuAFBVV95cUxPZU5JdlhXU0tjdzRTOGxYSi13QjF3S29uQ3BuU0JmTUEzU082ZFBKSDJBa0FOZ1YycUhId3FkRFVHMlBsMzBUaDFwclB1MFFfa2NibUNxY3hDU3RuSGdpakhLZW9yRWdhQ2JOSGNSOGtlSU9oWWpIOEdXOEZXZWhSNGU2RnZDZ2RncTFtZDU4dFVQS3l3c3p1bFRSdGZXclVSbmR2UEFmM3RjclRWZENUUGJmMmRkMFlp?oc=5",
             "publishedAt": "2024-11-27T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1070,6 +1322,20 @@
         {
             "time": "15:00",
             "source": "Artikel Publik",
+            "sourceName": "Suara Merdeka Kedu",
+            "text": "Nyoblos di TPS 021 Tridadi, Kustini : Hasilnya Adalah Pilihan Masyarakat Sleman - Suara Merdeka Kedu - Suara Merdeka Kedu",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOTNYbVBlU01DUXhPaUlEd2ZieDBMd2Eza0RHWlE1M1ctQmM3elZUekstaldHd0E4MEhfSWVtTEhlczh3aHVxUnBqSHJiR2pvY3dwbzlFLXVwTE5MMm9FakFQVktHMmRoVDBXVDZxd1hGRWNBeG44NEZPUk81cUFEQ1pJV0ZnQTk1TjJoSmFDaWM5REE4Z2lKZ3ZMR3FXa2xtN3Z6Tm1FdEJTXzNITG9GVDMxbHBFUDBaYl9qOUJjd9IBxAFBVV95cUxQLVhRYVVRT3RNbTJUZ2dDamRDRldia0dzTlNxaUNQTkR2YklmZ0d3QUxBX2VyNmpjZkkzTjFCTEZDaUc3Z1hvNTBlbXdoY2NZQ0hXeFZIWFRFUk1RNEdDdzFidWFJeWt2YURNZ2ZwZTVlSDVtVmFWUG11dXhxaXB0NG8wXy1QdUYxRlBXZDY4cGMtb25DS3NKeFBFeFVuUm1xMk5kU1Z2cHJUeFRFTVYtRDM3T3ZIMGxDdXpzLTBDckZNQm9B?oc=5",
+            "publishedAt": "2024-11-27T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:31+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
             "sourceName": "detikcom",
             "text": "Politik Uang di Sendangmulyo Sleman, 6 Orang Mangkir Pemeriksaan Bawaslu - detikcom",
             "signal": "Negatif",
@@ -1079,7 +1345,7 @@
             "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMG8ydDdTb3BES1dFU0hvcmdac20wMkl4TzNqc3RhTFpaam04QnpvaU1YMm5CdEJNNU1vbUdxLXpWdmNIOWQ4a2JEb1hySmk5MzlPQ3g0T1ZnS2JGOUZlVW1JUTlZUDNobTdqOVlPTG9kU0RDdlR1eG56WnZzMzRQOVJiS3dUdTFHdTlTSFJ4Q1NjeTlUZ0NxUDhRSWhZSFpJNjVBRHlieVBqVWlmbzl6ZGJQMlNwT1lX0gG-AUFVX3lxTE9MdnliREJBUmhydlRHRUdxZEh3WjEyNVA0Yk10Q3p6SENNWWQ1UnVRd1QydTlwLXhDX3o3THZtWTF2UmpzaVM1MkhIX2Fhd1ZlMmUtSmhCN0VpRjk1V3BWbDV5Nmk3TVFsZ3BJOXZaai1tMXNGbWl1MmpHZUE2Ql84d0Rwemthb21qdnp3QjJfRnE2OGZ4eGhlV2dyYzZZcHcxYkp1NkxBY3BJUk9Danozc2VuNU1iVlFnaGphM3c?oc=5",
             "publishedAt": "2024-11-26T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1093,7 +1359,7 @@
             "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONjE5RFdKVUFCbDQ1RFI0TkEyNFFrSU55OHd6eVJDOEVjejF3Sjd1dGRBMENyWDRlWmVLUl9uY09Mczl4TGJVZWNOQ21HNGgxR0lrUlV4ajNiTGh1WmpUTlctVEpiQlNzOG5JUkFGejlBRS1BajdKazVpNUJKNk10STVsQlp4OGpGclI0V1d5RXhCdFNvcVVtZjlhbnV1TTZnblhtdFpvRFN2TzFzaUtXbDA1WkJKWHB5a2xTalJB0gHDAUFVX3lxTE5SWi1BbTVmODlVRy1OdWYzVGJuRVRzU01wLVdzd2c2YzBobkpnX2hlbldWUFVZaVc4MjFOZi1rb2Q2S0lHTjBKd2hxYlFEVFNxNGU1dENHM29qUDZjNGVJSm84VV9zQTAxMFZzWFNiZVBGZ2VEd205TEQ1eDlOR2d0NkRrT0U1WURaZWk3cFJsX2k3aDRNNjZWRHhZeDZQNWozQmhJX2dYLUk2QnpsckVLdjFpaVJIck5lTHhFWW1BdU40Zw?oc=5",
             "publishedAt": "2024-11-26T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1107,7 +1373,7 @@
             "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMnRYSUp5eElLRHp6Qk52X3JIb2lZZ19MUnVuS252SVZyT1lQSEY0di1wU2pkTGVKMGo3cGxOUTdQU2pRYWVzNk9CeHdHenNKblBKakpGSE1HekFfdEpsT0VRdU1sS19PZndDdVNtYWVvSXlNOXh3Wjk4NktvUkVsTEVGMUZpdmxQTnVZdEdEQVQtLWlWWEFVUDNBd2tZX3dxbl9ZRFgzdVNBU1dud3VQMVMxOFAyU0cwSWd6c3dCOW5JT0xmSFVV?oc=5",
             "publishedAt": "2024-11-26T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1135,7 +1401,21 @@
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS2FFMElkbXNXdWVIV2syYk43MkZFNkMzell6UEtsa3NzVExGWkpqb0cxT1p6eEdKSHdYcThjU0E4cXFCam9ZU19JTEVpbVJRWU9XZE9TeFpybHNNdUczZVFBLUN6S3Rkakp0bUFQTGM1V3l1N1FIcXFHVFlOazhrZUtVOHV5cFBSaG1WWk1xWjRMaWRxMTN6R3BkbFl2clRvRGRzMlc2c1UxTDhpMjluaWFSS3dMVVBkZVpCN1N1RnpUOERPZ2N0eg?oc=5",
             "publishedAt": "2024-11-26T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:38:14+07:00"
+            "archivedAt": "2026-09-23T18:53:20+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "Bawaslu Sleman Kembali Terima Laporan Dugaan Politik Uang, Kali Ini di Seyegan - detikcom",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, politik uang, lapor",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRkpGWUhSLVBLcHpMTERDR0IyT1ZuTURuTlc3Ml8tT3I4cnp4OGF2N3pBdUZlV1UxRlRFclJoSEVOa1E0QjZkbHpXdmpSM2RJQm9JWGhqZm9nRUE4QzRmX2Y5bWhlVzdGSzQ2TXkxZjR2am5vM1p4eUNFbUYxQ01VUkpIRkdGaGtqeVpEalQyVmQ0cXhyTnlyLS1ucmN5eEo4Vk9rNnhMWmxNRnZWYkFKZUtUSHZCWF9qSW0xQ0NMQnPSAcYBQVVfeXFMTUVYYU1xbUxMYTNjSjdyc2tPYk15Q2JpVEJNeDI0djdSN01MakhmOGNqdmVVdHZqSWNjdVJxQ25HRDFTdGh1aUFIbF9WeU9qc3JuZnBJa3pjMjRnNEd6RDdUNEpEMDhNUlhOQ3FHQlFkM3AtVGJFa3Jaa1BuNmhEMVluOENQMEFCeS1IMTltaXJwLXQyNEZMTHA1MG10MTVPR0w3MlEtM3BoR2NqUC1NVlJaYnhuNnBpU2dWZHJsMW5vQncxZEtB?oc=5",
+            "publishedAt": "2024-11-26T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1149,7 +1429,7 @@
             "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYmhQRGo4SlBqZlVmdmVFUW5vMlNIdXg4OUVuV0NsQW5ZMm9FTi1UOWpoLVFBa2xLM2RGSW1aNlp5dG9Ja3NTZF90WUxudzNwNTNWVUNIZXk0YWRsd3lqWG11Smh0c1ZWQkRlV3dIbzNJTXV4UzB5M2ZtSklnUEh1NWhKbEJWSTM0VjlJaXk1M3lTVnNTbEpEYjFoMU50XzdtR1F3d2d1T09PZThLV0VKOEwta0VpRmgxU0RnclJ30gHDAUFVX3lxTE5abU02UW9iZG9qd2FycmFTUFlEeWF6RzN3b3h0SEtWenVvYUtISUFjR0J3RkRFaU5BTEJESXVIX0VvOXhIOHVnd3d3RVA0UktQRlQ3di1wOGwyTXBwMDJ2OHVMcGkzU1ZMUGhyUGM4M1AxblZDSVNlVDBXNTFZOHBRQzY1SjktZ3BzQXFqRFdvS1FjOVZWYnpBdDBYWDlsN0ktZnJYWTZxNm5WLUNqbURibXlGRy1Sa09jUFJnbnRCQ0Nrcw?oc=5",
             "publishedAt": "2024-11-25T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1163,7 +1443,7 @@
             "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeVRJYVpXOUlwOGZ5am5qM1JPV0dSanhvRDRESE9CcGREVC1sTWFDUDhjdVZYcmI4RUtxOG5DRFdrWWY1andhME9yc3dXTjRxYS03M3VWQlR1d015TzQzaTY5ZS0xMWtBQUZxSWFkamlHcUFwbk9aOWY4U3hJazRGOWUzQk4yWWQ0YWVyVG0xemowMDFaRWJyTWVWUzlOMjRHcDlocER3NHR3TV95aWxUWTJnN2VlbjBOci0xTU4wbVd1YW9SRy1PQmFGdVllX19FUTFDMlJtdDlnUF92VG9TM1JzVm52d290d0HSAeYBQVVfeXFMTlpha0VYckVWYlF1THhkWDV6dkRTSTRSUWFRZnZCMnNlZGh3a1JWTXViTVVzVFVHMHo1cndFMmEtWmxLcFlOU3FBdTVCMTJMQTJ6R1hGSHp1cnlZcDRvZUZlQzRXS3c1QmxUVmFPbnVIOENVSkttUzhfMG9LekdVdzVkRWtweHM3UzhBTTNzdEdwb2k2cV9wRzVDTnZNNHZSX0Zrc3hNVzVqQ09UYXVGaTlyc0FWTTFUdkJDelRoZlM5emhpQzlYeGdFRS1VbW5tVjRiajIxaTdIM3ZYdThJdjlIZlhieWc?oc=5",
             "publishedAt": "2024-11-25T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1177,7 +1457,49 @@
             "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcVc0NXYtSzQyQjcweUp4cWNLdGpfNDEwZElrSGpNNjBSQ0YwWlg5QnRLWDl6M01BbWNNWjlEd0loYzF4TmZfRV9RR0FYRUZsOXV5clJ3Sk5wVW1iWGRERDRwVzJsUEZEa0hVeC16bjRjblc3cDdSYnRWcjBhUUhkbHBzVmdKbk5Nbk5iQ1lGdlFWVWlQUEt4Tjg4bkNMUzJ4NG16RzM1T01pRWtlc056Qmxxd1BMT1Q5SURNNXQ5WGNneTgwQ3RHZC0wdEhOTkdEU0JCUmFlQdIB3AFBVV95cUxOTFJTejVmak1CNkd3WjRiRW9Vb3JYczhvZGZ6QU5CSThhR2tCTTNNT0xacmdkR0VreEF3T0VaRWFEVFJzdTd4ZWhrMG9UMDFDSHpQT0lUa1I5TWVMbW93bWY0OGNWeGpOSmpscUdaa3VfNmt4d1gzNTcwSTdUU3VYTTJWMkwtNWtsVkVBRjdaQzk4eElmN2hKek1ja2dKdHc5TFVkcUpvd3dQdER4YTlfUkxFY2Fhb2dBVmxoZHBNOTNtdmNYTTZJZjM3dWRYNy1mTXRYR2FPUTZMZURl?oc=5",
             "publishedAt": "2024-11-25T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:59:07+07:00"
+            "archivedAt": "2026-09-23T19:43:57+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Harianjogja.com",
+            "text": "10 TPS di Sleman Rawan Konflik Sosial, Polresta Sleman Terapkan Pola Pengamanan Berbeda - Harianjogja.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: rawan, konflik",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOejhBam9WQTF5YnB3LVIyeU55WC1URUM4eW40eXloTmhUejJTOWt0QmlKdkN4amdDQXRrRk9hZV9XUC1NdzFhTUQwZUpqYU9UUzl2cjhsM2xzbDRfLUVZbUtwTUF3ZFROZ24xajNXNzBzX0NTVm5YWlppTFdZZDI1eTRPaFhhS3lBR0N3Q1pOU3loZFJXbVhKN254ZzFvR0tlNktnbE8tZXZNVk1YRVl2b1lsVDJEYldVZHdHbHFYVGpXM05yZnBNU0MzVnh0QQ?oc=5",
+            "publishedAt": "2024-11-25T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:43:57+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "Bawaslu Sleman Ungkap Dugaan Politik Uang di Minggir dan Mlati - detikcom",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, politik uang",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONEpIS2Zrd3dmLVo0S3NheWtObkZEZ2JZZGp1Z1I0NXhWa2FNR3h1SnJ1Z0wtMzhfRDJuSV9nV3UyMVVidWE3SnBvRVZMMjlfa29PeXZKak95OVJ0dURSaW5pSU5oMlVvd3hRVzlyMDU5TF9yVTRPcnpKQkhYQjVFLXFobVU2UGp0OFc3UGNyWG9kN2lrTUdGSWlMR1p0NmFwUjZxYktpS2syUDYt?oc=5",
+            "publishedAt": "2024-11-25T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:31+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "Bawaslu Sleman Periksa 4 Orang Terkait Dugaan Politik Uang di Minggir - detikcom",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, politik uang",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkdlU1lqczV2MHN5cnZObXBvZ2JRY3RqMW9jY1FYZVV3Qzh0Mnh6TnFrdDdpVEp0dm96VWtZaHFPOE5wU1RhNi1WQjZPLTQtSEx1aEpPNDQyWHdBbmpQV1Z2WDJEeVVBRTE0TURQU1JOajg4cTlSYTVpd0R6endybE8xZUhSQ2tYVmpLem03VHRsMm1kUzREVkhzTFpSTmJXSDFCbnowanhVa2d5OGNhTThEa1Ffd9IBuwFBVV95cUxNZTJOdW1tQ012UkFGZ20yeFE4Z0VDZ2lWeWFlRXkzRUUxd0dRUjJsWjF1bThRTzNESU1qMHJlUXplWEdhMGNab054TTVhWVdCVU4yZmtVSC0wUmNVQ3hsYzJXeTA4VU1pWVFqRmNWNEszY2pENGs3TFZ1T1kyaFIwcUlnRXlJTG1zYzN4bGNPejNVNkloTDIxVElwMGxaNjB6TlpBN3dZSW9kS3BnWWRrX0ZTRUJQZHFQSmhn?oc=5",
+            "publishedAt": "2024-11-25T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-24T17:00:31+07:00"
         },
         {
             "time": "15:00",
@@ -1219,7 +1541,49 @@
             "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbXYwS0JKZnQwVXNXZnhCYjdjbGpXbkN1X0c0eGdhTFR5U1MxSmFERXp4UHpodXVmd01UaW1WTXlBMDBtSGc0M2JGUG5KT01nSl9GMTN2b1AzTjhEUURubVFTWjZwZUJGdEZEcUxBWkwzaFNSbjBkem82Z2ZEN0JqUDZyNWlVWkxkQW9LRExETjRlSGRGc2FfMEFnX29wM2dWMF8tOFJBUDFrVzhvbHJiSExNSkFCWVZTYjMycNIBwgFBVV95cUxQeDVnbWppVW12TUJMNWJsN0tSOFB2TjJ3cTV0THlXS0ZGYXBsZ21JVlYyY3JSUUdQU1BqbE9wN1E1WmVBWkhXenNiWGpneUxUckl3SG15eW5tenRKZHo5OW90Qy13R1hLMUVHNlFDUDNTRHBNWUM2dGJkVUE3YThQMGxrcGhhMzJwbGNudjJDLVBNdGg2Q29kZ1ppRzR2d2ZScUpXeDctc21VT3VOeGJkWTRoNmhTRWV6M3h1NDdQQ1ZPZw?oc=5",
             "publishedAt": "2024-11-24T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:56:20+07:00"
+            "archivedAt": "2026-09-23T19:06:43+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Koran Bernas",
+            "text": "Masa Jabatan Kusno Wibowo sebagai Pjs Bupati Sleman Berakhir - | Jujur - Konstruktif - Beretika - Koran Bernas",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdDY0U21lY2pXUUZ3Nk1KWUJRbmpsQldST0FlNVNQbGtVeTV3d2E3SzVQSEl2dXNxc2FXUVliNHd0RUtBVFRaRDlvTzYzZUVLOXpiUXVwYU1zdGJHeFVCdmIwdDRLbFI1cVYxZmFxNjkxSUJrN2d1aF81dS1jZTV4bFZfR21HcG5MbkVv?oc=5",
+            "publishedAt": "2024-11-24T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T18:53:20+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "Bawaslu Sleman Dalami Dugaan Politik Uang di Minggir: Ada Bukti Rp 12,6 Juta - detikcom",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, politik uang",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOW5XX3B0UGFTWFUyemVXT25NV1FwSldBVmlPbWhjakdxbTUySXRTSXE3d1FseGhmbzNWaGFoc1F3NWk0ajNfZXV5VHNaZGhxRURSVW9lRW1KU3VVZXhvUlB3NThsYjlqeG1NcE83STc4a2Y3b1FtSkxDVVdlT2V0VGNmY3N2ZU04cjlTNXYwXzJmQXEtLXI2RVNOV29XS1VyVURTNGdwbzdQc1JKZy1YRUdlQzYzU0JITnpHTDVR0gHDAUFVX3lxTE5oTExsWE1nalM2ZHhSX2dXbll0bjRGbkd2OS0ySmRiY1FFdlRDNldfY0ZkamxmeXVheEI3U054Z0hMdWdlOFVTeUFxblQzYy1GR0Z6RGx4UmstcVg1RDdqV1Q5d3AtVjNMTUsxb1JXNlNOT3NnX3VxUEo2amNZWm9EWFhyUERsN3plczlWMXl0S2IzcExNeUMwT3pra2hIZ1hrdERiZ2NEc2FRX3E2YkJyZ2cxaWRUZ2VPVGx3VnpyWDJtaw?oc=5",
+            "publishedAt": "2024-11-24T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:43:57+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Warta Ekonomi",
+            "text": "Diduga Tim Kustini-Sukamto Tertangkap Tangan Melakukan Money Politics di Sejumlah Wilayah Sleman - Warta Ekonomi",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: money politic",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSmpIbTd2R3FMRzNqUkpjTkF2bFNXU0F2bmFkOVNxTGprM3daSG9lZzN6cVhoNWxuQmtidHlkaVVJUHpLUy10ampfc2VHRWtpc2RjcGJjVXY1VHB1QXZwWkt2SXBITHV3VzBPb1hWZkNGcW5Pa0QwR3F6Y2s4NWlnNTNSNjM0enFTTkNNdGgwS3h0LXMtcVZsWEY3YTRYblVOZm5VcldNdDVEVmRGNXh2c2lxMXU4dEYxSG9YZ1Nlc0plb0VxVUNtVHZjNG1zd2fSAdQBQVVfeXFMUHMzcEtySkh4azlHRzJQamFXREFtRUZYd3dtaW5iakxWMTNNMEg0OG5pc2xzRkZRWGFrRF9jaGZkZ3B4NkFPNGZ2ZmdtVWpCMUdla0RwbHkxUlZGOXF0QVl2a3hERWxfWVNoREVieVEtTHg2bjBDMVJDRnhsUVlJd1Y1R1hPcTRzaWZfWHZFemFTcm9TalRFa3UxeWJkWTJjeWNpTVJMc1dlNlk1WnJaOTFfZ0hGeF9yaEJIMzJsc3psZm5iVHl0TmhVcEowaUZsWjFSSHg?oc=5",
+            "publishedAt": "2024-11-24T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
         },
         {
             "time": "15:00",
@@ -1238,6 +1602,20 @@
         {
             "time": "15:00",
             "source": "Artikel Publik",
+            "sourceName": "news.indozone.id",
+            "text": "Bawaslu Sleman Teruskan Dugaan Pelibatan Anak Dalam Kampanye ke KPAD Sleman - news.indozone.id",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa0NHaGU1NlhyNkdYazZtVEpiMzlsSHV2TDVud1NOelRBc2FCSXZTZ3o2UDZTWHczZGo2YUQzM3dRY1c3N25EYTU0M3d1ODc5bFhZTEFKZTFIWXBzY2NGTVFzODI4LVJoVnNhY0pIMV9tQWVXaER3YWFoeEZuWnhNMk1qMzVxaG9CUWFNTkdXT3dENU5fY2VyR2JQMXdQb2luRGFITkZfN04yemd1NWVzb2lJQjJNeTRaTndSbWVKTQ?oc=5",
+            "publishedAt": "2024-11-19T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
             "sourceName": "Radar Jogja",
             "text": "Temukan Pelibatan Anak dalam Kampanye, Bawaslu Teruskan Laporan pada KPAD Sleman - Radar Jogja",
             "signal": "Negatif",
@@ -1247,7 +1625,21 @@
             "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcHFJTG1oSDMxTV82X0FwRWJjX0pHd19DZVo3dXBGRy0xd1hiNTRkSWtkdU5IU2dwS1JESGt5VVcwaDNha3RNaHExYVV6SWd4elcwUm5GVXA0MUJndy1vbDB2QndQUUhkZ1FCUnl5Z0xXd0VILTJDYldxMHR4NTYxUHJBTXE3UFoyblJMYTdSeWFHem9lUWRiajRrZHBUV1JubjZUQUVjemRJV3F4QWNSRWNpUkNKSFNFTGNBRHgyVnNvT0Zw0gHKAUFVX3lxTE1ocW8zcmJwUjdhUDB4OTJoOC1SSFdNX0Z5MXdGNEU5UjJuUzdBVFF4YlFaNTdlRnRDYXZfS1laSFlSTC0xaTM4b3BKV1Z3U0Z0aDVyN29HRlk3bG00Tk1ZZ1hWMlRKandmM1lzd0k2OF9NVE1QaTljQlZoM3ltTGNGWGZmSjMzZnFDZV9Ed1kyLWQ4ZzBSenpZLVp3bDdEY0EzUGxrVHZOMXRmMWloeGZkWkN0OUlTR28wMDJWTk9FbVFzVXEtMHZrcUE?oc=5",
             "publishedAt": "2024-11-17T15:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-13T21:56:20+07:00"
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Pikiran-Rakyat.com",
+            "text": "Tim Kusuka Pertanyakan Ketegasan KPU dan Bawaslu Sleman Selama Debat Pilkada - Portal Jogja - Pikiran-Rakyat.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcURGUGl4djNIbVBBaFBkTFB3aURDSTEyUk5uTXF2ak5tTVJJeFlON2ppY00yYTIzYU9jUWpiWEJCSkJyWVZSN1R1OU5zUnNlRU9DeHBWSTZzNUVobWxoYzRJRDVtSG9zbGl5NGlxdjFxeV9ZUGxUMktVTWVPU3BRczV5QkhMd0FiZWNHVmR2YVd6U2hWS3VxZ0xuVGZ6ODNzRnRXOEMyOU5LdEpCc0NQaVF5d0tjSVFmTFBPT2VhU0UyeDZLSzlud0hUWmt3ZjF6cU9PNVhoQVRXd9IB3wFBVV95cUxOaHBpSHFDR296VFhvRU1aV1d0NkUyeEVzQW5SWG92UE11dGJORFZWMTl0TnBiOEN4ZWpxQTVlNDVCWGdSLUFWS0dTV1JQeGI5eHpTekVJUVowX0ZjdmM3SW4tb1I3SXVkY2x0X2NTdmVpWUVGd0t0VThDWlNjSkJEenhCUmlpaHAxREhJUDlsSm5KQ2xSOXpZZXRBT3Nvb1VDRS16QlVCUVFxcEFsS1FwZENXc0NLbWNyQWFCcTBQREM4aE9GZklMdGZmTS1DNVhuanBkNkUxY2hFVk1pcVBn?oc=5",
+            "publishedAt": "2024-11-14T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
         },
         {
             "time": "15:00",
@@ -1280,6 +1672,34 @@
         {
             "time": "15:00",
             "source": "Artikel Publik",
+            "sourceName": "Kr Jogja",
+            "text": "Liga Demokrasi Gelar Aksi di Halaman Bawaslu Sleman, Tolak Politik Uang di Pilkada - Krjogja - Kr Jogja",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: politik uang",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSGtTRVowd3dZUTJEd0FHNFhBdHp1VzM3elE2TjRUQ1dhaTRXOVlkbmFCcGRRVHAtbG5CQkY1MFRVMVpGbi1jNURjZnE4ZGlSemlJU01CTi1OTHZUWEJjXzVmRVBvTHBMcUhfUWdjVkItMzVZdVF3WW1rQUpta2hBaTJXZXNVZmlTWTJ4aW5WWEwwQk1nSXZzSFpfVTMxVmVoVGFhczhmUWFqS0ZoRG1manA5amE5Wlp4VTBnVHFlWHXSAcYBQVVfeXFMUEw5V1A4d0JYMTM2V0JaS1VFUHFXUjBBNjUxYkhjb2tfdFpyMTdFY1o5d2FhekRuSDk2bTRNNl8zOVR1c1VnUl9Rc2RSdHBObFpNWUZ0WTAtdXl5TnZ1VmE3TGZHaWYzNVZhSjNuQlpGd1B2UjRwZEQ1RU9pQkhWaHF5aXY5NFNzUlZZVm1aa2pZRF9OU2V5M3lPZXUtUVlHZWNIaU40NE81eXBWZjVwQzdkcnprQ0lBbWtiTTVYSHJFaVBlc293?oc=5",
+            "publishedAt": "2024-11-11T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Polda DIY",
+            "text": "Polsek Prambanan Sleman Ajak Tokoh Agama Sukseskan Pilkada Serentak 2024 - Polda DIY",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRlRZeHYyZkpqRGh2b2ZvaU9aX2tvcDA0MXhTdGtLUFFkZVJYQmxJS1ZKOEdPdVd4QWRmTEtyQ01MdlZxaHZtajZyY0NaTXR1Q1piaU5TYU1xNVNReExhLWRUVnpWdFRycFU0aGQzbnpFMUdLUm1veTBHYVJ5YXlfY3NDRlFkSk04V0RRUy1xd3ZaUXBSVWFwckJtTGxhdzJKMW1IQVk3ZzRVeW5BeDlZU0JSdGRTbS1GaUVBcmtwSnpEOV9mLWpjY1pJcjRQLWRVVjVWZw?oc=5",
+            "publishedAt": "2024-11-07T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
             "sourceName": "news.indozone.id",
             "text": "Bawaslu Sleman Tertibkan Spanduk Provokatif - news.indozone.id",
             "signal": "Positif",
@@ -1294,6 +1714,20 @@
         {
             "time": "14:00",
             "source": "Artikel Publik",
+            "sourceName": "ketik.com",
+            "text": "Pernyataan Penutup Debat Publik Calon Bupati Sleman 2024 Menarik Perhatian - ketik.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdkhKM2hsQ0hNVTg0VHhibjM2RElUcUl1VTJzOWxiTDNtbnFael81SkNtNEVtSWxvUEJEOTJ0djFrTEtKVU13ZzZEemR4elZvbG84U3puaWYzcFdycWV1RHZKcHotSDMwUmZUUjlHTGxNZVg1V05xSy1SMUhVcEtMOU8tT01sdXJoNk5QT0h4Wms4bUZONkp5RlJoYl9IdUttQkhuT2c0U0hBOHFwR2lvR2JXdzNKcmVEcWhwYWdlNHpkQdIBnAFBVV95cUxOc2RTQnJSQlNMbGtKaWF1VW1WYWdLUDRLYW1DdFpLajlyczFCUXB0eUd5dHZoWUM4bmZ2TUVzLUo3dENocXhVZGtjazRqZkQxRHRjQ2NnVnh0YWRNd3JjZmY5OTNKRFoxMHp6b2RRNVFZVmVTZGRadjRQY21ZaV9teHhfeU5aNlBoazdSdmc0bWxzM1NRTzJvMEhlVlY?oc=5",
+            "publishedAt": "2024-10-29T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
             "sourceName": "detikcom",
             "text": "Dugaan Bagi-bagi Uang Cawabup Sukamto, Bawaslu Sleman: Pelanggaran Administrasi - detikcom",
             "signal": "Negatif",
@@ -1303,7 +1737,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV0QwREg4TGxnc1FxSk51UVlfMkE4UEk4YkZQVlhkQ3FqMjlLZF82QlE0NF81QTZEVHdqdmdMd1R5WXJZajJlUjJteTRlYWYyenJzVk1nbk0tV2JGU1lSR2dTcWJ5bVpCbEhsd2pIbWZMVWlQRXo3TTR1Yk9la0JTLU1CX3VUZjdDWXlmemNyWU5pOENUcC1PT0kyYmFkNXU5Yk53OTJ2Tm5hTXE4Mnl3WW9TVlRBTExndkdYeHJIMHDSAcYBQVVfeXFMTVJOb2Jsdk1tMnpQaHkzaFNwdWdUMXBrUklTaUg0MHU3LThVUkxmNlNLWFhzV0VyT2Y0ang5NlVUYmRLTVd0cnFkbTM0MFlSVWdqemQ2RDdIaHJqdlNBNkhUVnl3WHpTclJOT193UWFrY2lld2VQRE5vbDFSSk4wa0VzWExHQVV5Z25tTVZDM1F2bjhHYVg2UUV3RkRWNmVnRm9uU1lDN095elpQNlJYU09kbVBzb3JwLTVyRWtLOTNNSUl5cm5n?oc=5",
             "publishedAt": "2024-10-28T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:38:14+07:00"
+            "archivedAt": "2026-09-23T19:06:43+07:00"
         },
         {
             "time": "14:00",
@@ -1351,6 +1785,20 @@
             "time": "14:00",
             "source": "Artikel Publik",
             "sourceName": "detikcom",
+            "text": "Bawaslu Sleman Panggil Cawabup Sukamto Terkait Dugaan Bagi-bagi Uang - detikcom",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM1dEVjFDUjhuYTJJTFlNaHZTakMtMmhqVUFnZTZlUVM0ZlRWWWVEeERYaXh4SHpOUjQzTDZ3aklQVXgtLW5qNXlOb3RQaEc5bjR2ZE1GVi1kREo2NU5ZM2RkNWZSWmJfMEEwMEZZTGx1Y0dkblB6Uy1Gc1hGeWdHTmlSVDBVdW8zZFlOUHNHVGZUYW9LS05maWpHRHF5ZDRBaEpBMS11SWV0eS1Ca3Rsa3JhLULSAboBQVVfeXFMTUhGekhPQ2VnZVFnVlZYZHg1NDRlLUhLNnFQMkIwVkNqOFpJaXh0SGdpQVFrbUd6OWlJWXlLMTlGVmhqNUh6YXBDUG5LUmpKa0VpWWJ0V08xc1FjajNfUDdkUjdieWQzb0tqNkU3ZmFhdTlRcnFPRzdnejFpYTJxUnhLZjRXLUFVUFNPSlNyTEtlaTV1bkx6SlZmb0VHanlFWHFIaFhQUWJ2SHpSczhXc1VyNUhad0JHc2F3?oc=5",
+            "publishedAt": "2024-10-22T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
             "text": "Bawaslu Sleman Teruskan Kasus Dugaan Pelanggaran Netralitas 3 Lurah ke Bupati - detikcom",
             "signal": "Negatif",
             "sentimentConfidence": 95,
@@ -1359,7 +1807,7 @@
             "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTjZfN3BlelFoV0hQY1Z4Y2V5MTJEQVlIa1l3YjJqMGc5dmtEVldWd05lNENlZ3VMNVpXM0ZtNnJ3MVhpbzNoMzl5T3pKUk9PTDBsV0lzOVlFWjN6cUtvTTE4ZWxGTEM4dnozNjlhdmhxbGxhSFBxS1dLRW9GZFJ5UVNROWV1U1dMcmZfMy00SGxsYUNkUGZoX3dsQVZiSWJkaXdrZW1uLTFSc0FmTjJJc1VyanBrUGxlTGVkakk3UXbSAcYBQVVfeXFMT1NIODg4T2xoT2l4QkpNNVk3VTNOTGVMNnVPcjJyVkJnQ2lLSGN3VWtCOTNyMnctY25YNlR0LUQzMnhWSVhRQXhJLVRpTGlfcmNWcllPY1Fod1JoN3ZnSFN3Wk1jcmdmZVg2MXhlYmloRzU2cHd5R09JbnNiLVVPdUxFRGRobVlBdnRVNEVMYUJ3c3hjUnV6ZENhd3RYekdhdHQ0Mk13aXlGLU10UnFOM3IwY1pneXY1LVhhRUttVDJwSkNiTHln?oc=5",
             "publishedAt": "2024-10-21T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:38:14+07:00"
+            "archivedAt": "2026-09-23T16:23:45+07:00"
         },
         {
             "time": "14:00",
@@ -1373,7 +1821,21 @@
             "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRXBmdVNlMUxxaXB4ZGJrbXNqUkVvZVBzdmRqT0tHWGlSVG9wNWwxQkNpc0MtSDJQd0ozdEhtdE1zSmRlUF9fZ1VpNHp6NXBRRHowWVNadXhiN2tNX2JGSlQxZlBLWVFYNzZNYkFMOUNTdU53Y3QtQi1nczdid1lkX015d3RBOFlzYzNldFZlMlFOYW9ibGViWm9uSWNrbDFnazdtQlczSk91Z1poYldGaXI3Ump2U0dVM3lycjhHWGRnS2PSAcsBQVVfeXFMUHNqVHdLdnNydVNfbkRDX2VLZ0VQRnp0Z1RwemVsU212TlM5LVFvaC1BWDNRdENKV29vUHVsXzhaT3ZYR1RvX202VTl6TUhSQWV5Rk5ER0xheXZveS1hcHI3Nnk1NHhmYmxaVmkyZWpKbVo1MXFrVzRJak5aeExsQl84dVZDV0p5OW1DamxnNkNjVzBERDllenVyUlJManAxdTdMckdUYjB6a25CT0gyUXZyQno4Y3pYbzBqbS1UeHpmQlhVeVE3MUVqdk0?oc=5",
             "publishedAt": "2024-10-21T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:38:14+07:00"
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "tvOneNews",
+            "text": "Tiga Lurah di Sleman Diduga Melanggar Netralitas, Bawaslu Teruskan Dugaan Ini ke Bupati - tvOneNews",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, netralitas",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVXRfaUNramFya01TeG9tdXVZUWtzZUpGc2xoLXloNWt2VF9UaHdLODJUQ2p1eXZZazQ5a2p4eTkzYnRldENUUFAxTlJraDNFODlJbGtmUGZ6emFiazlXZUJ5LVE1MDJJSTdaU1hvVkJNNXBzVlBpTlo2b05lTFRKWWtQUUY1MHlERFAxTm5hbGRJSEZnS0h2NGtBa2FDaDhITWszYTdQMWRXamZNUVNDZWYydjFZSnhMaTMwMkJkblNZQTBFVEFhWHFZWHBLUW9QZ2l5ZVNFOVVSYVgyMGcw0gHYAUFVX3lxTFBmZFN0SVlGb0NWWllxVHkydDBzSFJqeEpXZ1NUYU0wQ3FBeklHNjRvM2FmR21pc3BVRFJjejZoRDRlOGxjdzJSX09fVEFxMDU4WGFZeHV2OTNZZDV5a05oTDNibDF2Z2ltNmVHRFFEck82eU5ncHVHbU52NTN3T1lLV2k2MjkxSVUtcXlidnN2ZDRLa1dzbVdQZVBhTFk5cThMamxjdzBaVi1LbS1kQmF3Mjdzamt6MzBsRW5HTk5QblNpekxpamFDQlNJcWZuZWkyUWhxanZMWQ?oc=5",
+            "publishedAt": "2024-10-21T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
         },
         {
             "time": "14:00",
@@ -1406,6 +1868,20 @@
         {
             "time": "14:00",
             "source": "Artikel Publik",
+            "sourceName": "Pikiran-Rakyat.com",
+            "text": "Baliho ‘Pemimpin Kok Perempuan’ Viral, Calon Bupati Sleman: Kami Minta Maaf dan Selidiki - Pikiran-Rakyat.com - Pikiran-Rakyat.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb09UeVFsb0tlVnRsbjdialJ2ZUlFQi12Wk1INGVqUS00SlNITVhQRV9QYzJnbTdsZG1jUmZLZTU4ODUxci1ZMExydUFQb1A1RmJDdFpvNDMyejdZNUhibW9UdkVZMVRnSEhUSVR0WWNoOHVPRDE0WFhLSVl1MjZhQkRkTHdqQWFkTkVsemZ6U1QtZ2l1RXg5dEN0enJrTzZpY1M2dVJnQ2ZtMG1TYk5vRnRxLXNtSUp2bTJnbDBNc2NGVE1fR29VeWEzV05xQdIB0wFBVV95cUxQYkhSdUdFVl9Na0pZTWpSaTBMSzRWY294dVVLTm0xbUlQbmJZWXQ0ZDhNbEk2SExIb1RtT0tnVmZrbVdlUVd0NWdSWjlLcjN2WTJzQlBacUs5R0JTTU1jMFRDb3d2UzJ5LTRYclR6X1FMbUJJZDRTaFZ5YmhPNGtjd1VNdzNabzVsOWhfNUdybkE3ZVNNdkhaRWJmOTg0YzJJUEJfcUNLMFQzWGt0dDh5QnpqTUNVREpDTTNoSTYyME1mV3c2T3FiNzdScjN2T0UyQkVr?oc=5",
+            "publishedAt": "2024-10-18T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
             "sourceName": "detikcom",
             "text": "Bawaslu Sleman Limpahkan Pelanggaran Netralitas ASN-Lurah ke BKN dan Bupati - detikcom",
             "signal": "Negatif",
@@ -1415,7 +1891,7 @@
             "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObHpseEdPalVKZk5GNnFieU1rSzlRa2hESzBjVkZmeWRjTHJQVTF0LVJlNkNDM1AwTnVMdXZGRWh0UGx1U2FyclRoMW9Da0hmLTJ3ZHRQSVRsazE2cU9wT19Wc19Mb01vSXU0TW1pQV80RFJhbzlHS3RJYlJoS1F2eTkyNGxONVVkUXNSTnl5R2dzd094SEl4eFVSZWlfblBpODlPcHpFMkFJMmpQeHYyeExUM2dDVlluSFhwTU5B0gHDAUFVX3lxTE9lMFF6ZGhtcWlFY2JLRWJUWWdmX0hSVlFNU2RGNW5IOW1uZGU2LTRhblNKRlUyUVlFNGwwY1JlX1ZSYkx5RENsVkxTTXQteV9hOUhQcnJ2YUpqaExjdlpVeXRQQVRNcVF5NkplQnhZaGpLczRGRmIweTdpUEtoZGNkUThIRzFFX3JqbDlvaDhXTUhDZlBaMEJDSUVpTVZxWXBISXprR042ZTRCY2lEN1Ezb2V2aG82MVhvN2wtVHprSUp1MA?oc=5",
             "publishedAt": "2024-10-17T14:00:00+07:00",
             "district": "Sleman",
-            "archivedAt": "2026-09-12T22:38:14+07:00"
+            "archivedAt": "2026-09-23T16:23:45+07:00"
         },
         {
             "time": "14:00",
@@ -1458,6 +1934,510 @@
             "publishedAt": "2024-10-17T14:00:00+07:00",
             "district": "Sleman",
             "archivedAt": "2026-09-13T21:56:20+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Kompas.com",
+            "text": "Bawaslu Sleman Tindak Lanjuti Dugaan Pelanggaran Netralitas Panewu Anom dan Lurah - Kompas.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, pelanggaran, netralitas",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONE93eTdsbGRneUtaTjJrREZjeGZTR0xsV3llTzRfU2lDSnN5cTRGa1RhUy1qdmZwMmZfVkpoSEtyUjFKdnlEbWswOXdSVENHVE9FUXJyV2ZDak5LeVhHSU5ta2V0SkQ4TGJlT1QxZVZMOGRyVkdmNFQwMFJCSWg1ejhHbDZjWU1ta0RLMmduNkJuUE5iMEtEOEducDZ3bF9CVFhHWTI5TlBXWnJqRVRHR2xGc1hneGp3V2pMNTJva3dRTmltMGc?oc=5",
+            "publishedAt": "2024-10-17T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "jogja.jpnn.com",
+            "text": "Bawaslu Menelusuri Kebenaran Baliho Bias Gander Paslon Bupati Sleman - jogja.jpnn.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOVlZVDFDTFlzMHc5OURzMXQ1RUxyV0cyVTRrXzIySDlmNDVLbGpjanhoQi1sV0VCdDVOOG1EY1BVY0F4bWRpaGpZOWh4dThET1NSX1pLYXZFS0diTjVEcW1LZTYzTHh1R3FRamM1ZVNVTGgxb3hiejNvOTFYMGxSODBxVjVvUV9uZFFsc1N2ZUU0Y2owSmtRRlF0ZlpEVHB2ZEM3dGZqMFAzUFFQd1VB?oc=5",
+            "publishedAt": "2024-10-17T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ketik.com",
+            "text": "Terjadi Lagi, Dugaan Pelanggaran Netralitas ASN di Pilkada Sleman 2024 - ketik.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, pelanggaran, netralitas",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbVE2azR6RnY5bGdIcnl6dV9WSl9mbEt2VC1MMktiTk5PV1JwMEZ1dUwxOE8yR2pfcFRCLVh1aXgtV29XbFl4YVowdjlnM2ppNTV6R09fcW85dU1NQksxcHJJTXBtN0prZVpOdV8tWjlZRWp5YXg0NndkYnh1Yi1jSGd5OFl4T1JVR19ycnJlaUU0MUxFMVlqVVNnWFZOTk00d1lDSExBYmbSAZYBQVVfeXFMT21JQ0dSak03QVpWcUIyNFMtYnpTZjYyRnlyZnJRS0ZGWXdjWTV5YkFxdEtvTDBzb0JNdzhGQWtfOVZrYmt4Qi13cDVTekhLSWlIY3ZhZ3pLd2ZUaFBFSTdlQ1JVU0JOTC1nSG5wUkZxZTdqRWRDVTBfN0hLSWxrODg3bzFOM3ZCbTUxYkJqQm5Mb01SMFZR?oc=5",
+            "publishedAt": "2024-10-08T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Baca Jogja",
+            "text": "Diduga Terima Uang dari Cabup 02, Majelis Tabligh Pertanyakan Netralitas Ketua PDM Sleman - Baca Jogja",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: netralitas",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc3dkX0ZBbmNab1lEZUFJdFF3ekpmVDVuclM4S2RIM1p2Z3RqSDlYZE04cUh1RGVhMWctdjZiU0Rib2p2VEd3WlNSbjZmQUsxUzAyRTNEay1KWHhDbldRZ3FrNjBMZ3hKRjBacjE0bHJzd0NNcjFLYWJONUxLNmtPZVpnLUZSbFZHLXNYY3EwaTEtVERpU045QzU2U1FEZmFPQWZwMl9BaXhvclZxeWRkMmM1cmdwaDFOSno0T09B?oc=5",
+            "publishedAt": "2024-10-06T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T19:06:43+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "APK Sleman Dipasang di Perlintasan KA-Kantor Lurah, Bawaslu Turun Tangan - detikcom",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUVJVUVBkQ3VKZElDT2JWSmdGdjJhcVBTV1pVVkMzaVdKYlVVSVNYT0E2MTZYNTRCM0tkNXpXelNzY0E0UFc4bm8za3N6NDZfRU5KeGNNU2NGN2tiejNFYkNwdXVzbFhBVk1lY3c5U295dlVSek5iUlFmXzA5bDA0cXcwdFVPekNFYVcwX1RreXBYWk5JcnV1eTNzWEw0Y2ZwZHItVUlEZ2Jyam5uaUNVZ092UXhDQWQ30gG-AUFVX3lxTE9PVmxZNE9JMm5jQjNWdF9lVVU5T3AyUy1ucUU2TjczZUxLbUYybE11ZkphZlNIQnl4aTdkdDNUS2VYOHU4TnpuSlFmMUk3TG5fSEhTbTN4VGlkaWsyOHE1Q2N5cGF0ZmtRZ1hPSzVWRmE3UGkwM2hwRlUwandsRmwzM3g2NXpSdGxWVGpHRG1iSjJtdE1qWDRQblk2LWdTeXVMTkxaQ082RTd4VDdHZFliWktrYl90TFZPTFpkVXc?oc=5",
+            "publishedAt": "2024-10-03T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Kumparan.com",
+            "text": "ASN di Sleman Bagi-bagi Sabun Bergambar Paslon, Bawaslu Lapor ke BKN - kumparan.com - Kumparan.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: lapor",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzFfdTRWNFB4VkJtbzd6WTRDaTJ5QjIxa3I5TUVDNHQwZzJYaGRkVVk1V3RBMGhTbzNfM3RCMHJGa1V6bDVSbTg2SFhiX2JiRTJNU01rLVJmd202b2JNZHFZMzhDM0FlMmdvcEMxQ2JXY0RxNWIzUDVEaTY1U2ZWSTJBc05lVDBzdm1EWVAwR1M1QWhfb1dyWG9uOXlLOC1jVERFZGNSa1FEZFZySkdIdG1id9IBuwFBVV95cUxQY2lXXzZYVGRiaHhkTmM3R041MVZ6MWQ1akhuQ2JPOXRvVERsNGVRUWQ2UTRKZUdRMnNuVGhvQmplZVBfVnVFaHA3SUFETDM1c2ExYnNYdG9VTXhDWkZXbVlRcV82VFpVazhfZzRnSGFBcWlPN3BkNWRXS2ZkTjlIU0h3UU5xbEgwemFacmV0bW8yR0ZuWVVhQkFTbjFYYnNRUmxQSjFoeTZlallIMVhVUUNkMkFtWE9takxr?oc=5",
+            "publishedAt": "2024-09-30T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ngopibareng.id",
+            "text": "Bagi-bagi Sabun Tangan Dugaan Keterlibatan ASN di Pilkada Sleman - ngopibareng.id",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVTY4RC1GZEJBWl9lSHZuUmZPYjlITWRvRVJuYjJMc2NycFQ0LUl0a3Mxa1hkMHNzcEdsdHdfQk5IVzFiOEdWQ3ptV0hfbFljaUxPV2R1LU5EVjdlNWZGUnJFYXNqRS1RTGMycnlxQ2dkcVpDWVNUZ1ZfbXI2VUdWTVNrVkROWUlEeGt5MXlVQVBkOFdCTWFBbENTT2c?oc=5",
+            "publishedAt": "2024-09-30T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ketik.com",
+            "text": "Oknum ASN Dinkes Sleman Bagi-Bagi Sabun Berstiker Cabup, Bawaslu Bertindak - ketik.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTWJtNTVOX2ZmdXNHUnZQLVdkTk1FZUhWbHhGdno0SUxWSDg1UXlhaG9ISnZTYU44TnhpdTVqc2pTNHV1eG1tYUlscFZ1aXBfUC1aYklRaHVTTTYtUHRiZUtzNUVSczdpaDJWYVhKTF9td1lmMUNiWFFIU2RpX2gzSGoycTlRQjlGV1BlZUVyWTM2S0RucF9fMERzdXdjOE5XSUpvS3BmcFR1UDhUd2fSAZsBQVVfeXFMTnZGUVo2RWQ0UEdncjJDY0l6VnZPcEFMUmdHT0JyRGJFZXRUOXZUTjAxRW9zcVFTSXNYRkduR0VNMVhxUnZhSUdPT25CbHQ2bEdHVDUtb2RBcGN1Zm5iNHg3QXdqOUFmTXZnekRmY0hEUzZYUW41OXhXVkZ3OTJrZHR2OHZtV0g0bllmZWwtMkthNHB3Zl8yNkhlNkE?oc=5",
+            "publishedAt": "2024-09-30T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "Pemkab Sleman Tunggu Sikap BKN soal ASN Bagikan Sabun Bergambar Paslon - detikcom",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQWJWb1ZQMWtxSmJyeGV1cWpIazVUUVQ4dC1LQzlfc3hoRmFKUkV6ZkpxTExVVnRjenp4XzlXLTU1bXRUbnY3ZGphVEN0NFM4U3lsTlVGWEw0MVFoczl5bF9rWUE5Z2t2SEdxb1lfRWJxbmdvZGoyTjZKY2RzYWd6S0JyV0RCY3AyY1JPLUx1YlN6NUVlc2dxWGdjanRjMHlIV2Q0U2tyRGs5WmphWkstdnJrTmdtZGPSAbwBQVVfeXFMTndQN1hHX0ZoTldMNzFhOWhTRHBrZ2Qyazl3NGJkcjhfdHA4NjdHTHlxRXk5UkVCZjM3YTJiLTQyVVJ1R2ZKM0loWm5fb0JEVHdYUGZHNGhaT0diTG1Hb21VY2xoZjhWWkZ4eVp6cDJOQWVibXc0d3lPTkxOclE5VlJaVDdlb3QyV0wzMGZJak83MzAzOHFWWmFtSHVqUGtLb1pUeUpZRm5ZWHRqemk1MXJfc2tVVHRNT0tqeGM?oc=5",
+            "publishedAt": "2024-09-30T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ANTARA News Yogyakarta",
+            "text": "Bawaslu Sleman meneruskan dugaan pelanggaran netralitas ASN ke BKN - ANTARA News Yogyakarta",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, pelanggaran, netralitas",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVRFWWZFVTdPQWotSEswbjU1eTJsTXhsdFV5U2Ntcno0UTRZcHctV2VoZ1Zaa3JXa000YUpEclBidVphUFAyUlZVczJQdktCLTVFTUkxMGtDSlFHdEJvb1hkemdocGlqQmQ3VUZRRlBTdDdTM0g2Vjd5UWZtNjFVRHMwdW1qR29iUTZVSGk5VFdBT0dndWZ4aWxGcENGbkZad3RHc0V1UXVsbnlOVUE?oc=5",
+            "publishedAt": "2024-09-29T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "ASN Bagikan Sabun Berstiker Paslon Bupati-Wakil Bupati, Bawaslu Sleman Lapor BKN - detikcom",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: lapor",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUDY5YXVkem5wWk9mbnJienlkX3dGSkdBU3A4M2dscHZDR1hWNG9pR1ZhZ3FDT2JZQWNqMTYtNFpmV1JNdU9lREZ5cEtGYzhDaHVGLUlfVjdZMXhhZHBHRXNUbC1mNUVNTjRDWXVTOERVYXdXVktSLWFMTGNSSkNmd0hzbXJ6N1ZwSGNibW9wUktfR3lyUXFILWlKRHp2emJUNkxsZUNEM2RIbmZCQUJ5cEZsQVhyUnpQQkZ2bXUwZXJoTVnSAcgBQVVfeXFMUGFVcEZQbTFhaFVkajBSWl9reDVuS0dteTJDNVFLNzI5eWNmVFJRMVZYQTBCRG8xa1h2ZlZMN1hSUEJQM3RFelVqSHNGaEs1dlJKTVNROVZlR1l2Z2JXTFBtemp6ZUxsV3ByTDF1LW5uamh0QVBKcnA3Z1RpZEF1dUhUTE5QQWRSX3RMY2tLeEwweFMtSXg4REFfNURQSjk5aVozSlA2eHdfOW5URXlTTWlxMVVmMUphd29OTE1OZjB5Mld5NDJHVDc?oc=5",
+            "publishedAt": "2024-09-29T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "kedu.suaramerdeka.com",
+            "text": "Pilkada 2024, Sekda Sleman Ingatkan Soal Netralitas ASN - Suara Merdeka Kedu - kedu.suaramerdeka.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: netralitas",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU196NkpoLWVDeThFeFYzaEJtZGRDTDE4NTVfdUdmSVphQ2JzYmJnemhvQVRZUk94OTJ6SkNyVzFCZUgtN0pTd0NLVTJwSjFMNTQ1TjZ1VTVaQ2hoNWdHQ1JXdTRFU2diVnBlak1Hb0tlY0JBVE9ERWVsQVh0dXVEMWZ6N1k2UkQ5dENiUk5sQnBDcWlJS0l5TmdzUmV0NTIzQjAyQTRsa1RqUdIBrwFBVV95cUxNU2wwNlJRMEZxenRBNE1ocmI3eXdMOFZDazloaXM2dHdwWGRWYTFnU1BXZ3pzaXFFQktJc0FSMHNrenl4eV91dElZX0V1Nkc3MThNLVBhUzhlOFllVTJyQzZ2ZGxaZnJUMEJkcS1GWFZ2dVQxMERNN0h3RFNFMWxJaDd6clB3TWRfYU5jRGxXQ3dZdjFJdjVjUFRGNjlxWWhmcXFBOXdHb1piRW5Fc0dz?oc=5",
+            "publishedAt": "2024-09-26T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Media Center Sembada",
+            "text": "PPS Lumbungrejo Kapanewon Tempel Lakukan Penempelan DPT di Tempat-Tempat Strategis - Media Center Sembada",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPblZtWnNjd1Q3T1g5X3FrSTVYcVFmYVJzaHpFTmdMY01ubEhXYkk5NlFvbVJVcHZiUUhqZDlPcmFObVU1Q2dReHpIcXBXZXp6dzE4UEpXTmxpeDRpZmdVSm40a2hhbldqN19zWURIckgzanQxU0xaeTZQODA1RHI5S0dyRWRKQXJjcnZCbDNTTEM2NEw1cXRCcE1KZHlFYzVwSThPNEg2cW5tNk5kQ0hrRHV5YU5wVDVoNXdNZXpSYXZkck13MlZhVWRn?oc=5",
+            "publishedAt": "2024-09-24T14:00:00+07:00",
+            "district": "Tempel",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Suarajogja.id",
+            "text": "DPT Pilkada Sleman 2024 Tembus 853 Ribu, KPU Bidik Partisipasi di Atas 77 Persen - Suarajogja.id",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTndFWnpscEVRZUlHTE56NENzanota21rdDhOb3o2MFdWOVRSN0JvVncybjliU2RveDB3VUlhVFV3NzhmaVJQUTQ4TU91M2xMWnJBWGFTNTRPNHlaSDFZX3NtNDl2NXQxOExHaERKa0ZWWVBycUZTaGlRQmF2eE4xM2NtLWVTQXkxdWYxY0NESUNoOGotWU01cTU5QjRKQUltV3JWS0VURFRMRG81R1c2aXZHeC1OZ08tenczazVZcGZWSGpr0gHKAUFVX3lxTFBzS1hoem8wYUZOZXdZNWE4ZmNiWF8yWV9pR3BkdC1pMFJ1WEVua0h6dkN5T2RqbDBUVnZuNGFpRFdtX0tnUEk4VmcxXzg0cUV0bTI5UFhsNnpDNkNDWU9Bc19JbE9sU1RWekdnTERvUTB6LXZ3eHkyWWtpLXpoVXR2RndRdFU1bW1wS1JGSUlrVmdlQUpFOGVic0xWN3N3TmxtTmZQSEJaN19Pc2tuOFFoZWR5S2stT0lPNjhXUDVUSkNSRHVrbVAtWVE?oc=5",
+            "publishedAt": "2024-09-24T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ANTARA News Yogyakarta",
+            "text": "KPU Sleman menetapkan DPT 853.209 pemilih Pilkada 2024 - ANTARA News Yogyakarta",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDV5TEpTNWFhbVZ1QUhReC1HQWlLWUhsR1hWMVdrZ1E2Wkl4eXJXUDZzMVZtTDVRaHl5eW9PNGs3SDFJTG93NF9feHdsQ0NYU2FrR25iRDdFcm10M2pIVU5SRmJRaHFFTjVSUUxVQTM4bXdZVG9ZSHhDME5FNnFtd29SWFpVV24yR2JnWGZSQnBabEVPVURxT2RSYjU?oc=5",
+            "publishedAt": "2024-09-22T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:23:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ketik.com",
+            "text": "Jelang Pilkada, Netralitas Kepala Dinas PUPKP Sleman Dipertanyakan - ketik.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: netralitas",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaU5SY3V2NV94a1IwUS1zRHIzTHpiWHJOczRXLUlkVWdBU19fcm02Y0dTc3JnUmlfdjBEME8xbkdrUTlkVlczMEljdWU4NnNXRjFsQ1h0RW13OWtUQ2RoUk1UVkVQYm9CTHJ2dDR4OFdNOWNuMVZIN1J2dkFpZnl3Z1dLemo4S0l5am42SUhjamN4UXZDNXZuNVFSV01EaDRlMVhF0gGQAUFVX3lxTE9DWHYzQm1wTjhUc29lcnZlbzBXMDl1eGF1MjRkME45eG5FcExXaXJza3ZERUR5VENSbmRpblVfaGtlcUJORXhBOUdtSjE4amphZUpUNnJwSENjV1lpUDU4SlZ6LVZENG5kR1ZmRVNZUTJueHRXMTVIYmdvejJubmwwMkVyMl9XcVpvY2FDOFlWTw?oc=5",
+            "publishedAt": "2024-09-21T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "DKPP RI",
+            "text": "DKPP Periksa Ketua Bawaslu Sleman Terkait Seleksi Panwascam - DKPP RI",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcm5YMkFDckltMEVLTG8zaGlWQm5nNGVtWFhNSTdKaGxIaWhNTzZHTFE3cm1WbWFwMnhQYXhySnFxU0RFM0RKblRqa1Qybk9SZDN4VmtOcUxaOUVjWlMtTElaLTR0VVowRVh5OVJ1OFotMUxEZTJiaE93ZllyX3A0azRyQWJKQQ?oc=5",
+            "publishedAt": "2024-09-07T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "news.indozone.id",
+            "text": "Dilaporkan Atas Dugaan Kecurangan Seleksi PKD Selomartani Sleman, Ketua Bawaslu Sleman: Kalau Terbukti, Saya Siap Dipecat! - news.indozone.id",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: dugaan, kecurangan, lapor",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYjN4ZF9jdHZ5bk84WHBXX1pOb3dmWkllRDFqU0lPNkZWX3duNUk0T1hnbG01cmVMaGpIS3V2dk4tekE2ejRIYkROcU1jUzZsNWxLWV95ZEItelJ4dTBpRWFoMm5MNmtDLTBhMDJsNktObkFiQi1GQ3otR0xUS2kxdGJsbXR0Q3JvRkNLMEVxTFNab01Bd1FWYXJiN2dPd2hjZ0JpRVBSZl9oWnU2NGxGaGIwWXF0a1BqSzdpZEkzeHdXem9Jc3pEU2xKT1kzUVRNTlREWlF0TGJvTU5NUXdaTUdnbGhpTFk5NERNRmJ4N3QyZ3pfU3NvZw?oc=5",
+            "publishedAt": "2024-09-05T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Kompas.com",
+            "text": "TPS di Sleman Gelar PSU Hari Ini Buntut Puluhan Orang Memaksa Mencoblos - Kompas.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbFltSkxSUWgySTdiTEhGalBCY1dHLUxyZk51Y1N1VWZKeW5sbVlrVUM3dkFleTJySEF3RTN4UFpLZW8zLU9IbEVDeUw3RWtELTBRUUVpbGNjSldPbHZHVG9ISWp2RWF1bFdnclRyZUpidlhRVGtkNEh0MTRTTW5ESVlBQmxqbnZ1UGs5TFJrMlZsek5rS3JVdlB1WkkwOUd5SXBwRlJyZV9lUG5kRXBNVlNrY0tUMVBYMTlGQXd6NEtYWVV6cWc?oc=5",
+            "publishedAt": "2024-02-24T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "republika.co.id",
+            "text": "Satpol PP Sleman Tertibkan 10 Ribu APK Pemilu, Rencananya akan Dicacah - republika.co.id",
+            "signal": "Positif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata positif: tertib",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNEdHb0J5R2RxSlZNSnJieFVmeTllMGd3ZUhCTnBCZUN0bTRxRzZVNlRrb0ZMcGRqUkI2Y0xBd01PdzdvZDVCUWcybjZ6X1hISmo1bDFwWHNRaXYxdUhPU2REamFpWmZub2I2bWxxUk9zSVFlbEh0ZldodmJZdXdSMHZDT2dZMnM0Z0xfT0NVUmY5d3RaczliT1JkLWM4c3I5U25nU0RvUEZZTGZleE02Q2tvZDJUOXZvYnc?oc=5",
+            "publishedAt": "2024-02-22T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "Bawaslu Sleman Sebut 8 TPS Berpotensi PSU dan 3 TPS PSL - detikcom",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUmJfblhrQ2lJMWtZSTl2V2pYRnl4UUhmZVJaaXc0ZFVuZjZpM0hCNTRFcWM0azkydFdXMUJiakl5a0pvRVlUTXd4TXlmR2RrOVFWdDVid2QxVE4zNjJZSl9UWjdwbU5ucVhpUWhoQVRYS2FSek90bG5OU0MxcVpEeS1EUGE5OEszejhycXZucjM4QWZIckhpbHRWX2xJRTZlQUHSAacBQVVfeXFMTllXVmY5RTlNN1BYamx4bzBzZGRBaWhIaEZCWEZkTV9QVnVwRnZWdWVvWmZSMjlHWEcwdk1yNFd0NEtXSDNIMDlCcTdSNFNmRTZJamROY2NDSERuNGNlZ0JGUVJBTEJ4Wm9waU04VHh2dVZkbWRTMTZZckhKMFJmcG9HZnpLX1o4UU5IUzEySldrV0l6OXFIVXdhb1Atd0pHd2p5OWZiNEU?oc=5",
+            "publishedAt": "2024-02-19T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "6 TPS di Jogja-Sleman Berpotensi Coblosan Ulang - detikcom",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMm00d29RMEZ3eVVrNk1sUXBSbklTZ2gwSFFTWnNfUWtDcHhDOVNZcDJuZWZ2WGt5TGJRRzJvTUhaZFZYV3o2ZUFtSzZ4aDVtcHNqRVFpVmF0cEllTVlneU80QmRpVGtzYi1MSjBkWEcyV0NWdll6X1pUREE4VHFiLXZEbHpjVThMdFlhbHFVOXNialRBLVQw0gGcAUFVX3lxTE1FMXVSTjZCMmw1TVFCbkhVU19uMXZZVUhMQUNnNUE2LUZLSzV4LXdMWjdqR0t5RTBEMnJ4S1Eyc19MeG1ieFhFRDFpRlhkejFvMkhQOVVpVUdZS0JLNGphZFpQeElFTG1lNkN0VTZEc0ZMQ0xXZE9ySXhZejR0ak5HdlVBR1dYcnVjSTA2WXQ1SVhVbkRocVRDMzJCNg?oc=5",
+            "publishedAt": "2024-02-16T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "republika.co.id",
+            "text": "Bawaslu Sleman Awasi Potensi Kecurangan Pemilu Saat Masa Tenang - republika.co.id",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: kecurangan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDlBb2lhVmNEQzRjWXlRamY2YzVkQ3FxVVBIM0R4TWNWd2VvaTh3bk5iVTNRTEhWTnl3cFJNUW9LSE5pTkFoZnc3VlhTU1N0RVhYNkF0cDJ3NlBtMlJRMHc4cUZLSEowTUlDS1ZKZWRrU1c2aldVcW9NVUdtckxxenJNaHliMUxwTVdCSHZKLXc1V283bmI3amNOZnUwNzdVSy1EeUhmLVVrZGZnNE9aaElR?oc=5",
+            "publishedAt": "2024-02-10T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "republika.co.id",
+            "text": "Bawaslu Sleman Minta Kondisi Kesehatan KPPS Pemilu Lebih Diperhatikan - republika.co.id",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeC1aamNqRVBNcVJ6MXExY1prZERGaUlES3d2WkVmQzNfSzNZOVBLOGlXRkZFQVN5eXY0M0haRnlNTWd4VmhJU3dfbklOdWMwbkg1aXEzSnZnaEhKeG9FZUYyeUU0bnRnbTN6RWV4YUVWWHNmN0dGMWh0RlA2QVJyM2N6aEp1NmVmLXlycURNX0VnYUVUMHdkeVVjemhTMmFtOEFHUHRGSXYxcnFwc204dkxRdVB5ZUNLcXc?oc=5",
+            "publishedAt": "2024-02-09T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "ANTARA News",
+            "text": "KPU Sleman antisipasi kerusakan logistik saat distribusi ke TPS - ANTARA News",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: rusak",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbUptZVByUkVFU3hpZkVTczhoR0hlY05kay1td2RGaFA2cHAwU1BscU1UTHMzSEkzT2ZBNU1sazZXSElVb3JfSGkybHVra3hhZlhDajIwcnF6MTk4ZDlHVlJXaHNvQWppYTlPWmhDRUE1amNldnRYRGNPbi0zb2hKUlU0RzNDaGpQUUFVd082VjJuVEp1R1E3SzlQTnpkeDFNUzc3NWtzcETSAasBQVVfeXFMTXJlTnZVeF9ZVkF3bkZSLWp5YkF2NEJUclJ1TzZ4cUJKR21nTzRUM1VTX3VZbVdtZGtkTG5aWVhVUEVEUEVKZmZZbHNab3NWY2pMR2F1VjFuSkJmdktQdzUxcy1tYzhVcExlQ1ZiLWtqYjhNM3FQdE91dVBLTzRmRjVfdEVTYkQ2bGc1b0Zpa21adnNmNVgzT2xydGlLMDcxRDd0NDhyb0p6MTAw?oc=5",
+            "publishedAt": "2024-02-05T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "ANTARA News",
+            "text": "Bawaslu Sleman tertibkan 707 APK Pemilu 2024 langgar aturan - ANTARA News",
+            "signal": "Positif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata positif: tertib",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOExsZHZVUmhEdUV5cWxZZ0I3VFRjck9aU05LOFBSOUF2clpzR3ZyWEJ0MEtvUUdQRFNlTTBESTE0dmFlNWZDM0d3dXJsY2xpVkNLOFhJVE1FaU02WWoyVENCa2J0RmUyS0NLem5WcExfQU9XWVFLdFYtdF81OFVHMXlYYkJyM1BEUU80QzQ2dHZTTnNtQmEtRDRUaDdPOGV3ZVB3?oc=5",
+            "publishedAt": "2024-01-29T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "detikcom",
+            "text": "Ganggu Pandangan Penjaga Perlintasan KA, Puluhan APK di Sleman Dicopot - detikcom",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdkFVSk5NLUpVNlN2WjRQWWt5VHNSTVpBcnVNWDU1M3d2SzVDb1pKOWs0RWQ4cjd5MFp0V050U3hrbE5Wa2JNSGhsYW1xcnU0dVdQcUNnNG9mR2V1dE1OeV9uNWJBV1QwbkQ4cmhMOFRDN3pfOS1WODNRMFRhOS0zYTRWVG5vZ19lZzdmSlh6Q3FHNUphY3dlNlBWdXRReDV3dFJLM0RJZUtOdFdkSTdtbVBkczHSAboBQVVfeXFMTXVDOEdBZXhiWmIwbFlKWFd2Zkg4OXBkQzNIaGZIWUtLNWFaVWxucjU0WmJiNEZPeDdNcGJFSk9QMzJvUlRxM2JaWEh2N2E0RjVNZGlKN3VJTU9hTk9NdXk5TFhmQnRFcWthMTBtV25fYkUtY0RmVGsyZHFOT0VkSE5lSnRtT215VVlyM1gycmxBMHhySGY0NXFGVXNxV0R3TU1ILUhSX1JqclpRZW9tN2VlWDRaa0dUSll3?oc=5",
+            "publishedAt": "2023-12-27T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Kompas.com",
+            "text": "Bawaslu Sleman Temukan Ratusan Alat Peraga Kampanye yang Melanggar - Kompas.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVp1eHRYNU9fMVpwR0hRYkhRTFB0TVFCX0RyZEVQaXQ3NFBiYzU1cHp0VjRNY0dyOXVLT3gyazdVMnF2a2ZlRXVjNDJ3TlltZHVwNUVQTzJkZ08wd0NyWWVQTkZvY3M1WGYyMzVmQmhtWHdKdEl3X19ZQUlLdUtNYkFoWVFjOWFySXk1OTJneGRMT25rSHc1Q3lxeWw0Ti1BX1hzbFhqSVVoNTVvdC1oM1RNTHdIOHBydHJEMG5zQQ?oc=5",
+            "publishedAt": "2023-12-05T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "15:00",
+            "source": "Artikel Publik",
+            "sourceName": "Suarajogja.id",
+            "text": "KPU Sleman Siap Relokasi TPS di Kawasan Rawan Bencana jika Gunung Merapi Erupsi saat Pemungutan Suara - Suarajogja.id",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: rawan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUmkxTWdlZ0VDaVo0S0VRYTI5VVdHQXlRNE43SUFnUGM2OXVqbEFoSXh6Tmo1dzJ3VXdZQ2lwZzdlU3JfYzFmVmFheWRtbnR0ejl3Nk04VWMzSmVHbTZTenJsbHdDX1BDa2xVeE50ZmNyUHFWRGRlOFdCaXhrclBqemdLR1pzMmtBWGxEWDFMU0VNUmUyZkk5UTF3LURtTG92V1lsRVJfOG1uSnc2Q28zelFGazl2MWRETTlYUWw1QzVTMjJaTDBnanlqR1FfV1cwZ3pwRHVYdVU2TGQ1QWJkV3lB0gHnAUFVX3lxTE1JVHI2YnI1SFBnM0I4S0x4SktpUFpiajZpMTRaLTRGWk52WW1iNjJ4cWl2ODVQOFNpXy1XVkZTd1hQYmxRbzRaQ2wzczlJVEdmM3NwVkJQc0pHSGNOQmJ0ajI5NG5tN1FzYUZQc19NNWZhWHQ2ekdNZG93VjNSRlI0a18tZHFzWV8xRlNLdU5BMHloUmM1Z1FOdXJZalFnQWU4YmZzY0JwTUVpZ090SFdvU3ZJTXBSejJDYnhwck9LZVAyNnR0TXhTU1ZyNlUyUnJBTjlWalpkdGF5Zll1WjdBS095akNzTQ?oc=5",
+            "publishedAt": "2023-11-29T15:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Suarajogja.id",
+            "text": "Mulai Terima Logistik Pemilu, 13.828 Bilik Suara Tiba di KPU Sleman - Suarajogja.id",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaUVEaTJBbzVlSU9KQTN2TEtBV1BLRFI3VnJ4VEpCdU5rTEpfMGlSWGl3Vk43d24yM3ZjaHFDeDNJUF9pdnhmVzFGMmlKMDk1UlNCV1ZpbUFWQWtid0NCRWYyaEFIdTN1TWJ1SWJJZ1FoMTRKZFNWSFNRb0lTOVEtMmE5UU9YUHJySVk3ZWJ6Nk1uVkNxU1VTRHBLNEx2VVZKTFJ0Q0RzSlZIUGpwMzhIY2l30gG3AUFVX3lxTE9lalVRVXJoNzR3TUNkalpGSjdzNXdrem55bWZiN3Q1U3hQaXd5Q1BSNFVIRDI4S3c3RmFWQWhWNlh4X29fbndLMVR2ZnVRREcyMzJ2ZGEtNjQzeTJubmx4VFdaUkl6ZXBVdURZbFJWNWRhc0pYWDdzbWwxTkZxdzkxUzlUVFhDVWg5aHZ6S25QZjJhLUsyZ3VXeVJ2a1NqbGF4RjFJbWhzMnhBeEluazhqTko1SlZFMA?oc=5",
+            "publishedAt": "2023-10-25T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Radar Jogja",
+            "text": "KPU Sleman Terima 13 Ribu Bilik Suara Pemilu 2024, Gudang Penyimpanan Bakal Dijaga Ketat - Radar Jogja",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeVlscFFMcUxQQllzLVJ6b0tseEVFVHk3aXhhODdDZE1qejVnTDZXQnFQcEJFQWZJRXVwRTU2ZFhVejVyU0N6OVJYbWdyZkdPblptSUJPVFVEWllVbEtDQVlrNjNuTEdWYjBORVczVF8ydVYxNkU2Tmttai1Md0lmdnRRWDVvSjl4UTR1WWY5eHB5LWxRendlRGdFWTItd1BFekJycG9mYUZwLW5JUjlvR0ViR1hqQk01NXFTN3BWa3lEQ1FKdDVrUXNpYTZpWGpibXfSAdcBQVVfeXFMUDJKWURHZWhQRUZ4Z3UxZWQtUkZWQVhuVzJISnBkQzZ4YzZ1N1NTZXlKSHFzVF9oT1ZkeVJJNGp2RUp5NzNPX3hBOUIweWhTMVdpMlFKc0w0OFJ2QWtxQ2psWU5jSnAwZnJuaWdKXzNkNEN2X1p3NDRKeTk2dGtRdUhEVHptMWhXYzhZOHRSRXFrR0dENEZIMWFOdVJWNThrLWpmNEQ2Z0dBWkJuSUtXSjFCdHlzYUdZQlNGNHJtRi1aMDZ3MUozemV1MFNNc0phdUZzeDJNZVU?oc=5",
+            "publishedAt": "2023-10-25T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "ANTARA News Yogyakarta",
+            "text": "KPU Sleman komitmen memegang prinsip jujur pada Pemilu 2024 - ANTARA News Yogyakarta",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb0JhRlFYSDE0MHF3ak04VDJubUVEMVdPYzZOVUlDSHN1S2JwZ0lxVk9GWTBlWXJ6MDhDU29GejNHeC1DNU45dFl2V3U4MnVCMzI4RFB4ZXRmSzlNa28zRENVS2FNQkx3WV9jbmVWSjMxZmFFZ0UtdDRaVVNEWS1BRmNXN0xVa21MMnRacVpLUFlhUVpMd2xIZEdPT1puQ1RETTc2LQ?oc=5",
+            "publishedAt": "2023-08-21T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "CNN Indonesia",
+            "text": "DIY Darurat Sampah, Warga Tolak Sultan Ground di Cangkringan Jadi TPS - CNN Indonesia",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWU9MdjM4SllKaEdTTDltTnRpSlRPQzFRdTNLSkpQbE16WTFRZjdoRTNfR2ZtZGlsbUNsOFBfaU1DVGUyRHBVTUIwZGR0eGpzUDhlWEJHenc1RjFEcndpXzI2eXBSaE5YbF9SSGZuMnZkZzF1UWZBMmtBaU5hODRxcU1KcFpHZko3TzF1QTJEY3luc3FrSWRwUzNqeVlQajh6V18yS08xa1had2xBYXlaTlBWSnA2bWNWcnJFZXRTOGVMY2xTSWR6REhtVQ?oc=5",
+            "publishedAt": "2023-07-26T14:00:00+07:00",
+            "district": "Cangkringan",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Tribunjogja.com",
+            "text": "Bawaslu DIY Sebut Sleman Masuk Kategori Mendekati Rawan Tinggi untuk Indeks Hak Pemilih - Tribunjogja.com",
+            "signal": "Negatif",
+            "sentimentConfidence": 95,
+            "sentimentReason": "Kata risiko: rawan",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTnczelVPcENGU2xrLTVibW9iQ1gzYzJ6cGRTTm42OHhEU2xzMUFLbkkxR3k0S2JydkgxdEZsQ0pUS19ObHdsMVE2NXpSOWNSd3QteDc4Rl9ydGhVMjQ0MXAxeWh4OVYwdnI5ME9oR0FWaFJiMmlDbVlGTzRTd2E4RUpoUXEwaU5fRHVZZTRNTmFYRElqbkZuNG9CNjdpNzZOYnllUlMxMmRnMmY0ZFZ1YlZ3WFBpT1BEWm9zaTZuVjR6U0RZQlE?oc=5",
+            "publishedAt": "2023-06-23T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "MetroTVNews.com",
+            "text": "Bawaslu Sleman Temukan Ribuan Pemilih Beralamat RT 00 RW 00 - MetroTVNews.com",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLWR1ZkhnbklzZFJvbUNaWmN5bFI5WGw4Y2JIU0RwOWNpVEZvREkxNjAyTy1IcVYwS2toWHBmMGs5YXFtTFZ0TDN5b2xQN1pjdzNhS1NkODUycE9GOFhEcFQzV3hKUmk1WEZpZUIwaUhnVUYzVFJHMFlGdDIyQkdCQTJhTTV6TXBSNG1ZUG9TQ1oycUt6dDlCcFBqcUVwSTR0V1VR?oc=5",
+            "publishedAt": "2023-05-14T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
+        },
+        {
+            "time": "14:00",
+            "source": "Artikel Publik",
+            "sourceName": "Mojok.co",
+            "text": "131 Warga Sleman yang Sudah Meninggal Masih Tercatat di Daftar Pemilih - Mojok.co",
+            "signal": "Netral",
+            "sentimentConfidence": 50,
+            "sentimentReason": "Tidak ada dominasi kata positif atau risiko",
+            "evidence": "Artikel",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNakJ3b2Fvdk9kUTdnem9ub0ljV3N4R0ZUTjZrN1loVUFpVlc5MTdNMkMtUnVVTkVGQXE5TmZMZ1lGbzluZlBvdTVXMVpCQ2hocmpVZkxzeUhMblBFUjFpWEVfVVhOV0xxdmhueEN1OWI4NEx0OHUzbGJZVGlqMGFjVzM1Q1JLRHkyT1RYeEdMVmZFVXY4eGl6eTJQVkRZQ1RDQUHSAacBQVVfeXFMTjBfYXlmZnhlUldyZmpwZ0p2TDB6bmI4VGVqRUJjMjFRdHhDWmZuRWNYTmYxVUZINzhqeEtqUmVwZWk0enVkS0hVa0p6eDMtWm8yVW1jWjFueGczNTRqRms2RWlmN0Z3ZEVCUWlyMnZEbmdUUFJpSVNfY3pCLWlCWFBId25DcVV0REpNYUp3VkdRZjZSWFJxUk01Q3dERjRtOGtoc01EcHc?oc=5",
+            "publishedAt": "2023-04-17T14:00:00+07:00",
+            "district": "Sleman",
+            "archivedAt": "2026-09-23T16:20:45+07:00"
         }
     ]
 }

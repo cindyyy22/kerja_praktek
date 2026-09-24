@@ -16,25 +16,21 @@ const state = {
   dataMode: "article",
   lastMentionCount: 0,
   range: "24h",
+  page: "ringkasan",
   lastErrorMessage: "",
   totalMentions: 0,
   mediaCount: 0,
-  sla: 82,
+  freshCount: 0,
+  sla: 0,
   sources: {
     "Artikel Publik": 0
   },
   sentiment: {
     Positif: 0,
-    Netral: 100,
+    Netral: 0,
     Negatif: 0
   },
-  topics: [
-    { name: "Dugaan politik uang di kecamatan", value: 82, color: colors.red },
-    { name: "Akurasi daftar pemilih Sleman", value: 68, color: colors.teal },
-    { name: "Pelanggaran kampanye digital", value: 61, color: colors.gold },
-    { name: "Akses TPS dan logistik", value: 48, color: colors.blue },
-    { name: "Netralitas penyelenggara", value: 43, color: colors.green }
-  ],
+  topics: [],
   feedback: [],
   archive: []
 };
@@ -50,6 +46,8 @@ const archiveSearch = document.querySelector("#archiveSearch");
 const archiveMonthFilter = document.querySelector("#archiveMonthFilter");
 const pauseButton = document.querySelector("#pauseButton");
 const exportButton = document.querySelector("#exportButton");
+const syncStatus = document.querySelector("#syncStatus");
+const footerUpdatedAt = document.querySelector("#footerUpdatedAt");
 const toast = document.querySelector("#toast");
 const routeModal = document.querySelector("#routeModal");
 const routeModalTitle = document.querySelector("#routeModalTitle");
@@ -78,7 +76,11 @@ const policyProgressBar = document.querySelector("#policyProgressBar");
 const policySelectedCount = document.querySelector("#policySelectedCount");
 const policyCommitButton = document.querySelector("#policyCommitButton");
 const policyResetButton = document.querySelector("#policyResetButton");
-const navLinks = document.querySelectorAll(".nav-list a[href^='#']");
+const navLinks = document.querySelectorAll("[data-page-link]");
+const menuToggle = document.querySelector("[data-menu-toggle]");
+const menuCloseTargets = document.querySelectorAll("[data-menu-close]");
+const pageViews = [...document.querySelectorAll(".page-view")];
+const DEFAULT_PAGE = "ringkasan";
 let activeRoute = null;
 let activePolicyStage = "validasi";
 let selectedPolicyActions = new Set();
@@ -107,13 +109,28 @@ function formatNumber(value) {
 
 function getRiskScore() {
   const total = Object.values(state.sentiment).reduce((sum, value) => sum + value, 0);
-  if (total <= 0) return 0;
-  const negativeShare = state.sentiment.Negatif / total;
-  const topicPressure = state.topics.slice(0, 3).reduce((sum, topic) => sum + topic.value, 0) / 300;
+  if (total <= 0 || state.totalMentions <= 0) return 0;
+  const negativeShare = (Number(state.sentiment.Negatif) || 0) / total;
+  const topicPressure = state.topics.slice(0, 3).reduce((sum, topic) => sum + clamp(Number(topic.value) || 0, 0, 100), 0) / 300;
   return Math.round((negativeShare * 0.65 + topicPressure * 0.35) * 100);
 }
 
+function getDataReadiness() {
+  const total = state.feedback.length;
+  if (total === 0) return 0;
+  const complete = state.feedback.filter(item => item.sourceName && item.url && item.publishedAt).length;
+  const coverage = state.topics.filter(topic => Number(topic.count) > 0).length / Math.max(state.topics.length, 1);
+  return Math.round((complete / total) * 60 + coverage * 40);
+}
+
+function isRenderable(canvas) {
+  if (!canvas || !canvas.isConnected) return false;
+  const rect = canvas.getBoundingClientRect();
+  return rect.width > 0 && rect.height > 0;
+}
+
 function drawBarChart(canvas, values) {
+  if (!isRenderable(canvas)) return;
   const ctx = canvas.getContext("2d");
   const dpr = window.devicePixelRatio || 1;
   const rect = canvas.getBoundingClientRect();
@@ -130,8 +147,17 @@ function drawBarChart(canvas, values) {
   const barGap = 18;
   const barWidth = (rect.width - left - 24 - barGap * (data.length - 1)) / data.length;
 
-  ctx.strokeStyle = colors.gray;
+  ctx.strokeStyle = "#e7ece8";
   ctx.lineWidth = 1;
+  ctx.beginPath();
+  for (let i = 0; i <= 4; i += 1) {
+    const y = bottom - (bottom - 22) * (i / 4);
+    ctx.moveTo(left, y);
+    ctx.lineTo(rect.width - 18, y);
+  }
+  ctx.stroke();
+
+  ctx.strokeStyle = "#cbd5cf";
   ctx.beginPath();
   ctx.moveTo(left, 22);
   ctx.lineTo(left, bottom);
@@ -142,13 +168,13 @@ function drawBarChart(canvas, values) {
     const height = Math.max(12, (value / max) * 220);
     const x = left + index * (barWidth + barGap);
     const y = bottom - height;
-    const gradient = ctx.createLinearGradient(0, y, 0, bottom);
-    gradient.addColorStop(0, [colors.red, colors.teal, colors.blue, colors.gold, colors.green][index]);
-    gradient.addColorStop(1, "#d9ece7");
 
-    ctx.fillStyle = gradient;
-    roundRect(ctx, x, y, barWidth, height, 7);
+    ctx.fillStyle = [colors.red, colors.teal, colors.blue, colors.gold, colors.green][index];
+    roundRect(ctx, x, y, barWidth, height, 6);
     ctx.fill();
+
+    ctx.fillStyle = "rgba(176, 138, 46, 0.85)";
+    ctx.fillRect(x, y, barWidth, 2.5);
 
     ctx.fillStyle = colors.ink;
     ctx.font = "700 13px Inter, sans-serif";
@@ -162,6 +188,7 @@ function drawBarChart(canvas, values) {
 }
 
 function drawDonutChart(canvas, values) {
+  if (!isRenderable(canvas)) return;
   const ctx = canvas.getContext("2d");
   const dpr = window.devicePixelRatio || 1;
   const rect = canvas.getBoundingClientRect();
@@ -195,7 +222,7 @@ function drawDonutChart(canvas, values) {
   });
 
   ctx.fillStyle = colors.ink;
-  ctx.font = "800 28px Inter, sans-serif";
+  ctx.font = "700 30px 'Iowan Old Style', Georgia, 'Times New Roman', serif";
   ctx.textAlign = "center";
   ctx.fillText(`${Math.round(values.Negatif)}%`, cx, cy + 4);
   ctx.fillStyle = "#63716b";
@@ -211,6 +238,7 @@ function drawDonutChart(canvas, values) {
 }
 
 function drawGauge(canvas, score) {
+  if (!isRenderable(canvas)) return;
   const ctx = canvas.getContext("2d");
   const dpr = window.devicePixelRatio || 1;
   const rect = canvas.getBoundingClientRect();
@@ -254,22 +282,49 @@ function roundRect(ctx, x, y, width, height, radius) {
   ctx.closePath();
 }
 
-function renderMetrics(delta = 0) {
+function renderMetrics() {
   const risk = getRiskScore();
+  const hasData = state.totalMentions > 0;
+
   document.querySelector("#totalMentions").textContent = formatNumber(state.totalMentions);
-  document.querySelector("#mentionDelta").textContent = `+${delta} dalam menit terakhir`;
+  document.querySelector("#mentionDelta").textContent = `${formatNumber(state.freshCount)} artikel dalam 24 jam terakhir`;
   document.querySelector("#riskScore").textContent = `${risk}%`;
   document.querySelector("#riskLabel").textContent = risk > 68 ? "Tekanan eskalasi tinggi" : risk > 48 ? "Tekanan eskalasi sedang" : "Tekanan eskalasi rendah";
-  document.querySelector("#slaScore").textContent = `${state.sla}%`;
+
+  const negativeShare = document.querySelector("#negativeShare");
+  if (negativeShare) negativeShare.textContent = `${Math.round(Number(state.sentiment.Negatif) || 0)}%`;
+  const negativeDetail = document.querySelector("#negativeShareDetail");
+  if (negativeDetail) {
+    negativeDetail.textContent = hasData
+      ? `dari ${formatNumber(state.totalMentions)} artikel yang diklasifikasi`
+      : "Belum ada artikel";
+  }
+
   document.querySelector("#mediaCount").textContent = formatNumber(state.mediaCount);
+  const mediaDetail = document.querySelector("#mediaDetail");
+  if (mediaDetail) {
+    mediaDetail.textContent = hasData
+      ? `dari ${formatNumber(state.totalMentions)} artikel terpantau`
+      : "Media berbeda yang memberitakan Sleman";
+  }
 }
 
 function renderTopics() {
-  document.querySelector("#topicList").innerHTML = state.topics.map(topic => `
+  const list = document.querySelector("#topicList");
+  if (state.topics.length === 0) {
+    list.innerHTML = `
+      <div class="topic-empty">
+        Belum ada topik terdeteksi. Topik dihitung dari kata kunci artikel yang benar-benar dimuat.
+      </div>
+    `;
+    return;
+  }
+
+  list.innerHTML = state.topics.map(topic => `
     <div>
       <div class="topic-item">
         <span class="topic-label"><i class="swatch" style="background:${topic.color}"></i>${topic.name}</span>
-        <strong>${topic.value}</strong>
+        <strong>${topic.value}%</strong>
       </div>
       <div class="topic-meter" aria-hidden="true"><span style="width:${topic.value}%;background:${topic.color}"></span></div>
     </div>
@@ -288,13 +343,13 @@ function renderFeedback() {
     const isFiltered = Boolean(keyword) || selected !== "all";
     feedbackRows.innerHTML = `
       <div class="table-row empty-row" role="row">
-        <span>--</span>
-        <span><i class="source-pill">Artikel</i></span>
-        <span>${isFiltered
+        <span data-label="Waktu">--</span>
+        <span data-label="Penerbit"><i class="source-pill">Artikel</i></span>
+        <span data-label="Judul">${isFiltered
           ? `Tidak ada artikel yang cocok dengan filter${keyword ? ` "${escapeHtml(keyword)}"` : ""}.`
           : "Belum ada artikel publik yang berhasil dimuat. Pastikan XAMPP aktif, koneksi internet tersedia, dan endpoint api/scrape.php bisa dibuka."}</span>
-        <span><i class="signal-pill neutral">Netral</i></span>
-        <span><i class="evidence-pill">Status</i></span>
+        <span data-label="Signal"><i class="signal-pill neutral">Netral</i></span>
+        <span data-label="Bukti"><i class="evidence-pill">Status</i></span>
       </div>
     `;
     return;
@@ -302,11 +357,11 @@ function renderFeedback() {
 
   feedbackRows.innerHTML = rows.map(item => `
     <div class="table-row" role="row">
-      <span>${item.time}</span>
-      <span><i class="source-pill">${escapeHtml(item.sourceName || item.source)}</i></span>
-      <span>${renderFeedbackText(item)}</span>
-      <span><i class="signal-pill ${getSignalClass(item.signal)}">${item.signal}</i></span>
-      <span><i class="evidence-pill">${item.evidence}</i></span>
+      <span data-label="Waktu">${item.time}</span>
+      <span data-label="Penerbit"><i class="source-pill">${escapeHtml(item.sourceName || item.source)}</i></span>
+      <span data-label="Judul">${renderFeedbackText(item)}</span>
+      <span data-label="Signal"><i class="signal-pill ${getSignalClass(item.signal)}">${item.signal}</i></span>
+      <span data-label="Bukti"><i class="evidence-pill">${item.evidence}</i></span>
     </div>
   `).join("");
 }
@@ -468,7 +523,7 @@ function getPolicyDecision() {
   const risk = getRiskScore();
   const posture = risk > 68 ? "Eskalasi" : risk > 48 ? "Investigasi" : "Pantau";
   const topic = state.topics[0]?.name || "Isu Sleman";
-  const readinessBase = risk > 68 ? 72 : risk > 48 ? 58 : 42;
+  const readinessBase = getDataReadiness();
   const recommendations = risk > 68
     ? [
       "Buka telaah prioritas untuk klaster aduan tertinggi dan tugaskan verifikasi lapangan di kecamatan terkait.",
@@ -550,7 +605,7 @@ function renderRouting() {
   const routes = [
     {
       team: "Penerimaan Aduan",
-      detail: `${Math.round(state.topics[0].value * 0.7)} isu perlu dicek dari artikel`,
+      detail: `${Math.round(state.totalMentions * ((state.topics[0]?.value || 0) / 100) * 0.7)} isu perlu dicek dari artikel`,
       priority: "Tinggi",
       sla: "12 jam",
       owner: "Tim Penerimaan Aduan",
@@ -564,7 +619,7 @@ function renderRouting() {
     },
     {
       team: "Komunikasi Publik",
-      detail: `${Math.round(state.sentiment.Negatif + state.sentiment.Netral)} artikel perlu klarifikasi atau monitoring`,
+      detail: `${Math.round(state.totalMentions * ((Number(state.sentiment.Negatif) + Number(state.sentiment.Netral)) / 100))} artikel perlu klarifikasi atau monitoring`,
       priority: "Sedang",
       sla: "24 jam",
       owner: "Tim Humas dan Pencegahan",
@@ -578,7 +633,7 @@ function renderRouting() {
     },
     {
       team: "Pengawasan Kecamatan",
-      detail: `${Math.round(state.topics[3].value * 0.5)} sinyal lokasi Sleman perlu ditinjau`,
+      detail: `${Math.round(state.totalMentions * ((state.topics[3]?.value || 0) / 100) * 0.5)} sinyal lokasi Sleman perlu ditinjau`,
       priority: "Sedang",
       sla: "1-2 hari",
       owner: "Panwaslu Kapanewon",
@@ -983,8 +1038,535 @@ function renderCharts() {
   drawDonutChart(sentimentChart, state.sentiment);
 }
 
-function renderAll(delta = 0) {
-  renderMetrics(delta);
+const DB_EXPLORER_ENDPOINT = "api/db-explorer.php";
+const HEALTH_ENDPOINT = "api/health.php";
+
+const tech = {
+  dbLoaded: false,
+  dbLoading: false,
+  healthLoaded: false,
+  healthLoading: false,
+  healthTimer: null,
+  lastQueries: []
+};
+
+const dbEngine = document.querySelector("#dbEngine");
+const dbEngineNote = document.querySelector("#dbEngineNote");
+const dbName = document.querySelector("#dbName");
+const dbNameNote = document.querySelector("#dbNameNote");
+const dbTableCount = document.querySelector("#dbTableCount");
+const dbRowCount = document.querySelector("#dbRowCount");
+const dbSize = document.querySelector("#dbSize");
+const dbSizeNote = document.querySelector("#dbSizeNote");
+const dbSchemaMeta = document.querySelector("#dbSchemaMeta");
+const dbTableList = document.querySelector("#dbTableList");
+const queryList = document.querySelector("#queryList");
+const queryResult = document.querySelector("#queryResult");
+const queryResultTitle = document.querySelector("#queryResultTitle");
+const queryResultMeta = document.querySelector("#queryResultMeta");
+const queryResultBody = document.querySelector("#queryResultBody");
+const dbSyncHistory = document.querySelector("#dbSyncHistory");
+const dbRequestLog = document.querySelector("#dbRequestLog");
+const dbRefreshButton = document.querySelector("#dbRefreshButton");
+
+const healthPulse = document.querySelector("#healthPulse");
+const healthStatus = document.querySelector("#healthStatus");
+const healthStatusNote = document.querySelector("#healthStatusNote");
+const healthResponseMs = document.querySelector("#healthResponseMs");
+const healthResponseNote = document.querySelector("#healthResponseNote");
+const healthDb = document.querySelector("#healthDb");
+const healthDbNote = document.querySelector("#healthDbNote");
+const healthCheckedAt = document.querySelector("#healthCheckedAt");
+const healthCheckedNote = document.querySelector("#healthCheckedNote");
+const healthChecks = document.querySelector("#healthChecks");
+const healthEndpoints = document.querySelector("#healthEndpoints");
+const healthTimings = document.querySelector("#healthTimings");
+const healthRequests = document.querySelector("#healthRequests");
+const healthRequestMeta = document.querySelector("#healthRequestMeta");
+const healthRefreshButton = document.querySelector("#healthRefreshButton");
+
+function formatBytes(bytes) {
+  const value = Number(bytes || 0);
+  if (value <= 0) return "0 B";
+  if (value < 1024) return `${value} B`;
+  if (value < 1024 * 1024) return `${(value / 1024).toFixed(1)} KB`;
+  return `${(value / (1024 * 1024)).toFixed(2)} MB`;
+}
+
+function formatNumber(value) {
+  return new Intl.NumberFormat("id-ID").format(Number(value || 0));
+}
+
+function formatDateTime(value) {
+  if (!value) return "-";
+  const date = new Date(String(value).replace(" ", "T"));
+  if (Number.isNaN(date.getTime())) return String(value);
+  return date.toLocaleString("id-ID", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit"
+  });
+}
+
+function formatMs(value) {
+  const ms = Number(value || 0);
+  if (ms >= 1000) return `${(ms / 1000).toFixed(2)} s`;
+  return `${ms.toFixed(ms >= 100 ? 0 : 2)} ms`;
+}
+
+function setStatTone(element, tone) {
+  const card = element?.closest(".tech-stat");
+  if (card) card.dataset.tone = tone || "";
+}
+
+function renderEmptyState(container, message) {
+  if (container) container.innerHTML = `<p class="tech-empty">${escapeHtml(message)}</p>`;
+}
+
+function buildTechTable(rows, columns, options = {}) {
+  if (!Array.isArray(rows) || rows.length === 0) {
+    return `<p class="tech-empty">${escapeHtml(options.empty || "Tidak ada baris pada tabel ini.")}</p>`;
+  }
+
+  const keys = columns && columns.length ? columns : Object.keys(rows[0]);
+  const head = keys.map(key => `<th scope="col">${escapeHtml(String(key))}</th>`).join("");
+  const body = rows.map(row => {
+    const cells = keys.map(key => {
+      const rawValue = row[key];
+      const isNull = rawValue === null || rawValue === undefined || rawValue === "";
+      const text = isNull ? "NULL" : String(rawValue);
+      const isText = text.length > 24 || /[a-zA-Z]{3,}/.test(text) && Number.isNaN(Number(text));
+      return `<td class="${isNull ? "cell-null" : ""}${isText ? " is-text" : ""}">${escapeHtml(text.length > 160 ? `${text.slice(0, 159)}…` : text)}</td>`;
+    }).join("");
+    return `<tr>${cells}</tr>`;
+  }).join("");
+
+  return `<table class="tech-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+}
+
+function renderDatabaseSummary(payload) {
+  const stats = payload.stats || {};
+  const pageCount = payload.available ? payload.tables.length : 0;
+
+  dbEngine.textContent = payload.engine || "Tidak terhubung";
+  dbEngineNote.textContent = payload.available
+    ? "Koneksi PDO aktif ke server MySQL"
+    : (payload.error || "Periksa layanan MySQL");
+  setStatTone(dbEngine, payload.available ? "ok" : "error");
+
+  dbName.textContent = payload.database || "-";
+  dbNameNote.textContent = payload.collation ? `Kolasi ${payload.collation}` : "Skema aktif";
+  setStatTone(dbName, payload.available ? "ok" : "warn");
+
+  dbTableCount.textContent = `${pageCount} tabel`;
+  dbRowCount.textContent = `${formatNumber(stats.totalRows)} baris tersimpan`;
+  setStatTone(dbTableCount, payload.available ? "ok" : "warn");
+
+  dbSize.textContent = formatBytes(stats.totalBytes);
+  dbSizeNote.textContent = `${formatNumber(stats.articleCount)} artikel · ${formatNumber(stats.sourceCount)} penerbit`;
+  setStatTone(dbSize, payload.available ? "ok" : "warn");
+}
+
+function renderDatabaseTables(payload) {
+  if (!payload.available) {
+    renderEmptyState(dbTableList, payload.error || "Basis data MySQL belum dapat dibaca.");
+    dbSchemaMeta.textContent = "Tidak tersedia";
+    return;
+  }
+
+  const tables = payload.tables || [];
+  dbSchemaMeta.textContent = `${tables.length} tabel · ${formatNumber(payload.stats?.totalRows)} baris`;
+
+  dbTableList.innerHTML = tables.map(table => {
+    const columns = (table.columns || []).map(column => {
+      const primary = /PRI/i.test(String(column.key || ""));
+      const unique = /UNI/i.test(String(column.key || ""));
+      const nullable = /YES/i.test(String(column.null || ""));
+      const auto = /auto_increment/i.test(String(column.extra || ""));
+      const marks = [
+        primary ? "PK" : unique ? "UNIQUE" : "",
+        nullable ? "null" : "",
+        auto ? "auto" : ""
+      ].filter(Boolean).join(" · ");
+      return `<span class="db-column-chip${primary ? " is-pk" : ""}" title="${escapeAttribute(`${column.name} ${column.type}${marks ? ` (${marks})` : ""}`)}">
+        ${escapeHtml(column.name)}
+        <em>${escapeHtml(column.type || "")}${marks ? ` · ${escapeHtml(marks)}` : ""}</em>
+      </span>`;
+    }).join("");
+
+    const indexes = (table.indexes || []).map(index =>
+      `<span class="db-index-chip" title="Indeks pada kolom ${escapeAttribute(index.columns)}">
+        ${escapeHtml(index.name)}${index.unique ? " · unik" : ""}
+      </span>`
+    ).join("");
+
+    const samples = table.samples && table.samples.length
+      ? `<details class="db-sample-wrap">
+          <summary>Lihat ${table.samples.length} contoh baris dari tabel ini</summary>
+          <div class="tech-scroll">${buildTechTable(table.samples, null, { empty: "Tabel masih kosong." })}</div>
+        </details>`
+      : `<p class="tech-empty">Belum ada baris tersimpan pada tabel ini.</p>`;
+
+    return `<article class="db-table-card">
+      <header class="db-table-head">
+        <div>
+          <h4 class="db-table-name">${escapeHtml(table.name)}</h4>
+          <p class="db-table-label">${escapeHtml(table.label || "")}</p>
+        </div>
+        <span class="db-badge">${formatNumber(table.rows)} baris</span>
+      </header>
+      <p class="db-table-desc">${escapeHtml(table.description || "")}</p>
+      <div class="db-columns">${columns}</div>
+      ${indexes ? `<div class="db-indexes"><span class="db-index-label">Indeks</span>${indexes}</div>` : ""}
+      <div class="db-table-foot">
+        <span>data <strong>${formatBytes(table.data_bytes)}</strong> · indeks <strong>${formatBytes(table.index_bytes)}</strong></span>
+        <span>${table.columnCount || (table.columns || []).length} kolom · ${(table.indexes || []).length} indeks</span>
+      </div>
+      ${samples}
+    </article>`;
+  }).join("");
+}
+
+function renderQueryCatalog(payload) {
+  const queries = payload.queries || [];
+  tech.lastQueries = queries;
+
+  if (!queries.length) {
+    renderEmptyState(queryList, "Katalog query belum tersedia.");
+    return;
+  }
+
+  queryList.innerHTML = queries.map((query, index) => `
+    <article class="query-item">
+      <div class="query-item-head">
+        <h4 class="query-name">${escapeHtml(query.name)}</h4>
+        <span class="query-usedby">${escapeHtml(query.used_by || "Sistem")}</span>
+      </div>
+      <pre class="query-sql">${escapeHtml(query.sql)}</pre>
+      <div class="query-actions">
+        <span class="query-timing" data-query-timing="${index}">Belum dijalankan</span>
+        <button class="query-run" type="button" data-query-run="${index}">
+          <svg class="icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 5.5v13l11-6.5z"/></svg>
+          Jalankan di server
+        </button>
+      </div>
+    </article>
+  `).join("");
+}
+
+function renderQueryResult(result) {
+  if (!result) return;
+
+  queryResult.hidden = false;
+
+  if (result.error) {
+    queryResultTitle.textContent = "Query gagal dijalankan";
+    queryResultMeta.textContent = result.error;
+    renderEmptyState(queryResultBody, result.error);
+    return;
+  }
+
+  queryResultTitle.textContent = result.name || "Hasil query";
+  queryResultMeta.textContent = `${result.rowCount} baris · ${formatMs(result.durationMs)} di server MySQL`;
+  queryResultBody.innerHTML = buildTechTable(result.rows, result.columns, {
+    empty: "Query berhasil dijalankan tetapi tidak menghasilkan baris."
+  });
+}
+
+function renderSyncHistory(rows) {
+  if (!Array.isArray(rows) || rows.length === 0) {
+    renderEmptyState(dbSyncHistory, "Belum ada catatan sinkronisasi.");
+    return;
+  }
+
+  dbSyncHistory.innerHTML = buildTechTable(
+    rows.map(row => ({
+      waktu: formatDateTime(row.started_at),
+      status: row.status,
+      mode: row.mode,
+      durasi: formatMs(row.duration_ms),
+      baru: row.new_count,
+      diperbarui: row.updated_count,
+      diterima: row.accepted_count,
+      ukuran: formatBytes(row.payload_bytes)
+    })),
+    ["waktu", "status", "mode", "durasi", "baru", "diperbarui", "diterima", "ukuran"]
+  );
+}
+
+function renderRequestLog(rows) {
+  if (!Array.isArray(rows) || rows.length === 0) {
+    renderEmptyState(dbRequestLog, "Belum ada permintaan API yang tercatat.");
+    return;
+  }
+
+  dbRequestLog.innerHTML = buildTechTable(
+    rows.map(row => ({
+      waktu: formatDateTime(row.requested_at),
+      endpoint: row.endpoint,
+      metode: row.method,
+      http: row.http_status,
+      durasi: formatMs(row.duration_ms),
+      ukuran: formatBytes(row.payload_bytes)
+    })),
+    ["waktu", "endpoint", "metode", "http", "durasi", "ukuran"]
+  );
+}
+
+async function loadDatabaseExplorer(force) {
+  if (tech.dbLoading) return;
+  if (tech.dbLoaded && !force) return;
+
+  tech.dbLoading = true;
+  if (dbRefreshButton) dbRefreshButton.disabled = true;
+  dbSchemaMeta.textContent = "Memuat…";
+
+  try {
+    const response = await fetch(`${DB_EXPLORER_ENDPOINT}?t=${Date.now()}`, {
+      headers: { Accept: "application/json" },
+      cache: "no-store"
+    });
+    const payload = await response.json();
+
+    renderDatabaseSummary(payload);
+    renderDatabaseTables(payload);
+    renderQueryCatalog(payload);
+    renderSyncHistory(payload.syncHistory);
+    renderRequestLog(payload.recentActivity);
+
+    tech.dbLoaded = true;
+
+    if (!payload.available) {
+      showToast(payload.error || "Basis data MySQL belum dapat dibaca");
+    }
+  } catch (error) {
+    const message = `Gagal memuat basis data: ${error.message}`;
+    renderEmptyState(dbTableList, message);
+    renderEmptyState(queryList, message);
+    renderEmptyState(dbSyncHistory, message);
+    renderEmptyState(dbRequestLog, message);
+    dbEngine.textContent = "Tidak terhubung";
+    setStatTone(dbEngine, "error");
+    showToast(message);
+  } finally {
+    tech.dbLoading = false;
+    if (dbRefreshButton) dbRefreshButton.disabled = false;
+  }
+}
+
+async function runCatalogQuery(index, button) {
+  if (!button) return;
+
+  const timing = document.querySelector(`[data-query-timing="${index}"]`);
+  button.disabled = true;
+  if (timing) timing.textContent = "Menjalankan query…";
+
+  try {
+    const response = await fetch(`${DB_EXPLORER_ENDPOINT}?run=${index}&t=${Date.now()}`, {
+      headers: { Accept: "application/json" },
+      cache: "no-store"
+    });
+    const payload = await response.json();
+    const result = payload.queryRun;
+
+    renderQueryResult(result);
+
+    if (timing) {
+      timing.textContent = result && result.executed
+        ? `${result.rowCount} baris · ${formatMs(result.durationMs)}`
+        : (result?.error || "Gagal dijalankan");
+    }
+
+    if (!result || !result.executed) {
+      showToast(result?.error || "Query tidak dapat dijalankan");
+    }
+  } catch (error) {
+    if (timing) timing.textContent = "Gagal dijalankan";
+    showToast(`Query gagal: ${error.message}`);
+  } finally {
+    button.disabled = false;
+  }
+}
+
+function renderHealthChecks(checks) {
+  if (!Array.isArray(checks) || checks.length === 0) {
+    renderEmptyState(healthChecks, "Belum ada hasil pemeriksaan.");
+    return;
+  }
+
+  healthChecks.innerHTML = checks.map(check => `
+    <li class="check-item" data-status="${escapeHtml(check.status || "warn")}">
+      <span class="check-dot" aria-hidden="true"></span>
+      <span class="check-body">
+        <span class="check-name">${escapeHtml(check.name)}</span>
+        <span class="check-detail">${escapeHtml(check.detail || "")}</span>
+      </span>
+    </li>
+  `).join("");
+}
+
+function renderHealthEndpoints(endpoints) {
+  if (!Array.isArray(endpoints) || endpoints.length === 0) {
+    renderEmptyState(healthEndpoints, "Katalog endpoint tidak tersedia.");
+    return;
+  }
+
+  healthEndpoints.innerHTML = endpoints.map(endpoint => `
+    <article class="endpoint-item">
+      <div class="endpoint-top">
+        <span class="endpoint-method">${escapeHtml(endpoint.method)}</span>
+        <span class="endpoint-path">/${escapeHtml(endpoint.endpoint)}</span>
+      </div>
+      <p class="endpoint-role">${escapeHtml(endpoint.role)}</p>
+      <p class="endpoint-returns"><strong>Mengembalikan:</strong> ${escapeHtml(endpoint.returns)}</p>
+    </article>
+  `).join("");
+}
+
+function renderHealthTimings(timings) {
+  if (!Array.isArray(timings) || timings.length === 0) {
+    renderEmptyState(healthTimings, "Belum ada catatan waktu proses.");
+    return;
+  }
+
+  const max = Math.max(...timings.map(item => Number(item.ms || 0)), 1);
+
+  healthTimings.innerHTML = timings.map(item => {
+    const value = Number(item.ms || 0);
+    const width = clamp((value / max) * 100, 3, 100);
+    return `<div class="timing-item" data-slow="${value > 150 ? "true" : "false"}">
+      <div class="timing-head">
+        <span class="timing-label">${escapeHtml(item.label)}</span>
+        <span class="timing-value">${formatMs(value)}</span>
+      </div>
+      <div class="timing-bar"><i style="width:${width.toFixed(1)}%"></i></div>
+    </div>`;
+  }).join("");
+}
+
+function renderHealthRequests(requests) {
+  if (!requests || !Array.isArray(requests.recent)) {
+    renderEmptyState(healthRequests, "Belum ada permintaan API.");
+    return;
+  }
+
+  healthRequestMeta.textContent = `${formatNumber(requests.total)} permintaan · ${formatNumber(requests.today)} hari ini · rata-rata ${formatMs(requests.avgDurationMs)}`;
+
+  healthRequests.innerHTML = buildTechTable(
+    requests.recent.map(row => ({
+      waktu: formatDateTime(row.requested_at),
+      endpoint: row.endpoint,
+      http: row.http_status,
+      durasi: formatMs(row.duration_ms),
+      ukuran: formatBytes(row.payload_bytes),
+      klien: row.client_ip || "-"
+    })),
+    ["waktu", "endpoint", "http", "durasi", "ukuran", "klien"]
+  );
+}
+
+function renderHealthSummary(payload) {
+  const checks = payload.checks || [];
+  const hasError = checks.some(check => check.status === "error");
+  const hasWarn = checks.some(check => check.status === "warn");
+  const tone = hasError ? "error" : hasWarn ? "warn" : "ok";
+
+  healthStatus.textContent = hasError ? "Perlu perhatian" : hasWarn ? "Berjalan dengan catatan" : "Semua layanan normal";
+  healthStatusNote.textContent = `${checks.filter(check => check.status === "ok").length} dari ${checks.length} pemeriksaan lolos`;
+  setStatTone(healthStatus, tone);
+
+  const avgMs = payload.requests?.avgDurationMs;
+  healthResponseMs.textContent = formatMs(payload.responseMs);
+  healthResponseNote.textContent = Number(avgMs)
+    ? `Rata-rata tercatat ${formatMs(avgMs)}`
+    : "Pemeriksaan pertama";
+  setStatTone(healthResponseMs, Number(payload.responseMs) > 1000 ? "warn" : "ok");
+
+  const mysql = payload.storage?.mysql || {};
+  healthDb.textContent = mysql.connected ? mysql.database : "Terputus";
+  healthDbNote.textContent = mysql.connected
+    ? `${mysql.engine || "MySQL"} · ${formatNumber(mysql.totalRows)} baris`
+    : (mysql.error || "Tidak dapat terhubung");
+  setStatTone(healthDb, mysql.connected ? "ok" : "error");
+
+  healthCheckedAt.textContent = formatDateTime(payload.generatedAt);
+  healthCheckedNote.textContent = `PHP ${payload.runtime?.phpVersion || "-"} · ${payload.runtime?.sapi || "-"}`;
+  setStatTone(healthCheckedAt, "ok");
+
+  if (healthPulse) {
+    healthPulse.dataset.state = tone;
+    const label = healthPulse.querySelector("span");
+    if (label) {
+      label.textContent = payload.ok === false ? "Sebagian layanan bermasalah" : "Layanan terpantau aktif";
+    }
+  }
+}
+
+async function loadSystemHealth(options = {}) {
+  if (tech.healthLoading) return;
+
+  tech.healthLoading = true;
+  if (healthRefreshButton) healthRefreshButton.disabled = true;
+  if (healthPulse) {
+    const label = healthPulse.querySelector("span");
+    if (label) label.textContent = "Memeriksa…";
+  }
+
+  try {
+    const response = await fetch(`${HEALTH_ENDPOINT}?t=${Date.now()}`, {
+      headers: { Accept: "application/json" },
+      cache: "no-store"
+    });
+    const payload = await response.json();
+
+    renderHealthSummary(payload);
+    renderHealthChecks(payload.checks);
+    renderHealthEndpoints(payload.endpoints);
+    renderHealthTimings(payload.queryTimings);
+    renderHealthRequests(payload.requests);
+
+    tech.healthLoaded = true;
+  } catch (error) {
+    const message = `Gagal memeriksa status sistem: ${error.message}`;
+    renderEmptyState(healthChecks, message);
+    healthStatus.textContent = "Tidak dapat diperiksa";
+    setStatTone(healthStatus, "error");
+    if (healthPulse) {
+      healthPulse.dataset.state = "error";
+      const label = healthPulse.querySelector("span");
+      if (label) label.textContent = "Pemeriksaan gagal";
+    }
+    if (!options.silent) showToast(message);
+  } finally {
+    tech.healthLoading = false;
+    if (healthRefreshButton) healthRefreshButton.disabled = false;
+  }
+}
+
+function startHealthPolling() {
+  if (tech.healthTimer) return;
+  tech.healthTimer = window.setInterval(() => {
+    if (state.page === "status-sistem" && !document.hidden) {
+      loadSystemHealth({ silent: true });
+    }
+  }, 30000);
+}
+
+function renderTechPages() {
+  if (state.page === "basis-data") {
+    loadDatabaseExplorer(tech.dbLoaded);
+  }
+
+  if (state.page === "status-sistem") {
+    loadSystemHealth({ silent: true });
+  }
+}
+
+function renderAll() {
+  renderMetrics();
   renderTopics();
   renderFeedback();
   renderArchive();
@@ -997,7 +1579,7 @@ async function loadScrapedData() {
   if (state.paused) return;
 
   try {
-    document.querySelector("#syncStatus").textContent = "Mengambil data publik Sleman...";
+    updateSyncLabels("Mengambil data publik Sleman...");
     const response = await fetch(`${SCRAPE_ENDPOINT}?t=${Date.now()}`, {
       headers: { Accept: "application/json" },
       cache: "no-store"
@@ -1016,22 +1598,22 @@ async function loadScrapedData() {
   } catch (error) {
     state.dataMode = "article";
     const errorMessage = getLoadErrorMessage(error);
-    document.querySelector("#syncStatus").textContent = errorMessage;
+    updateSyncLabels(errorMessage);
     if (state.lastErrorMessage !== errorMessage) {
       showToast(errorMessage);
       state.lastErrorMessage = errorMessage;
     }
-    renderAll(0);
+    renderAll();
   }
 }
 
 function applyScrapedData(payload) {
-  const previous = state.lastMentionCount;
   state.dataMode = payload.mode || "article-scraping";
   state.totalMentions = Number(payload.totalMentions || payload.feedback.length || 0);
   state.lastMentionCount = state.totalMentions;
   state.mediaCount = Number(payload.mediaCount || 0);
-  state.sla = Number(payload.sla || state.sla);
+  state.freshCount = Number(payload.freshCount || 0);
+  state.sla = Number.isFinite(Number(payload.sla)) ? Number(payload.sla) : 0;
   state.sources = normalizeSources(payload.sources || {});
   state.sentiment = normalizeSentiment(payload.sentiment || {});
   state.topics = normalizeTopics(payload.topics || []);
@@ -1039,11 +1621,15 @@ function applyScrapedData(payload) {
   state.archive = Array.isArray(payload.archive) ? payload.archive.map(normalizeFeedbackItem) : state.feedback;
   state.lastErrorMessage = "";
 
-  const delta = Math.max(0, state.totalMentions - previous);
   const scrapedAt = payload.scrapedAt ? new Date(payload.scrapedAt) : new Date();
-  const cacheLabel = state.dataMode.includes("last-good") ? "cache terakhir" : "artikel real";
-  document.querySelector("#syncStatus").textContent = `${cacheLabel}: ${scrapedAt.toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit" })}`;
-  renderAll(delta);
+  const timeLabel = scrapedAt.toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit" });
+  const isFallback = String(state.dataMode).includes("last-good");
+  const isCache = payload.fromCache === true;
+  const ageMinutes = Math.max(0, Math.round(Number(payload.cacheAgeSeconds || 0) / 60));
+  const origin = isFallback ? "Data cadangan" : isCache ? "Data tersimpan" : "Data live";
+  const ageLabel = isCache && ageMinutes > 0 ? ` - ${ageMinutes} menit lalu` : "";
+  updateSyncLabels(`${origin} - ${timeLabel} WIB${ageLabel}`);
+  renderAll();
 }
 
 function tick() {
@@ -1086,10 +1672,11 @@ function normalizeSentiment(sentiment) {
 }
 
 function normalizeTopics(topics) {
-  const source = Array.isArray(topics) && topics.length > 0 ? topics : state.topics;
+  const source = Array.isArray(topics) ? topics : [];
   return source.slice(0, 5).map((topic, index) => ({
     name: topic.name || "Isu Sleman",
-    value: clamp(Number(topic.value || 0), 12, 100),
+    value: clamp(Number(topic.value || 0), 0, 100),
+    count: Number(topic.count || 0),
     color: topicColors[index] || colors.teal
   }));
 }
@@ -1191,32 +1778,124 @@ function showToast(message) {
   window.setTimeout(() => toast.classList.remove("show"), 2500);
 }
 
-function setActiveNav(sectionId) {
+function updateSyncLabels(message) {
+  if (syncStatus) syncStatus.textContent = message;
+  if (footerUpdatedAt) footerUpdatedAt.textContent = message;
+}
+
+function setMenuOpen(open) {
+  document.body.classList.toggle("nav-open", open);
+  menuToggle?.setAttribute("aria-expanded", String(open));
+  menuToggle?.setAttribute("aria-label", open ? "Tutup navigasi" : "Buka navigasi");
+}
+
+function toggleMenu() {
+  setMenuOpen(!document.body.classList.contains("nav-open"));
+}
+
+const pageTitles = {
+  "ringkasan": "Ringkasan",
+  "sumber-data": "Sumber Data",
+  "aduan-publik": "Aduan Publik",
+  "arsip-berita": "Arsip Berita",
+  "dukungan-keputusan": "Dukungan Keputusan",
+  "basis-data": "Basis Data",
+  "status-sistem": "Status Sistem"
+};
+
+function readPageFromHash() {
+  const slug = decodeURIComponent(window.location.hash.replace(/^#\/?/, "")).trim();
+  return pageTitles[slug] ? slug : DEFAULT_PAGE;
+}
+
+function setActiveNav(page) {
   navLinks.forEach(link => {
-    link.classList.toggle("active", link.getAttribute("href") === `#${sectionId}`);
+    link.classList.toggle("active", link.dataset.pageLink === page);
   });
 }
 
-function setupScrollSpy() {
-  const sections = [...navLinks]
-    .map(link => document.querySelector(link.getAttribute("href")))
-    .filter(Boolean);
+function buildPageHash(page, anchor) {
+  const base = `#/${page}`;
+  return anchor ? `${base}/${anchor}` : base;
+}
 
-  if (!sections.length) return;
+function activatePage(page, anchor, options = {}) {
+  const target = pageViews.find(view => view.dataset.page === page) || pageViews[0];
+  if (!target) return;
 
-  const observer = new IntersectionObserver(entries => {
-    const visibleEntry = entries
-      .filter(entry => entry.isIntersecting)
-      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-
-    if (visibleEntry) setActiveNav(visibleEntry.target.id);
-  }, {
-    root: null,
-    rootMargin: "-18% 0px -58% 0px",
-    threshold: [0.12, 0.32, 0.56]
+  pageViews.forEach(view => {
+    const isActive = view === target;
+    view.hidden = !isActive;
+    view.classList.toggle("active", isActive);
   });
 
-  sections.forEach(section => observer.observe(section));
+  setActiveNav(page);
+  state.page = page;
+
+  const title = pageTitles[page];
+  if (title) {
+    document.title = `Bawaslu Sleman - ${title}`;
+  }
+
+  if (options.scroll !== false) {
+    const anchorTarget = anchor ? document.getElementById(anchor) : null;
+    if (anchorTarget && anchorTarget.offsetParent !== null) {
+      anchorTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else if (!anchor) {
+      window.scrollTo({ top: 0, behavior: options.smooth ? "smooth" : "auto" });
+    }
+  }
+
+  if (options.history !== false && readPageFromHash() !== page) {
+    const nextHash = buildPageHash(page, anchor);
+    if (options.replace) {
+      window.history.replaceState(null, "", nextHash);
+    } else {
+      window.history.pushState(null, "", nextHash);
+    }
+  }
+
+  renderAll();
+  renderTechPages();
+}
+
+function navigateTo(page, anchor, options) {
+  const nextPage = pageTitles[page] ? page : DEFAULT_PAGE;
+  if (nextPage === state.page && !anchor) {
+    setMenuOpen(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  activatePage(nextPage, anchor, options);
+}
+
+function setupRouter() {
+  if (!pageViews.length) return;
+
+  activatePage(readPageFromHash(), null, { history: false });
+
+  window.addEventListener("hashchange", () => {
+    activatePage(readPageFromHash(), null, { history: false, smooth: true });
+  });
+
+  document.addEventListener("click", event => {
+    const trigger = event.target.closest("[data-page-link], [data-page-anchor]");
+    if (!trigger) return;
+
+    if (trigger.dataset.pageLink) {
+      event.preventDefault();
+      navigateTo(trigger.dataset.pageLink);
+      setMenuOpen(false);
+      return;
+    }
+
+    if (trigger.dataset.pageAnchor) {
+      const [page, anchor] = trigger.dataset.pageAnchor.split("/");
+      event.preventDefault();
+      navigateTo(page, anchor);
+      setMenuOpen(false);
+    }
+  });
 }
 
 document.querySelectorAll("[data-range]").forEach(button => {
@@ -1233,11 +1912,26 @@ articleSearch.addEventListener("input", renderFeedback);
 archiveSearch?.addEventListener("input", renderArchive);
 archiveMonthFilter?.addEventListener("change", renderArchive);
 
-navLinks.forEach(link => {
-  link.addEventListener("click", () => {
-    const targetId = link.getAttribute("href").slice(1);
-    setActiveNav(targetId);
-  });
+menuToggle?.addEventListener("click", toggleMenu);
+
+dbRefreshButton?.addEventListener("click", () => {
+  loadDatabaseExplorer(true);
+  showToast("Memuat ulang isi basis data");
+});
+
+healthRefreshButton?.addEventListener("click", () => {
+  loadSystemHealth();
+  showToast("Memeriksa ulang status sistem");
+});
+
+queryList?.addEventListener("click", event => {
+  const button = event.target.closest("[data-query-run]");
+  if (!button) return;
+  runCatalogQuery(Number(button.dataset.queryRun), button);
+});
+
+menuCloseTargets.forEach(target => {
+  target.addEventListener("click", () => setMenuOpen(false));
 });
 
 pauseButton.addEventListener("click", () => {
@@ -1471,8 +2165,8 @@ exportButton.addEventListener("click", () => {
           <div class="box"><span>Total Artikel</span><strong>${formatNumber(state.totalMentions)}</strong></div>
           <div class="box"><span>Risiko Aduan</span><strong>${risk}%</strong></div>
           <div class="box"><span>Sikap Kebijakan</span><strong>${escapeHtml(decision.posture)}</strong></div>
-          <div class="box"><span>Sumber</span><strong>${formatNumber(state.mediaCount)}</strong></div>
-          <div class="box"><span>SLA Respons</span><strong>${state.sla}%</strong></div>
+          <div class="box"><span>Penerbit</span><strong>${formatNumber(state.mediaCount)}</strong></div>
+          <div class="box"><span>Kelengkapan Data</span><strong>${state.sla}%</strong></div>
           <div class="box"><span>Topik Utama</span><strong>${escapeHtml(decision.topic)}</strong></div>
           <div class="box"><span>Rentang Grafik</span><strong>${escapeHtml(state.range)}</strong></div>
           <div class="box"><span>Dibuat</span><strong>${escapeHtml(generatedAt)}</strong></div>
@@ -1594,17 +2288,25 @@ decisionPanel.addEventListener("keydown", event => {
 });
 
 window.addEventListener("keydown", event => {
-  if (event.key === "Escape" && routeModal.classList.contains("show")) {
+  if (event.key !== "Escape") return;
+  if (document.body.classList.contains("nav-open")) {
+    setMenuOpen(false);
+  }
+  if (routeModal.classList.contains("show")) {
     closeRouteDetail();
   }
-  if (event.key === "Escape" && policyModal.classList.contains("show")) {
+  if (policyModal.classList.contains("show")) {
     closePolicyDetail();
   }
 });
 
-window.addEventListener("resize", () => renderAll());
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 1120) setMenuOpen(false);
+  renderAll();
+});
 
 renderAll();
-setupScrollSpy();
+setupRouter();
 loadScrapedData();
+startHealthPolling();
 window.setInterval(tick, 60000);
