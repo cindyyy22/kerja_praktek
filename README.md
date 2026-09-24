@@ -4,9 +4,9 @@ Dashboard ini adalah sistem pendukung keputusan untuk memantau artikel publik te
 
 ## Cara Menjalankan
 
-1. Letakkan folder proyek di `C:\xampp8.2.12\htdocs\jokiweb-v2`.
+1. Letakkan folder proyek di `C:\xampp8.2.12\htdocs\kerjapraktek-v2`.
 2. Jalankan Apache **dan MySQL** melalui XAMPP.
-3. Buka `http://localhost/jokiweb-v2/` di browser.
+3. Buka `http://localhost/kerjapraktek-v2/` di browser.
 4. Pastikan koneksi internet aktif agar `api/scrape.php` dapat mengambil RSS berita.
 5. Basis data `bawaslu_sleman` beserta seluruh tabelnya dibuat otomatis saat endpoint pertama kali dijalankan.
 
@@ -17,7 +17,7 @@ Proyek ini menyertakan berkas `bawaslu_sleman.sql` di direktori utama. Isinya ad
 Impor lewat browser (paling mudah):
 
 1. Pastikan MySQL aktif.
-2. Buka `http://localhost/jokiweb-v2/import-database.php`.
+2. Buka `http://localhost/kerjapraktek-v2/import-database.php`.
 3. Halaman akan menampilkan jumlah baris tiap tabel yang berhasil dimuat.
 
 Impor lewat terminal:
